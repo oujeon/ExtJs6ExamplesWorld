@@ -46,6 +46,42 @@ Ext.define('ExtJs6ExamplesWorld.view.MyViewport', {
                 {
                     xtype: 'panel',
                     title: 'Charts'
+                },
+                {
+                    xtype: 'panel',
+                    title: 'Charts'
+                },
+                {
+                    xtype: 'panel',
+                    title: 'Charts'
+                },
+                {
+                    xtype: 'panel',
+                    title: 'Charts'
+                },
+                {
+                    xtype: 'panel',
+                    title: 'Charts'
+                },
+                {
+                    xtype: 'panel',
+                    title: 'Charts'
+                },
+                {
+                    xtype: 'panel',
+                    title: 'Charts'
+                },
+                {
+                    xtype: 'panel',
+                    title: 'Charts'
+                },
+                {
+                    xtype: 'panel',
+                    title: 'Charts'
+                },
+                {
+                    xtype: 'panel',
+                    title: 'Charts'
                 }
             ]
         }

@@ -125,6 +125,258 @@
                             "designerId": "da4320d2-4080-4cb0-94cf-d73a89f6b394"
                         }
                     ]
+                },
+                {
+                    "type": "Ext.panel.Panel",
+                    "reference": {
+                        "name": "items",
+                        "type": "array"
+                    },
+                    "codeClass": null,
+                    "userConfig": {
+                        "title": "Charts"
+                    },
+                    "configAlternates": {
+                        "title": "string"
+                    },
+                    "name": "MyPanel3",
+                    "designerId": "c126dcba-d2b3-4518-b11a-fe7b19f9603b",
+                    "cn": [
+                        {
+                            "type": "Ext.tab.Tab",
+                            "reference": {
+                                "name": "tabConfig",
+                                "type": "object"
+                            },
+                            "codeClass": null,
+                            "name": "TabConfig2",
+                            "designerId": "42015023-87e7-4fa1-bca5-dd38c8ea4c48"
+                        }
+                    ]
+                },
+                {
+                    "type": "Ext.panel.Panel",
+                    "reference": {
+                        "name": "items",
+                        "type": "array"
+                    },
+                    "codeClass": null,
+                    "userConfig": {
+                        "title": "Charts"
+                    },
+                    "configAlternates": {
+                        "title": "string"
+                    },
+                    "name": "MyPanel4",
+                    "designerId": "ab8e68d9-5f9c-4a8c-9a7d-7141e8740e2a",
+                    "cn": [
+                        {
+                            "type": "Ext.tab.Tab",
+                            "reference": {
+                                "name": "tabConfig",
+                                "type": "object"
+                            },
+                            "codeClass": null,
+                            "name": "TabConfig2",
+                            "designerId": "5ed70b49-5cdf-4667-b22d-28d4d7692720"
+                        }
+                    ]
+                },
+                {
+                    "type": "Ext.panel.Panel",
+                    "reference": {
+                        "name": "items",
+                        "type": "array"
+                    },
+                    "codeClass": null,
+                    "userConfig": {
+                        "title": "Charts"
+                    },
+                    "configAlternates": {
+                        "title": "string"
+                    },
+                    "name": "MyPanel5",
+                    "designerId": "124e970f-f13b-468c-98d1-ceab95e1e132",
+                    "cn": [
+                        {
+                            "type": "Ext.tab.Tab",
+                            "reference": {
+                                "name": "tabConfig",
+                                "type": "object"
+                            },
+                            "codeClass": null,
+                            "name": "TabConfig2",
+                            "designerId": "df9fd71a-254c-44c9-8a1b-36560adbb72a"
+                        }
+                    ]
+                },
+                {
+                    "type": "Ext.panel.Panel",
+                    "reference": {
+                        "name": "items",
+                        "type": "array"
+                    },
+                    "codeClass": null,
+                    "userConfig": {
+                        "title": "Charts"
+                    },
+                    "configAlternates": {
+                        "title": "string"
+                    },
+                    "name": "MyPanel6",
+                    "designerId": "d8142b29-7e0c-4fb8-a885-bf221775b2b7",
+                    "cn": [
+                        {
+                            "type": "Ext.tab.Tab",
+                            "reference": {
+                                "name": "tabConfig",
+                                "type": "object"
+                            },
+                            "codeClass": null,
+                            "name": "TabConfig2",
+                            "designerId": "28425dec-52c7-4271-bc47-80f28617fb61"
+                        }
+                    ]
+                },
+                {
+                    "type": "Ext.panel.Panel",
+                    "reference": {
+                        "name": "items",
+                        "type": "array"
+                    },
+                    "codeClass": null,
+                    "userConfig": {
+                        "title": "Charts"
+                    },
+                    "configAlternates": {
+                        "title": "string"
+                    },
+                    "name": "MyPanel7",
+                    "designerId": "3d3b73ae-61b6-4f61-a370-9c5bdf4a7aee",
+                    "cn": [
+                        {
+                            "type": "Ext.tab.Tab",
+                            "reference": {
+                                "name": "tabConfig",
+                                "type": "object"
+                            },
+                            "codeClass": null,
+                            "name": "TabConfig2",
+                            "designerId": "32b65a3f-41ff-4059-8d5d-937c7690df35"
+                        }
+                    ]
+                },
+                {
+                    "type": "Ext.panel.Panel",
+                    "reference": {
+                        "name": "items",
+                        "type": "array"
+                    },
+                    "codeClass": null,
+                    "userConfig": {
+                        "title": "Charts"
+                    },
+                    "configAlternates": {
+                        "title": "string"
+                    },
+                    "name": "MyPanel8",
+                    "designerId": "ec8bed4c-12e7-4f32-8a35-bcb23da992e2",
+                    "cn": [
+                        {
+                            "type": "Ext.tab.Tab",
+                            "reference": {
+                                "name": "tabConfig",
+                                "type": "object"
+                            },
+                            "codeClass": null,
+                            "name": "TabConfig2",
+                            "designerId": "f814b00d-5164-4af3-b9a4-5e313807fcb6"
+                        }
+                    ]
+                },
+                {
+                    "type": "Ext.panel.Panel",
+                    "reference": {
+                        "name": "items",
+                        "type": "array"
+                    },
+                    "codeClass": null,
+                    "userConfig": {
+                        "title": "Charts"
+                    },
+                    "configAlternates": {
+                        "title": "string"
+                    },
+                    "name": "MyPanel9",
+                    "designerId": "2a1b1671-64c0-4976-9f82-5005364a3621",
+                    "cn": [
+                        {
+                            "type": "Ext.tab.Tab",
+                            "reference": {
+                                "name": "tabConfig",
+                                "type": "object"
+                            },
+                            "codeClass": null,
+                            "name": "TabConfig2",
+                            "designerId": "3c47c86a-9d1e-4af1-89dc-d8ca4ef25d3f"
+                        }
+                    ]
+                },
+                {
+                    "type": "Ext.panel.Panel",
+                    "reference": {
+                        "name": "items",
+                        "type": "array"
+                    },
+                    "codeClass": null,
+                    "userConfig": {
+                        "title": "Charts"
+                    },
+                    "configAlternates": {
+                        "title": "string"
+                    },
+                    "name": "MyPanel10",
+                    "designerId": "d8578e68-fd67-4b16-9900-785f9bf4dda5",
+                    "cn": [
+                        {
+                            "type": "Ext.tab.Tab",
+                            "reference": {
+                                "name": "tabConfig",
+                                "type": "object"
+                            },
+                            "codeClass": null,
+                            "name": "TabConfig2",
+                            "designerId": "89ceca88-df83-4eb0-a9fb-f8e268d4bc1f"
+                        }
+                    ]
+                },
+                {
+                    "type": "Ext.panel.Panel",
+                    "reference": {
+                        "name": "items",
+                        "type": "array"
+                    },
+                    "codeClass": null,
+                    "userConfig": {
+                        "title": "Charts"
+                    },
+                    "configAlternates": {
+                        "title": "string"
+                    },
+                    "name": "MyPanel11",
+                    "designerId": "757c9cf4-7ced-4d9f-bdbc-1cded6d67486",
+                    "cn": [
+                        {
+                            "type": "Ext.tab.Tab",
+                            "reference": {
+                                "name": "tabConfig",
+                                "type": "object"
+                            },
+                            "codeClass": null,
+                            "name": "TabConfig2",
+                            "designerId": "86fe8b0e-0f66-4c00-9134-6bb72575e2e8"
+                        }
+                    ]
                 }
             ]
         }
