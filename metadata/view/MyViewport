@@ -377,6 +377,34 @@
                             "designerId": "86fe8b0e-0f66-4c00-9134-6bb72575e2e8"
                         }
                     ]
+                },
+                {
+                    "type": "Ext.panel.Panel",
+                    "reference": {
+                        "name": "items",
+                        "type": "array"
+                    },
+                    "codeClass": null,
+                    "userConfig": {
+                        "title": "Charts"
+                    },
+                    "configAlternates": {
+                        "title": "string"
+                    },
+                    "name": "MyPanel12",
+                    "designerId": "9a550c4e-de19-4fc7-bc0d-d17e1c62fa64",
+                    "cn": [
+                        {
+                            "type": "Ext.tab.Tab",
+                            "reference": {
+                                "name": "tabConfig",
+                                "type": "object"
+                            },
+                            "codeClass": null,
+                            "name": "TabConfig2",
+                            "designerId": "d53101be-dd37-4a92-a3d8-4a7e4da47218"
+                        }
+                    ]
                 }
             ]
         }
