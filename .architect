@@ -1,0 +1,71 @@
+{
+    "expandedState": {
+        "view": true,
+        "1726a3b1-2c84-4b89-80e0-d5e4443340dc": {
+            "id": "1726a3b1-2c84-4b89-80e0-d5e4443340dc",
+            "cn": [
+                {
+                    "id": "cd60da35-33b9-4133-ba94-187cd4e1512c",
+                    "cn": [
+                        {
+                            "id": "6a5cda8f-9a13-4238-b57d-b8b8fb7d976d",
+                            "cn": [
+                                {
+                                    "id": "f86e6e33-fc77-4dd9-9113-e1b8bc90effb"
+                                }
+                            ]
+                        },
+                        {
+                            "id": "fe944bb3-59fb-443d-864d-2125aaf94b2d",
+                            "cn": [
+                                {
+                                    "id": "6c80bc03-ebd9-44a7-90bd-c2490aea1884"
+                                }
+                            ]
+                        },
+                        {
+                            "id": "4c363a1e-68d9-4809-bf66-f3584bd3e7cf",
+                            "cn": [
+                                {
+                                    "id": "da4320d2-4080-4cb0-94cf-d73a89f6b394"
+                                }
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        "d9746394-c376-4a43-b0ea-6b16fda40799": {
+            "id": "d9746394-c376-4a43-b0ea-6b16fda40799"
+        },
+        "73b474e5-59ed-4887-ad19-397ca4703460": {
+            "id": "73b474e5-59ed-4887-ad19-397ca4703460"
+        },
+        "store": true,
+        "model": true,
+        "controller": true,
+        "resource": true,
+        "a40ca16d-b823-41ef-a150-79fd86692bbd": {
+            "id": "a40ca16d-b823-41ef-a150-79fd86692bbd"
+        },
+        "c4409be8-4182-440e-8135-d694ce3a2388": {
+            "id": "c4409be8-4182-440e-8135-d694ce3a2388"
+        }
+    },
+    "tabState": {
+        "openTabs": [
+            "1726a3b1-2c84-4b89-80e0-d5e4443340dc"
+        ]
+    },
+    "canvasState": {
+        "topInstance": "1726a3b1-2c84-4b89-80e0-d5e4443340dc"
+    },
+    "inspectorState": {
+        "topInstance": "1726a3b1-2c84-4b89-80e0-d5e4443340dc",
+        "selectedInstance": "da4320d2-4080-4cb0-94cf-d73a89f6b394"
+    },
+    "editMode": "design",
+    "userSettings": {
+        "no-cmd": false
+    }
+}

@@ -1,0 +1,50 @@
+{
+    "name": "ExtJs6ExamplesWorld",
+    "settings": {
+        "cmd": {
+            "license": "commercial",
+            "cmdVersion": "6.2.2.36",
+            "frameworkVersion": "6.2.1.167"
+        },
+        "urlPrefixTemplate": "http://localhost:{port}/{path}",
+        "urlPrefix": "http://localhost:49803/",
+        "canvasControls": {
+            "viewportSize": {
+                "name": "Auto Expand",
+                "builtIn": true,
+                "height": null,
+                "width": null
+            }
+        },
+        "exportPath": "",
+        "spacesToIndent": 4,
+        "sdkPath": "",
+        "lineEnding": "CRLF",
+        "genTimestamps": false,
+        "cacheBust": false,
+        "buildShouldOverwriteIndex": true,
+        "generateArchitectVersion": true
+    },
+    "xdsVersion": "4.1.2",
+    "xdsBuild": 188,
+    "schemaVersion": 1,
+    "upgradeVersion": 310000000001,
+    "framework": "ext62",
+    "viewOrderMap": {
+        "view": [
+            "1726a3b1-2c84-4b89-80e0-d5e4443340dc",
+            "d9746394-c376-4a43-b0ea-6b16fda40799",
+            "73b474e5-59ed-4887-ad19-397ca4703460"
+        ],
+        "store": [],
+        "controller": [],
+        "model": [],
+        "resource": [
+            "a40ca16d-b823-41ef-a150-79fd86692bbd",
+            "c4409be8-4182-440e-8135-d694ce3a2388"
+        ],
+        "app": [
+            "application"
+        ]
+    }
+}
