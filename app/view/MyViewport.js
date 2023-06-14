@@ -27,6 +27,7 @@ Ext.define('ExtJs6ExamplesWorld.view.MyViewport', {
         type: 'myviewport'
     },
     height: 250,
+    padding: 10,
     width: 400,
     layout: 'fit',
 
@@ -37,55 +38,383 @@ Ext.define('ExtJs6ExamplesWorld.view.MyViewport', {
             items: [
                 {
                     xtype: 'panel',
-                    title: 'Behaviors'
+                    height: 727,
+                    title: 'Main'
                 },
                 {
                     xtype: 'panel',
-                    title: 'Buttons'
+                    height: 727,
+                    layout: 'vbox',
+                    title: 'Readme'
                 },
                 {
                     xtype: 'panel',
-                    title: 'Charts'
+                    layout: 'fit',
+                    title: 'Behaviors',
+                    items: [
+                        {
+                            xtype: 'tabpanel',
+                            padding: 10,
+                            activeTab: 0,
+                            items: [
+                                {
+                                    xtype: 'panel',
+                                    title: 'Tab 1'
+                                },
+                                {
+                                    xtype: 'panel',
+                                    title: 'Tab 2'
+                                },
+                                {
+                                    xtype: 'panel',
+                                    title: 'Tab 3'
+                                }
+                            ]
+                        }
+                    ]
                 },
                 {
                     xtype: 'panel',
-                    title: 'Charts'
+                    layout: 'fit',
+                    title: 'Buttons',
+                    items: [
+                        {
+                            xtype: 'tabpanel',
+                            padding: 10,
+                            activeTab: 0,
+                            items: [
+                                {
+                                    xtype: 'panel',
+                                    title: 'Tab 1'
+                                },
+                                {
+                                    xtype: 'panel',
+                                    title: 'Tab 2'
+                                },
+                                {
+                                    xtype: 'panel',
+                                    title: 'Tab 3'
+                                }
+                            ]
+                        }
+                    ]
                 },
                 {
                     xtype: 'panel',
-                    title: 'Charts'
+                    layout: 'fit',
+                    title: 'Charts',
+                    items: [
+                        {
+                            xtype: 'tabpanel',
+                            padding: 10,
+                            activeTab: 0,
+                            items: [
+                                {
+                                    xtype: 'panel',
+                                    title: 'Tab 1'
+                                },
+                                {
+                                    xtype: 'panel',
+                                    title: 'Tab 2'
+                                },
+                                {
+                                    xtype: 'panel',
+                                    title: 'Tab 3'
+                                }
+                            ]
+                        }
+                    ]
                 },
                 {
                     xtype: 'panel',
-                    title: 'Charts'
+                    layout: 'fit',
+                    title: 'Containers',
+                    items: [
+                        {
+                            xtype: 'tabpanel',
+                            padding: 10,
+                            activeTab: 0,
+                            items: [
+                                {
+                                    xtype: 'panel',
+                                    title: 'Tab 1'
+                                },
+                                {
+                                    xtype: 'panel',
+                                    title: 'Tab 2'
+                                },
+                                {
+                                    xtype: 'panel',
+                                    title: 'Tab 3'
+                                }
+                            ]
+                        }
+                    ]
                 },
                 {
                     xtype: 'panel',
-                    title: 'Charts'
+                    layout: 'fit',
+                    title: 'Data',
+                    items: [
+                        {
+                            xtype: 'tabpanel',
+                            padding: 10,
+                            activeTab: 0,
+                            items: [
+                                {
+                                    xtype: 'panel',
+                                    title: 'Tab 1'
+                                },
+                                {
+                                    xtype: 'panel',
+                                    title: 'Tab 2'
+                                },
+                                {
+                                    xtype: 'panel',
+                                    title: 'Tab 3'
+                                }
+                            ]
+                        }
+                    ]
                 },
                 {
                     xtype: 'panel',
-                    title: 'Charts'
+                    layout: 'fit',
+                    title: 'Forms',
+                    items: [
+                        {
+                            xtype: 'tabpanel',
+                            padding: 10,
+                            activeTab: 0,
+                            items: [
+                                {
+                                    xtype: 'panel',
+                                    title: 'Tab 1'
+                                },
+                                {
+                                    xtype: 'panel',
+                                    title: 'Tab 2'
+                                },
+                                {
+                                    xtype: 'panel',
+                                    title: 'Tab 3'
+                                }
+                            ]
+                        }
+                    ]
                 },
                 {
                     xtype: 'panel',
-                    title: 'Charts'
+                    layout: 'fit',
+                    title: 'Grids',
+                    items: [
+                        {
+                            xtype: 'tabpanel',
+                            padding: 10,
+                            activeTab: 0,
+                            items: [
+                                {
+                                    xtype: 'panel',
+                                    title: 'Tab 1'
+                                },
+                                {
+                                    xtype: 'panel',
+                                    title: 'Tab 2'
+                                },
+                                {
+                                    xtype: 'panel',
+                                    title: 'Tab 3'
+                                }
+                            ]
+                        }
+                    ]
                 },
                 {
                     xtype: 'panel',
-                    title: 'Charts'
+                    layout: 'fit',
+                    title: 'Menus',
+                    items: [
+                        {
+                            xtype: 'tabpanel',
+                            padding: 10,
+                            activeTab: 0,
+                            items: [
+                                {
+                                    xtype: 'panel',
+                                    title: 'Tab 1'
+                                },
+                                {
+                                    xtype: 'panel',
+                                    title: 'Tab 2'
+                                },
+                                {
+                                    xtype: 'panel',
+                                    title: 'Tab 3'
+                                }
+                            ]
+                        }
+                    ]
                 },
                 {
                     xtype: 'panel',
-                    title: 'Charts'
+                    layout: 'fit',
+                    title: 'Models',
+                    items: [
+                        {
+                            xtype: 'tabpanel',
+                            padding: 10,
+                            activeTab: 0,
+                            items: [
+                                {
+                                    xtype: 'panel',
+                                    title: 'Tab 1'
+                                },
+                                {
+                                    xtype: 'panel',
+                                    title: 'Tab 2'
+                                },
+                                {
+                                    xtype: 'panel',
+                                    title: 'Tab 3'
+                                }
+                            ]
+                        }
+                    ]
                 },
                 {
                     xtype: 'panel',
-                    title: 'Charts'
+                    layout: 'fit',
+                    title: 'Premium',
+                    items: [
+                        {
+                            xtype: 'tabpanel',
+                            padding: 10,
+                            activeTab: 0,
+                            items: [
+                                {
+                                    xtype: 'panel',
+                                    title: 'Tab 1'
+                                },
+                                {
+                                    xtype: 'panel',
+                                    title: 'Tab 2'
+                                },
+                                {
+                                    xtype: 'panel',
+                                    title: 'Tab 3'
+                                }
+                            ]
+                        }
+                    ]
                 },
                 {
                     xtype: 'panel',
-                    title: 'Charts'
+                    layout: 'fit',
+                    title: 'Resources',
+                    items: [
+                        {
+                            xtype: 'tabpanel',
+                            padding: 10,
+                            activeTab: 0,
+                            items: [
+                                {
+                                    xtype: 'panel',
+                                    title: 'Tab 1'
+                                },
+                                {
+                                    xtype: 'panel',
+                                    title: 'Tab 2'
+                                },
+                                {
+                                    xtype: 'panel',
+                                    title: 'Tab 3'
+                                }
+                            ]
+                        }
+                    ]
+                },
+                {
+                    xtype: 'panel',
+                    layout: 'fit',
+                    title: 'Themes',
+                    items: [
+                        {
+                            xtype: 'tabpanel',
+                            padding: 10,
+                            activeTab: 0,
+                            items: [
+                                {
+                                    xtype: 'panel',
+                                    title: 'Tab 1'
+                                },
+                                {
+                                    xtype: 'panel',
+                                    title: 'Tab 2'
+                                },
+                                {
+                                    xtype: 'panel',
+                                    title: 'Tab 3'
+                                }
+                            ]
+                        }
+                    ]
+                },
+                {
+                    xtype: 'panel',
+                    layout: 'fit',
+                    title: 'Trees',
+                    items: [
+                        {
+                            xtype: 'tabpanel',
+                            padding: 10,
+                            activeTab: 0,
+                            items: [
+                                {
+                                    xtype: 'panel',
+                                    title: 'Tab 1'
+                                },
+                                {
+                                    xtype: 'panel',
+                                    title: 'Tab 2'
+                                },
+                                {
+                                    xtype: 'panel',
+                                    title: 'Tab 3'
+                                }
+                            ]
+                        }
+                    ]
+                },
+                {
+                    xtype: 'panel',
+                    layout: 'fit',
+                    title: 'views',
+                    items: [
+                        {
+                            xtype: 'tabpanel',
+                            padding: 10,
+                            activeTab: 0,
+                            items: [
+                                {
+                                    xtype: 'panel',
+                                    title: 'Tab 1'
+                                },
+                                {
+                                    xtype: 'panel',
+                                    title: 'Tab 2'
+                                },
+                                {
+                                    xtype: 'panel',
+                                    title: 'Tab 3'
+                                }
+                            ]
+                        }
+                    ]
+                },
+                {
+                    xtype: 'panel',
+                    layout: 'fit',
+                    title: 'About'
                 }
             ]
         }

@@ -1,0 +1,241 @@
+/* C:/Users/oujeon/Documents/ExtJs6ExamplesWorld/ext/packages/font-awesome/sass/etc/_icons.scss:673 */
+.fa-commenting-o:before {
+    content: "\f27b" !important;
+}
+/* C:/Users/oujeon/Documents/ExtJs6ExamplesWorld/ext/packages/font-awesome/sass/etc/_icons.scss:674 */
+.fa-houzz:before {
+    content: "\f27c" !important;
+}
+/* C:/Users/oujeon/Documents/ExtJs6ExamplesWorld/ext/packages/font-awesome/sass/etc/_icons.scss:675 */
+.fa-vimeo:before {
+    content: "\f27d" !important;
+}
+/* C:/Users/oujeon/Documents/ExtJs6ExamplesWorld/ext/packages/font-awesome/sass/etc/_icons.scss:676 */
+.fa-black-tie:before {
+    content: "\f27e" !important;
+}
+/* C:/Users/oujeon/Documents/ExtJs6ExamplesWorld/ext/packages/font-awesome/sass/etc/_icons.scss:677 */
+.fa-fonticons:before {
+    content: "\f280" !important;
+}
+/* C:/Users/oujeon/Documents/ExtJs6ExamplesWorld/ext/packages/font-awesome/sass/src/all.scss:20 */
+.x-fa:before {
+    font-family: FontAwesome !important;
+}
+/* C:/Users/oujeon/Documents/ExtJs6ExamplesWorld/ext/packages/font-ext/sass/src/all.scss:3 */
+@font-face {
+    font-family: 'ExtJS';
+    src: url('../resources/font-ext/fonts/ExtJS.eot?-tqegh9');
+    src: url('../resources/font-ext/fonts/ExtJS.eot?#iefix-tqegh9') format('embedded-opentype'), url('../resources/font-ext/fonts/ExtJS.ttf?-tqegh9') format('truetype'), url('../resources/font-ext/fonts/ExtJS.woff?-tqegh9') format('woff'), url('../resources/font-ext/fonts/ExtJS.svg?-tqegh9#ExtJS') format('svg');
+    font-weight: normal;
+    font-style: normal;
+}
+/* C:/Users/oujeon/Documents/ExtJs6ExamplesWorld/ext/packages/font-ext/sass/src/all.scss:14 */
+.ext {
+    font-family: ExtJS;
+}
+/* C:/Users/oujeon/Documents/ExtJs6ExamplesWorld/ext/packages/font-ext/sass/src/all.scss:18 */
+.ext-sencha:before {
+    content: "\e61e";
+}
+/* C:/Users/oujeon/Documents/ExtJs6ExamplesWorld/ext/packages/font-ext/sass/src/all.scss:21 */
+.ext-checkbox-checked:before {
+    content: "\e613";
+}
+/* C:/Users/oujeon/Documents/ExtJs6ExamplesWorld/ext/packages/font-ext/sass/src/all.scss:24 */
+.ext-checkbox-unchecked:before {
+    content: "\e614";
+}
+/* C:/Users/oujeon/Documents/ExtJs6ExamplesWorld/ext/packages/font-ext/sass/src/all.scss:27 */
+.ext-chevron-left:before {
+    content: "\e615";
+}
+/* C:/Users/oujeon/Documents/ExtJs6ExamplesWorld/ext/packages/font-ext/sass/src/all.scss:30 */
+.ext-chevron-right:before {
+    content: "\e616";
+}
+/* C:/Users/oujeon/Documents/ExtJs6ExamplesWorld/ext/packages/font-ext/sass/src/all.scss:33 */
+.ext-double-chevron-left:before {
+    content: "\e617";
+}
+/* C:/Users/oujeon/Documents/ExtJs6ExamplesWorld/ext/packages/font-ext/sass/src/all.scss:36 */
+.ext-double-chevron-right:before {
+    content: "\e618";
+}
+/* C:/Users/oujeon/Documents/ExtJs6ExamplesWorld/ext/packages/font-ext/sass/src/all.scss:39 */
+.ext-sort-down:before {
+    content: "\e619";
+}
+/* C:/Users/oujeon/Documents/ExtJs6ExamplesWorld/ext/packages/font-ext/sass/src/all.scss:42 */
+.ext-sort-up:before {
+    content: "\e61a";
+}
+/* C:/Users/oujeon/Documents/ExtJs6ExamplesWorld/ext/packages/font-ext/sass/src/all.scss:45 */
+.ext-spinner-down:before {
+    content: "\e61b";
+}
+/* C:/Users/oujeon/Documents/ExtJs6ExamplesWorld/ext/packages/font-ext/sass/src/all.scss:48 */
+.ext-spinner-up:before {
+    content: "\e61c";
+}
+/* C:/Users/oujeon/Documents/ExtJs6ExamplesWorld/ext/packages/font-ext/sass/src/all.scss:51 */
+.ext-square-edit:before {
+    content: "\e61d";
+}
+/* C:/Users/oujeon/Documents/ExtJs6ExamplesWorld/ext/packages/font-ext/sass/src/all.scss:54 */
+.ext-equals-vertical:before {
+    content: "\e612";
+}
+/* C:/Users/oujeon/Documents/ExtJs6ExamplesWorld/ext/packages/font-ext/sass/src/all.scss:57 */
+.ext-expand:before {
+    content: "\e600";
+}
+/* C:/Users/oujeon/Documents/ExtJs6ExamplesWorld/ext/packages/font-ext/sass/src/all.scss:60 */
+.ext-columns:before {
+    content: "\e601";
+}
+/* C:/Users/oujeon/Documents/ExtJs6ExamplesWorld/ext/packages/font-ext/sass/src/all.scss:63 */
+.ext-dirty:before {
+    content: "\e602";
+}
+/* C:/Users/oujeon/Documents/ExtJs6ExamplesWorld/ext/packages/font-ext/sass/src/all.scss:66 */
+.ext-dirty-rtl:before {
+    content: "\e603";
+}
+/* C:/Users/oujeon/Documents/ExtJs6ExamplesWorld/ext/packages/font-ext/sass/src/all.scss:69 */
+.ext-edit-html:before {
+    content: "\e604";
+}
+/* C:/Users/oujeon/Documents/ExtJs6ExamplesWorld/ext/packages/font-ext/sass/src/all.scss:72 */
+.ext-equals:before {
+    content: "\e605";
+}
+/* C:/Users/oujeon/Documents/ExtJs6ExamplesWorld/ext/packages/font-ext/sass/src/all.scss:75 */
+.ext-collapse:before {
+    content: "\e606";
+}
+/* C:/Users/oujeon/Documents/ExtJs6ExamplesWorld/ext/packages/font-ext/sass/src/all.scss:78 */
+.ext-group-by:before {
+    content: "\e607";
+}
+/* C:/Users/oujeon/Documents/ExtJs6ExamplesWorld/ext/packages/font-ext/sass/src/all.scss:81 */
+.ext-minimize:before {
+    content: "\e608";
+}
+/* C:/Users/oujeon/Documents/ExtJs6ExamplesWorld/ext/packages/font-ext/sass/src/all.scss:84 */
+.ext-nw-handle:before {
+    content: "\e609";
+}
+/* C:/Users/oujeon/Documents/ExtJs6ExamplesWorld/ext/packages/font-ext/sass/src/all.scss:87 */
+.ext-ne-handle:before {
+    content: "\e60a";
+}
+/* C:/Users/oujeon/Documents/ExtJs6ExamplesWorld/ext/packages/font-ext/sass/src/all.scss:90 */
+.ext-sw-handle:before {
+    content: "\e60b";
+}
+/* C:/Users/oujeon/Documents/ExtJs6ExamplesWorld/ext/packages/font-ext/sass/src/all.scss:93 */
+.ext-se-handle:before {
+    content: "\e60c";
+}
+/* C:/Users/oujeon/Documents/ExtJs6ExamplesWorld/ext/packages/font-ext/sass/src/all.scss:96 */
+.ext-text-background-color:before {
+    content: "\e60d";
+}
+/* C:/Users/oujeon/Documents/ExtJs6ExamplesWorld/ext/packages/font-ext/sass/src/all.scss:99 */
+.ext-text-color:before {
+    content: "\e60e";
+}
+/* C:/Users/oujeon/Documents/ExtJs6ExamplesWorld/ext/packages/font-ext/sass/src/all.scss:102 */
+.ext-text-decrease:before {
+    content: "\e60f";
+}
+/* C:/Users/oujeon/Documents/ExtJs6ExamplesWorld/ext/packages/font-ext/sass/src/all.scss:105 */
+.ext-text-increase:before {
+    content: "\e610";
+}
+/* C:/Users/oujeon/Documents/ExtJs6ExamplesWorld/ext/packages/font-ext/sass/src/all.scss:108 */
+.ext-unpin:before {
+    content: "\e611";
+}
+/* C:/Users/oujeon/Documents/ExtJs6ExamplesWorld/ext/classic/theme-triton/sass/src/Component.scss:3 */
+@font-face {
+    font-family: 'Open Sans';
+    src: url('fonts/OpenSans-Light.ttf');
+    font-weight: 300;
+    font-style: normal;
+}
+/* C:/Users/oujeon/Documents/ExtJs6ExamplesWorld/ext/classic/theme-triton/sass/src/Component.scss:10 */
+@font-face {
+    font-family: 'Open Sans';
+    src: url('fonts/OpenSans-LightItalic.ttf');
+    font-weight: 300;
+    font-style: italic;
+}
+/* C:/Users/oujeon/Documents/ExtJs6ExamplesWorld/ext/classic/theme-triton/sass/src/Component.scss:17 */
+@font-face {
+    font-family: 'Open Sans';
+    src: url('fonts/OpenSans-Regular.ttf');
+    font-weight: 400;
+    font-style: normal;
+}
+/* C:/Users/oujeon/Documents/ExtJs6ExamplesWorld/ext/classic/theme-triton/sass/src/Component.scss:24 */
+@font-face {
+    font-family: 'Open Sans';
+    src: url('fonts/OpenSans-Italic.ttf');
+    font-weight: 400;
+    font-style: italic;
+}
+/* C:/Users/oujeon/Documents/ExtJs6ExamplesWorld/ext/classic/theme-triton/sass/src/Component.scss:31 */
+@font-face {
+    font-family: 'Open Sans';
+    src: url('fonts/OpenSans-Semibold.ttf');
+    font-weight: 600;
+    font-style: normal;
+}
+/* C:/Users/oujeon/Documents/ExtJs6ExamplesWorld/ext/classic/theme-triton/sass/src/Component.scss:38 */
+@font-face {
+    font-family: 'Open Sans';
+    src: url('fonts/OpenSans-SemiboldItalic.ttf');
+    font-weight: 600;
+    font-style: italic;
+}
+/* C:/Users/oujeon/Documents/ExtJs6ExamplesWorld/ext/classic/theme-triton/sass/src/Component.scss:45 */
+@font-face {
+    font-family: 'Open Sans';
+    src: url('fonts/OpenSans-Bold.ttf');
+    font-weight: 700;
+    font-style: normal;
+}
+/* C:/Users/oujeon/Documents/ExtJs6ExamplesWorld/ext/classic/theme-triton/sass/src/Component.scss:52 */
+@font-face {
+    font-family: 'Open Sans';
+    src: url('fonts/OpenSans-BoldItalic.ttf');
+    font-weight: 700;
+    font-style: italic;
+}
+/* C:/Users/oujeon/Documents/ExtJs6ExamplesWorld/ext/classic/theme-triton/sass/src/Component.scss:59 */
+@font-face {
+    font-family: 'Open Sans';
+    src: url('fonts/OpenSans-ExtraBold.ttf');
+    font-weight: 800;
+    font-style: normal;
+}
+/* C:/Users/oujeon/Documents/ExtJs6ExamplesWorld/ext/classic/theme-triton/sass/src/Component.scss:66 */
+@font-face {
+    font-family: 'Open Sans';
+    src: url('fonts/OpenSans-ExtraBoldItalic.ttf');
+    font-weight: 800;
+    font-style: italic;
+}
+/* C:/Users/oujeon/Documents/ExtJs6ExamplesWorld/ext/classic/theme-triton/sass/src/menu/Menu.scss:1 */
+.x-menu-item-active .x-menu-item-text {
+    font-weight: 400;
+}
+/* C:/Users/oujeon/Documents/ExtJs6ExamplesWorld/ext/classic/theme-triton/sass/src/tab/Tab.scss:1 */
+.x-tab-close-btn:before {
+    display: block;
+    width: 16px;
+    line-height: 16px;
+    text-align: center;
+}

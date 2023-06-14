@@ -7,7 +7,7 @@
             "frameworkVersion": "6.2.1.167"
         },
         "urlPrefixTemplate": "http://localhost:{port}/{path}",
-        "urlPrefix": "http://localhost:49803/",
+        "urlPrefix": "http://localhost:58039/",
         "canvasControls": {
             "viewportSize": {
                 "name": "Auto Expand",
@@ -23,7 +23,12 @@
         "genTimestamps": false,
         "cacheBust": false,
         "buildShouldOverwriteIndex": true,
-        "generateArchitectVersion": true
+        "generateArchitectVersion": true,
+        "lastBuildSelection": {
+            "value": "webBuild",
+            "display": "Build web app",
+            "buildPlatform": false
+        }
     },
     "xdsVersion": "4.1.2",
     "xdsBuild": 188,
