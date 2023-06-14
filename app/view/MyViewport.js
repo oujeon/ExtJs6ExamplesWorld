@@ -20,7 +20,9 @@ Ext.define('ExtJs6ExamplesWorld.view.MyViewport', {
     requires: [
         'ExtJs6ExamplesWorld.view.MyViewportViewModel',
         'Ext.tab.Panel',
-        'Ext.tab.Tab'
+        'Ext.tab.Tab',
+        'Ext.form.FieldSet',
+        'Ext.form.Label'
     ],
 
     viewModel: {
@@ -39,7 +41,124 @@ Ext.define('ExtJs6ExamplesWorld.view.MyViewport', {
                 {
                     xtype: 'panel',
                     height: 727,
-                    title: 'Main'
+                    title: 'Main',
+                    layout: {
+                        type: 'vbox',
+                        align: 'stretch',
+                        pack: 'center'
+                    },
+                    items: [
+                        {
+                            xtype: 'container',
+                            flex: 1,
+                            layout: {
+                                type: 'hbox',
+                                align: 'stretch',
+                                pack: 'center'
+                            },
+                            items: [
+                                {
+                                    xtype: 'fieldset',
+                                    flex: 1,
+                                    margin: 10,
+                                    layout: 'vbox',
+                                    title: 'News',
+                                    items: [
+                                        {
+                                            xtype: 'label',
+                                            text: '1. 블라블라블라............'
+                                        },
+                                        {
+                                            xtype: 'label',
+                                            text: '1. 블라블라블라............'
+                                        },
+                                        {
+                                            xtype: 'label',
+                                            text: '1. 블라블라블라............'
+                                        },
+                                        {
+                                            xtype: 'label',
+                                            text: '1. 블라블라블라............'
+                                        },
+                                        {
+                                            xtype: 'label',
+                                            text: '1. 블라블라블라............'
+                                        },
+                                        {
+                                            xtype: 'label',
+                                            text: '1. 블라블라블라............'
+                                        },
+                                        {
+                                            xtype: 'label',
+                                            text: '1. 블라블라블라............'
+                                        },
+                                        {
+                                            xtype: 'label',
+                                            text: '1. 블라블라블라............'
+                                        },
+                                        {
+                                            xtype: 'label',
+                                            text: '1. 블라블라블라............'
+                                        },
+                                        {
+                                            xtype: 'label',
+                                            text: '1. 블라블라블라............'
+                                        },
+                                        {
+                                            xtype: 'label',
+                                            text: '1. 블라블라블라............'
+                                        }
+                                    ]
+                                },
+                                {
+                                    xtype: 'fieldset',
+                                    flex: 1,
+                                    margin: 10,
+                                    title: '로드맵'
+                                }
+                            ]
+                        },
+                        {
+                            xtype: 'container',
+                            flex: 1,
+                            layout: {
+                                type: 'hbox',
+                                align: 'stretch',
+                                pack: 'center'
+                            },
+                            items: [
+                                {
+                                    xtype: 'fieldset',
+                                    flex: 1,
+                                    margin: 10,
+                                    title: 'Google'
+                                }
+                            ]
+                        },
+                        {
+                            xtype: 'container',
+                            flex: 1,
+                            layout: {
+                                type: 'hbox',
+                                align: 'stretch',
+                                pack: 'center'
+                            },
+                            items: [
+                                {
+                                    xtype: 'fieldset',
+                                    flex: 1,
+                                    margin: 10,
+                                    title: '공지사항'
+                                },
+                                {
+                                    xtype: 'fieldset',
+                                    flex: 1,
+                                    margin: 10,
+                                    title: '기술'
+                                }
+                            ]
+                        }
+                    ]
                 },
                 {
                     xtype: 'panel',
