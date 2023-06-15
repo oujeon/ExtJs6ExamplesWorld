@@ -66,46 +66,57 @@ Ext.define('ExtJs6ExamplesWorld.view.MyViewport', {
                                     items: [
                                         {
                                             xtype: 'label',
+                                            margin: 5,
                                             text: '1. 블라블라블라............'
                                         },
                                         {
                                             xtype: 'label',
+                                            margin: 5,
                                             text: '1. 블라블라블라............'
                                         },
                                         {
                                             xtype: 'label',
+                                            margin: 5,
                                             text: '1. 블라블라블라............'
                                         },
                                         {
                                             xtype: 'label',
+                                            margin: 5,
                                             text: '1. 블라블라블라............'
                                         },
                                         {
                                             xtype: 'label',
+                                            margin: 5,
                                             text: '1. 블라블라블라............'
                                         },
                                         {
                                             xtype: 'label',
+                                            margin: 5,
                                             text: '1. 블라블라블라............'
                                         },
                                         {
                                             xtype: 'label',
+                                            margin: 5,
                                             text: '1. 블라블라블라............'
                                         },
                                         {
                                             xtype: 'label',
+                                            margin: 5,
                                             text: '1. 블라블라블라............'
                                         },
                                         {
                                             xtype: 'label',
+                                            margin: 5,
                                             text: '1. 블라블라블라............'
                                         },
                                         {
                                             xtype: 'label',
+                                            margin: 5,
                                             text: '1. 블라블라블라............'
                                         },
                                         {
                                             xtype: 'label',
+                                            margin: 5,
                                             text: '1. 블라블라블라............'
                                         }
                                     ]
@@ -162,12 +173,6 @@ Ext.define('ExtJs6ExamplesWorld.view.MyViewport', {
                 },
                 {
                     xtype: 'panel',
-                    height: 727,
-                    layout: 'vbox',
-                    title: 'Readme'
-                },
-                {
-                    xtype: 'panel',
                     layout: 'fit',
                     title: 'Behaviors',
                     items: [
@@ -178,15 +183,51 @@ Ext.define('ExtJs6ExamplesWorld.view.MyViewport', {
                             items: [
                                 {
                                     xtype: 'panel',
-                                    title: 'Tab 1'
+                                    title: 'Application Action'
                                 },
                                 {
                                     xtype: 'panel',
-                                    title: 'Tab 2'
+                                    title: 'Basic Event Binding'
                                 },
                                 {
                                     xtype: 'panel',
-                                    title: 'Tab 3'
+                                    title: 'Basic Function'
+                                },
+                                {
+                                    xtype: 'panel',
+                                    title: 'Controller'
+                                },
+                                {
+                                    xtype: 'panel',
+                                    title: 'Controller Action'
+                                },
+                                {
+                                    xtype: 'panel',
+                                    title: 'Controller Reference'
+                                },
+                                {
+                                    xtype: 'panel',
+                                    title: 'Controller Route'
+                                },
+                                {
+                                    xtype: 'panel',
+                                    title: 'Controller Route Condition'
+                                },
+                                {
+                                    xtype: 'panel',
+                                    title: 'Custom Event'
+                                },
+                                {
+                                    xtype: 'panel',
+                                    title: 'Formula'
+                                },
+                                {
+                                    xtype: 'panel',
+                                    title: 'Static Function'
+                                },
+                                {
+                                    xtype: 'panel',
+                                    title: 'view Controller Event Binding'
                                 }
                             ]
                         }
@@ -204,15 +245,23 @@ Ext.define('ExtJs6ExamplesWorld.view.MyViewport', {
                             items: [
                                 {
                                     xtype: 'panel',
-                                    title: 'Tab 1'
+                                    title: 'Button'
                                 },
                                 {
                                     xtype: 'panel',
-                                    title: 'Tab 2'
+                                    title: 'Cycle Button'
                                 },
                                 {
                                     xtype: 'panel',
-                                    title: 'Tab 3'
+                                    title: 'Segmented Button'
+                                },
+                                {
+                                    xtype: 'panel',
+                                    title: 'Split Button'
+                                },
+                                {
+                                    xtype: 'panel',
+                                    title: 'Button Group'
                                 }
                             ]
                         }
@@ -234,7 +283,163 @@ Ext.define('ExtJs6ExamplesWorld.view.MyViewport', {
                                 },
                                 {
                                     xtype: 'panel',
+                                    title: 'Tab 1'
+                                },
+                                {
+                                    xtype: 'panel',
+                                    title: 'Tab 1'
+                                },
+                                {
+                                    xtype: 'panel',
+                                    title: 'Tab 1'
+                                },
+                                {
+                                    xtype: 'panel',
+                                    title: 'Tab 1'
+                                },
+                                {
+                                    xtype: 'panel',
+                                    title: 'Tab 1'
+                                },
+                                {
+                                    xtype: 'panel',
+                                    title: 'Tab 1'
+                                },
+                                {
+                                    xtype: 'panel',
+                                    title: 'Tab 1'
+                                },
+                                {
+                                    xtype: 'panel',
+                                    title: 'Tab 1'
+                                },
+                                {
+                                    xtype: 'panel',
+                                    title: 'Tab 1'
+                                },
+                                {
+                                    xtype: 'panel',
+                                    title: 'Tab 1'
+                                },
+                                {
+                                    xtype: 'panel',
+                                    title: 'Tab 1'
+                                },
+                                {
+                                    xtype: 'panel',
+                                    title: 'Tab 1'
+                                },
+                                {
+                                    xtype: 'panel',
+                                    title: 'Tab 1'
+                                },
+                                {
+                                    xtype: 'panel',
+                                    title: 'Tab 1'
+                                },
+                                {
+                                    xtype: 'panel',
+                                    title: 'Tab 1'
+                                },
+                                {
+                                    xtype: 'panel',
+                                    title: 'Tab 1'
+                                },
+                                {
+                                    xtype: 'panel',
+                                    title: 'Tab 1'
+                                },
+                                {
+                                    xtype: 'panel',
+                                    title: 'Tab 1'
+                                },
+                                {
+                                    xtype: 'panel',
+                                    title: 'Tab 1'
+                                },
+                                {
+                                    xtype: 'panel',
+                                    title: 'Tab 1'
+                                },
+                                {
+                                    xtype: 'panel',
+                                    title: 'Tab 1'
+                                },
+                                {
+                                    xtype: 'panel',
+                                    title: 'Tab 1'
+                                },
+                                {
+                                    xtype: 'panel',
+                                    title: 'Tab 1'
+                                },
+                                {
+                                    xtype: 'panel',
+                                    title: 'Tab 1'
+                                },
+                                {
+                                    xtype: 'panel',
+                                    title: 'Tab 1'
+                                },
+                                {
+                                    xtype: 'panel',
+                                    title: 'Tab 1'
+                                },
+                                {
+                                    xtype: 'panel',
                                     title: 'Tab 2'
+                                },
+                                {
+                                    xtype: 'panel',
+                                    title: 'Tab 2'
+                                },
+                                {
+                                    xtype: 'panel',
+                                    title: 'Tab 2'
+                                },
+                                {
+                                    xtype: 'panel',
+                                    title: 'Tab 2'
+                                },
+                                {
+                                    xtype: 'panel',
+                                    title: 'Tab 2'
+                                },
+                                {
+                                    xtype: 'panel',
+                                    title: 'Tab 2'
+                                },
+                                {
+                                    xtype: 'panel',
+                                    title: 'Tab 2'
+                                },
+                                {
+                                    xtype: 'panel',
+                                    title: 'Tab 2'
+                                },
+                                {
+                                    xtype: 'panel',
+                                    title: 'Tab 2'
+                                },
+                                {
+                                    xtype: 'panel',
+                                    title: 'Tab 2'
+                                },
+                                {
+                                    xtype: 'panel',
+                                    title: 'Tab 3'
+                                },
+                                {
+                                    xtype: 'panel',
+                                    title: 'Tab 3'
+                                },
+                                {
+                                    xtype: 'panel',
+                                    title: 'Tab 3'
+                                },
+                                {
+                                    xtype: 'panel',
+                                    title: 'Tab 3'
                                 },
                                 {
                                     xtype: 'panel',
