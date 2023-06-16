@@ -6,12 +6,13 @@
     },
     "codeClass": null,
     "userConfig": {
-        "designer|userAlias": "work",
-        "designer|userClassName": "workViewController"
+        "designer|userAlias": "readme",
+        "designer|userClassName": "aboutViewController1"
     },
     "configAlternates": {
         "designer|userAlias": "string",
         "designer|userClassName": "string"
     },
-    "designerId": "0adcbeee-2072-4eb5-b232-b599a0e4848a"
+    "name": "aboutViewController1",
+    "designerId": "0e1d7806-f302-49fc-9769-c88e1c2fcf8d"
 }

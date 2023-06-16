@@ -9,7 +9,9 @@
         "name": "ExtJs6ExamplesWorld",
         "views": [
             "MyViewport",
-            "work"
+            "ReadMe",
+            "Setting",
+            "About"
         ]
     },
     "configAlternates": {

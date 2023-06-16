@@ -20,10 +20,10 @@ Ext.define('ExtJs6ExamplesWorld.view.MyViewport', {
     requires: [
         'ExtJs6ExamplesWorld.view.MyViewportViewModel',
         'Ext.toolbar.Toolbar',
-        'Ext.button.Cycle',
+        'Ext.button.Segmented',
+        'Ext.button.Button',
         'Ext.menu.Menu',
-        'Ext.menu.CheckItem',
-        'Ext.button.Segmented'
+        'Ext.menu.Item'
     ],
 
     viewModel: {
@@ -45,32 +45,538 @@ Ext.define('ExtJs6ExamplesWorld.view.MyViewport', {
             width: 1024,
             items: [
                 {
-                    xtype: 'cycle',
-                    showText: true,
+                    xtype: 'segmentedbutton'
+                },
+                {
+                    xtype: 'button',
+                    text: 'Main',
                     menu: {
                         xtype: 'menu',
                         width: 120,
                         items: [
                             {
-                                xtype: 'menucheckitem',
+                                xtype: 'menuitem',
                                 handler: function(item, e) {
                                     var workspace = Ext.ComponentQuery.query('container[itemId=workspace]')[0];
 
-                                    var work = Ext.create('ExtJs6ExamplesWorld.view.work');
+                                    var readme = Ext.create('ExtJs6ExamplesWorld.view.ReadMe');
 
-                                    console.log(workspace);
-                                    console.log(work);
                                     //
-                                    workspace.remove();
-                                    workspace.add(work);
+                                    workspace.removeAll();
+                                    workspace.add(readme);
                                 },
-                                text: 'Add'
+                                text: 'ReadMe'
+                            },
+                            {
+                                xtype: 'menuitem',
+                                handler: function(item, e) {
+                                    var workspace = Ext.ComponentQuery.query('container[itemId=workspace]')[0];
+
+                                    var setting = Ext.create('ExtJs6ExamplesWorld.view.Setting');
+
+                                    //
+                                    workspace.removeAll();
+                                    workspace.add(setting);
+                                },
+                                text: 'Setting'
+                            },
+                            {
+                                xtype: 'menuitem',
+                                handler: function(item, e) {
+                                    var workspace = Ext.ComponentQuery.query('container[itemId=workspace]')[0];
+
+                                    //
+                                    workspace.removeAll();
+                                },
+                                text: 'Remove'
+                            },
+                            {
+                                xtype: 'menuitem',
+                                handler: function(item, e) {
+                                    var workspace = Ext.ComponentQuery.query('container[itemId=workspace]')[0];
+
+                                    var about = Ext.create('ExtJs6ExamplesWorld.view.About');
+
+                                    //
+                                    workspace.removeAll();
+                                    workspace.add(about);
+                                },
+                                text: 'About'
                             }
                         ]
                     }
                 },
                 {
-                    xtype: 'segmentedbutton'
+                    xtype: 'button',
+                    text: 'Components',
+                    menu: {
+                        xtype: 'menu',
+                        width: 120,
+                        items: [
+                            {
+                                xtype: 'menuitem',
+                                handler: function(item, e) {
+                                    var workspace = Ext.ComponentQuery.query('container[itemId=workspace]')[0];
+
+                                    var readme = Ext.create('ExtJs6ExamplesWorld.view.ReadMe');
+
+                                    //
+                                    workspace.removeAll();
+                                    workspace.add(readme);
+                                },
+                                text: 'ReadMe'
+                            },
+                            {
+                                xtype: 'menuitem',
+                                handler: function(item, e) {
+                                    var workspace = Ext.ComponentQuery.query('container[itemId=workspace]')[0];
+
+                                    var setting = Ext.create('ExtJs6ExamplesWorld.view.Setting');
+
+                                    //
+                                    workspace.removeAll();
+                                    workspace.add(setting);
+                                },
+                                text: 'Setting'
+                            },
+                            {
+                                xtype: 'menuitem',
+                                handler: function(item, e) {
+                                    var workspace = Ext.ComponentQuery.query('container[itemId=workspace]')[0];
+
+                                    //
+                                    workspace.removeAll();
+                                },
+                                text: 'Remove'
+                            },
+                            {
+                                xtype: 'menuitem',
+                                handler: function(item, e) {
+                                    var workspace = Ext.ComponentQuery.query('container[itemId=workspace]')[0];
+
+                                    var about = Ext.create('ExtJs6ExamplesWorld.view.About');
+
+                                    //
+                                    workspace.removeAll();
+                                    workspace.add(about);
+                                },
+                                text: 'About'
+                            }
+                        ]
+                    }
+                },
+                {
+                    xtype: 'button',
+                    text: 'Grids',
+                    menu: {
+                        xtype: 'menu',
+                        width: 120,
+                        items: [
+                            {
+                                xtype: 'menuitem',
+                                handler: function(item, e) {
+                                    var workspace = Ext.ComponentQuery.query('container[itemId=workspace]')[0];
+
+                                    var readme = Ext.create('ExtJs6ExamplesWorld.view.ReadMe');
+
+                                    //
+                                    workspace.removeAll();
+                                    workspace.add(readme);
+                                },
+                                text: 'ReadMe'
+                            },
+                            {
+                                xtype: 'menuitem',
+                                handler: function(item, e) {
+                                    var workspace = Ext.ComponentQuery.query('container[itemId=workspace]')[0];
+
+                                    var setting = Ext.create('ExtJs6ExamplesWorld.view.Setting');
+
+                                    //
+                                    workspace.removeAll();
+                                    workspace.add(setting);
+                                },
+                                text: 'Setting'
+                            },
+                            {
+                                xtype: 'menuitem',
+                                handler: function(item, e) {
+                                    var workspace = Ext.ComponentQuery.query('container[itemId=workspace]')[0];
+
+                                    //
+                                    workspace.removeAll();
+                                },
+                                text: 'Remove'
+                            },
+                            {
+                                xtype: 'menuitem',
+                                handler: function(item, e) {
+                                    var workspace = Ext.ComponentQuery.query('container[itemId=workspace]')[0];
+
+                                    var about = Ext.create('ExtJs6ExamplesWorld.view.About');
+
+                                    //
+                                    workspace.removeAll();
+                                    workspace.add(about);
+                                },
+                                text: 'About'
+                            }
+                        ]
+                    }
+                },
+                {
+                    xtype: 'button',
+                    text: 'Trees',
+                    menu: {
+                        xtype: 'menu',
+                        width: 120,
+                        items: [
+                            {
+                                xtype: 'menuitem',
+                                handler: function(item, e) {
+                                    var workspace = Ext.ComponentQuery.query('container[itemId=workspace]')[0];
+
+                                    var readme = Ext.create('ExtJs6ExamplesWorld.view.ReadMe');
+
+                                    //
+                                    workspace.removeAll();
+                                    workspace.add(readme);
+                                },
+                                text: 'ReadMe'
+                            },
+                            {
+                                xtype: 'menuitem',
+                                handler: function(item, e) {
+                                    var workspace = Ext.ComponentQuery.query('container[itemId=workspace]')[0];
+
+                                    var setting = Ext.create('ExtJs6ExamplesWorld.view.Setting');
+
+                                    //
+                                    workspace.removeAll();
+                                    workspace.add(setting);
+                                },
+                                text: 'Setting'
+                            },
+                            {
+                                xtype: 'menuitem',
+                                handler: function(item, e) {
+                                    var workspace = Ext.ComponentQuery.query('container[itemId=workspace]')[0];
+
+                                    //
+                                    workspace.removeAll();
+                                },
+                                text: 'Remove'
+                            },
+                            {
+                                xtype: 'menuitem',
+                                handler: function(item, e) {
+                                    var workspace = Ext.ComponentQuery.query('container[itemId=workspace]')[0];
+
+                                    var about = Ext.create('ExtJs6ExamplesWorld.view.About');
+
+                                    //
+                                    workspace.removeAll();
+                                    workspace.add(about);
+                                },
+                                text: 'About'
+                            }
+                        ]
+                    }
+                },
+                {
+                    xtype: 'button',
+                    text: 'Charts',
+                    menu: {
+                        xtype: 'menu',
+                        width: 120,
+                        items: [
+                            {
+                                xtype: 'menuitem',
+                                handler: function(item, e) {
+                                    var workspace = Ext.ComponentQuery.query('container[itemId=workspace]')[0];
+
+                                    var readme = Ext.create('ExtJs6ExamplesWorld.view.ReadMe');
+
+                                    //
+                                    workspace.removeAll();
+                                    workspace.add(readme);
+                                },
+                                text: 'ReadMe'
+                            },
+                            {
+                                xtype: 'menuitem',
+                                handler: function(item, e) {
+                                    var workspace = Ext.ComponentQuery.query('container[itemId=workspace]')[0];
+
+                                    var setting = Ext.create('ExtJs6ExamplesWorld.view.Setting');
+
+                                    //
+                                    workspace.removeAll();
+                                    workspace.add(setting);
+                                },
+                                text: 'Setting'
+                            },
+                            {
+                                xtype: 'menuitem',
+                                handler: function(item, e) {
+                                    var workspace = Ext.ComponentQuery.query('container[itemId=workspace]')[0];
+
+                                    //
+                                    workspace.removeAll();
+                                },
+                                text: 'Remove'
+                            },
+                            {
+                                xtype: 'menuitem',
+                                handler: function(item, e) {
+                                    var workspace = Ext.ComponentQuery.query('container[itemId=workspace]')[0];
+
+                                    var about = Ext.create('ExtJs6ExamplesWorld.view.About');
+
+                                    //
+                                    workspace.removeAll();
+                                    workspace.add(about);
+                                },
+                                text: 'About'
+                            }
+                        ]
+                    }
+                },
+                {
+                    xtype: 'button',
+                    text: 'Calendar',
+                    menu: {
+                        xtype: 'menu',
+                        width: 120,
+                        items: [
+                            {
+                                xtype: 'menuitem',
+                                handler: function(item, e) {
+                                    var workspace = Ext.ComponentQuery.query('container[itemId=workspace]')[0];
+
+                                    var readme = Ext.create('ExtJs6ExamplesWorld.view.ReadMe');
+
+                                    //
+                                    workspace.removeAll();
+                                    workspace.add(readme);
+                                },
+                                text: 'ReadMe'
+                            },
+                            {
+                                xtype: 'menuitem',
+                                handler: function(item, e) {
+                                    var workspace = Ext.ComponentQuery.query('container[itemId=workspace]')[0];
+
+                                    var setting = Ext.create('ExtJs6ExamplesWorld.view.Setting');
+
+                                    //
+                                    workspace.removeAll();
+                                    workspace.add(setting);
+                                },
+                                text: 'Setting'
+                            },
+                            {
+                                xtype: 'menuitem',
+                                handler: function(item, e) {
+                                    var workspace = Ext.ComponentQuery.query('container[itemId=workspace]')[0];
+
+                                    //
+                                    workspace.removeAll();
+                                },
+                                text: 'Remove'
+                            },
+                            {
+                                xtype: 'menuitem',
+                                handler: function(item, e) {
+                                    var workspace = Ext.ComponentQuery.query('container[itemId=workspace]')[0];
+
+                                    var about = Ext.create('ExtJs6ExamplesWorld.view.About');
+
+                                    //
+                                    workspace.removeAll();
+                                    workspace.add(about);
+                                },
+                                text: 'About'
+                            }
+                        ]
+                    }
+                },
+                {
+                    xtype: 'button',
+                    text: 'Pivot Grids',
+                    menu: {
+                        xtype: 'menu',
+                        width: 120,
+                        items: [
+                            {
+                                xtype: 'menuitem',
+                                handler: function(item, e) {
+                                    var workspace = Ext.ComponentQuery.query('container[itemId=workspace]')[0];
+
+                                    var readme = Ext.create('ExtJs6ExamplesWorld.view.ReadMe');
+
+                                    //
+                                    workspace.removeAll();
+                                    workspace.add(readme);
+                                },
+                                text: 'ReadMe'
+                            },
+                            {
+                                xtype: 'menuitem',
+                                handler: function(item, e) {
+                                    var workspace = Ext.ComponentQuery.query('container[itemId=workspace]')[0];
+
+                                    var setting = Ext.create('ExtJs6ExamplesWorld.view.Setting');
+
+                                    //
+                                    workspace.removeAll();
+                                    workspace.add(setting);
+                                },
+                                text: 'Setting'
+                            },
+                            {
+                                xtype: 'menuitem',
+                                handler: function(item, e) {
+                                    var workspace = Ext.ComponentQuery.query('container[itemId=workspace]')[0];
+
+                                    //
+                                    workspace.removeAll();
+                                },
+                                text: 'Remove'
+                            },
+                            {
+                                xtype: 'menuitem',
+                                handler: function(item, e) {
+                                    var workspace = Ext.ComponentQuery.query('container[itemId=workspace]')[0];
+
+                                    var about = Ext.create('ExtJs6ExamplesWorld.view.About');
+
+                                    //
+                                    workspace.removeAll();
+                                    workspace.add(about);
+                                },
+                                text: 'About'
+                            }
+                        ]
+                    }
+                },
+                {
+                    xtype: 'button',
+                    text: 'D3',
+                    menu: {
+                        xtype: 'menu',
+                        width: 120,
+                        items: [
+                            {
+                                xtype: 'menuitem',
+                                handler: function(item, e) {
+                                    var workspace = Ext.ComponentQuery.query('container[itemId=workspace]')[0];
+
+                                    var readme = Ext.create('ExtJs6ExamplesWorld.view.ReadMe');
+
+                                    //
+                                    workspace.removeAll();
+                                    workspace.add(readme);
+                                },
+                                text: 'ReadMe'
+                            },
+                            {
+                                xtype: 'menuitem',
+                                handler: function(item, e) {
+                                    var workspace = Ext.ComponentQuery.query('container[itemId=workspace]')[0];
+
+                                    var setting = Ext.create('ExtJs6ExamplesWorld.view.Setting');
+
+                                    //
+                                    workspace.removeAll();
+                                    workspace.add(setting);
+                                },
+                                text: 'Setting'
+                            },
+                            {
+                                xtype: 'menuitem',
+                                handler: function(item, e) {
+                                    var workspace = Ext.ComponentQuery.query('container[itemId=workspace]')[0];
+
+                                    //
+                                    workspace.removeAll();
+                                },
+                                text: 'Remove'
+                            },
+                            {
+                                xtype: 'menuitem',
+                                handler: function(item, e) {
+                                    var workspace = Ext.ComponentQuery.query('container[itemId=workspace]')[0];
+
+                                    var about = Ext.create('ExtJs6ExamplesWorld.view.About');
+
+                                    //
+                                    workspace.removeAll();
+                                    workspace.add(about);
+                                },
+                                text: 'About'
+                            }
+                        ]
+                    }
+                },
+                {
+                    xtype: 'button',
+                    text: 'Templates',
+                    menu: {
+                        xtype: 'menu',
+                        width: 120,
+                        items: [
+                            {
+                                xtype: 'menuitem',
+                                handler: function(item, e) {
+                                    var workspace = Ext.ComponentQuery.query('container[itemId=workspace]')[0];
+
+                                    var readme = Ext.create('ExtJs6ExamplesWorld.view.ReadMe');
+
+                                    //
+                                    workspace.removeAll();
+                                    workspace.add(readme);
+                                },
+                                text: 'ReadMe'
+                            },
+                            {
+                                xtype: 'menuitem',
+                                handler: function(item, e) {
+                                    var workspace = Ext.ComponentQuery.query('container[itemId=workspace]')[0];
+
+                                    var setting = Ext.create('ExtJs6ExamplesWorld.view.Setting');
+
+                                    //
+                                    workspace.removeAll();
+                                    workspace.add(setting);
+                                },
+                                text: 'Setting'
+                            },
+                            {
+                                xtype: 'menuitem',
+                                handler: function(item, e) {
+                                    var workspace = Ext.ComponentQuery.query('container[itemId=workspace]')[0];
+
+                                    //
+                                    workspace.removeAll();
+                                },
+                                text: 'Remove'
+                            },
+                            {
+                                xtype: 'menuitem',
+                                handler: function(item, e) {
+                                    var workspace = Ext.ComponentQuery.query('container[itemId=workspace]')[0];
+
+                                    var about = Ext.create('ExtJs6ExamplesWorld.view.About');
+
+                                    //
+                                    workspace.removeAll();
+                                    workspace.add(about);
+                                },
+                                text: 'About'
+                            }
+                        ]
+                    }
                 }
             ]
         },

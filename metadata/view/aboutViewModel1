@@ -6,12 +6,13 @@
     },
     "codeClass": null,
     "userConfig": {
-        "designer|userAlias": "work",
-        "designer|userClassName": "workViewModel"
+        "designer|userAlias": "readme",
+        "designer|userClassName": "aboutViewModel1"
     },
     "configAlternates": {
         "designer|userAlias": "string",
         "designer|userClassName": "string"
     },
-    "designerId": "4a1939a2-6671-42cc-ba0c-48afb4436bd4"
+    "name": "aboutViewModel1",
+    "designerId": "4b98e05b-29d1-4d81-8739-2fb1e0426be5"
 }

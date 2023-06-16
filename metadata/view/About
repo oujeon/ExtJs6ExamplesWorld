@@ -1,0 +1,54 @@
+{
+    "type": "Ext.container.Container",
+    "reference": {
+        "name": "items",
+        "type": "array"
+    },
+    "codeClass": null,
+    "userConfig": {
+        "container|align": "center",
+        "container|pack": "center",
+        "designer|userAlias": "About",
+        "designer|userClassName": "About",
+        "height": null,
+        "id": "About",
+        "itemId": "About",
+        "layout": "vbox",
+        "width": null
+    },
+    "configAlternates": {
+        "container|align": "string",
+        "container|pack": "string",
+        "designer|userAlias": "string",
+        "designer|userClassName": "string",
+        "height": "auto",
+        "id": "string",
+        "itemId": "string",
+        "layout": "string",
+        "width": "auto"
+    },
+    "name": "ReadMe1",
+    "designerId": "9ed3e6f6-8dc2-4520-b1ce-bfc689b88feb",
+    "viewControllerInstanceId": "0e76194d-d437-4b68-b4f5-9169e25fb047",
+    "viewModelInstanceId": "d4b653cb-5874-4369-8344-d79b4abd15c2",
+    "cn": [
+        {
+            "type": "Ext.form.Label",
+            "reference": {
+                "name": "items",
+                "type": "array"
+            },
+            "codeClass": null,
+            "userConfig": {
+                "layout|flex": null,
+                "text": "About"
+            },
+            "configAlternates": {
+                "layout|flex": "number",
+                "text": "string"
+            },
+            "name": "MyLabel",
+            "designerId": "3b7899ca-e0c3-4413-bdc1-02e4ab5861da"
+        }
+    ]
+}
