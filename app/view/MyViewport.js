@@ -20,7 +20,6 @@ Ext.define('ExtJs6ExamplesWorld.view.MyViewport', {
     requires: [
         'ExtJs6ExamplesWorld.view.MyViewportViewModel',
         'Ext.toolbar.Toolbar',
-        'Ext.button.Segmented',
         'Ext.button.Button',
         'Ext.menu.Menu',
         'Ext.menu.Item'
@@ -35,20 +34,17 @@ Ext.define('ExtJs6ExamplesWorld.view.MyViewport', {
 
     layout: {
         type: 'vbox',
-        align: 'center',
+        align: 'stretch',
         pack: 'center'
     },
     items: [
         {
             xtype: 'toolbar',
             dock: 'top',
-            width: 1024,
             items: [
                 {
-                    xtype: 'segmentedbutton'
-                },
-                {
                     xtype: 'button',
+                    width: 150,
                     text: 'Main',
                     menu: {
                         xtype: 'menu',
@@ -108,6 +104,7 @@ Ext.define('ExtJs6ExamplesWorld.view.MyViewport', {
                 },
                 {
                     xtype: 'button',
+                    width: 150,
                     text: 'Components',
                     menu: {
                         xtype: 'menu',
@@ -167,6 +164,7 @@ Ext.define('ExtJs6ExamplesWorld.view.MyViewport', {
                 },
                 {
                     xtype: 'button',
+                    width: 150,
                     text: 'Grids',
                     menu: {
                         xtype: 'menu',
@@ -226,6 +224,7 @@ Ext.define('ExtJs6ExamplesWorld.view.MyViewport', {
                 },
                 {
                     xtype: 'button',
+                    width: 150,
                     text: 'Trees',
                     menu: {
                         xtype: 'menu',
@@ -285,6 +284,7 @@ Ext.define('ExtJs6ExamplesWorld.view.MyViewport', {
                 },
                 {
                     xtype: 'button',
+                    width: 150,
                     text: 'Charts',
                     menu: {
                         xtype: 'menu',
@@ -344,6 +344,7 @@ Ext.define('ExtJs6ExamplesWorld.view.MyViewport', {
                 },
                 {
                     xtype: 'button',
+                    width: 150,
                     text: 'Calendar',
                     menu: {
                         xtype: 'menu',
@@ -403,6 +404,7 @@ Ext.define('ExtJs6ExamplesWorld.view.MyViewport', {
                 },
                 {
                     xtype: 'button',
+                    width: 150,
                     text: 'Pivot Grids',
                     menu: {
                         xtype: 'menu',
@@ -462,6 +464,7 @@ Ext.define('ExtJs6ExamplesWorld.view.MyViewport', {
                 },
                 {
                     xtype: 'button',
+                    width: 150,
                     text: 'D3',
                     menu: {
                         xtype: 'menu',
@@ -521,6 +524,7 @@ Ext.define('ExtJs6ExamplesWorld.view.MyViewport', {
                 },
                 {
                     xtype: 'button',
+                    width: 150,
                     text: 'Templates',
                     menu: {
                         xtype: 'menu',

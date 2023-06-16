@@ -6,7 +6,7 @@
     },
     "codeClass": null,
     "userConfig": {
-        "container|align": "center",
+        "container|align": "stretch",
         "container|pack": "center",
         "designer|initialView": true,
         "designer|userAlias": "myviewport",
@@ -42,7 +42,7 @@
             "userConfig": {
                 "dock": "top",
                 "layout|flex": null,
-                "width": 1024
+                "width": null
             },
             "configAlternates": {
                 "dock": "string",
@@ -53,22 +53,6 @@
             "designerId": "9a6b69e3-df7f-4ba3-828b-63c471000ac5",
             "cn": [
                 {
-                    "type": "Ext.button.Segmented",
-                    "reference": {
-                        "name": "items",
-                        "type": "array"
-                    },
-                    "codeClass": null,
-                    "userConfig": {
-                        "layout|flex": null
-                    },
-                    "configAlternates": {
-                        "layout|flex": "number"
-                    },
-                    "name": "MySegmentedButton",
-                    "designerId": "19bc7e86-9de1-4baf-bc2d-91453109f057"
-                },
-                {
                     "type": "Ext.button.Button",
                     "reference": {
                         "name": "items",
@@ -77,11 +61,13 @@
                     "codeClass": null,
                     "userConfig": {
                         "layout|flex": null,
-                        "text": "Main"
+                        "text": "Main",
+                        "width": 150
                     },
                     "configAlternates": {
                         "layout|flex": "number",
-                        "text": "string"
+                        "text": "string",
+                        "width": "auto"
                     },
                     "name": "MyButton1",
                     "designerId": "de93ff0e-7fbb-403a-b9cb-39a0ce07833a",
@@ -308,11 +294,13 @@
                     "codeClass": null,
                     "userConfig": {
                         "layout|flex": null,
-                        "text": "Components"
+                        "text": "Components",
+                        "width": 150
                     },
                     "configAlternates": {
                         "layout|flex": "number",
-                        "text": "string"
+                        "text": "string",
+                        "width": "auto"
                     },
                     "name": "MyButton",
                     "designerId": "413a6b65-1ee5-4190-a4f1-21b1ca027a6f",
@@ -539,11 +527,13 @@
                     "codeClass": null,
                     "userConfig": {
                         "layout|flex": null,
-                        "text": "Grids"
+                        "text": "Grids",
+                        "width": 150
                     },
                     "configAlternates": {
                         "layout|flex": "number",
-                        "text": "string"
+                        "text": "string",
+                        "width": "auto"
                     },
                     "name": "MyButton2",
                     "designerId": "229e34af-9174-4167-96d8-2aaad0849821",
@@ -770,11 +760,13 @@
                     "codeClass": null,
                     "userConfig": {
                         "layout|flex": null,
-                        "text": "Trees"
+                        "text": "Trees",
+                        "width": 150
                     },
                     "configAlternates": {
                         "layout|flex": "number",
-                        "text": "string"
+                        "text": "string",
+                        "width": "auto"
                     },
                     "name": "MyButton3",
                     "designerId": "dff45b62-6a7d-44d2-b239-09eac2fa8e4d",
@@ -1001,11 +993,13 @@
                     "codeClass": null,
                     "userConfig": {
                         "layout|flex": null,
-                        "text": "Charts"
+                        "text": "Charts",
+                        "width": 150
                     },
                     "configAlternates": {
                         "layout|flex": "number",
-                        "text": "string"
+                        "text": "string",
+                        "width": "auto"
                     },
                     "name": "MyButton4",
                     "designerId": "fe8553bc-b9f8-4729-9c29-68434251e567",
@@ -1232,11 +1226,13 @@
                     "codeClass": null,
                     "userConfig": {
                         "layout|flex": null,
-                        "text": "Calendar"
+                        "text": "Calendar",
+                        "width": 150
                     },
                     "configAlternates": {
                         "layout|flex": "number",
-                        "text": "string"
+                        "text": "string",
+                        "width": "auto"
                     },
                     "name": "MyButton5",
                     "designerId": "a1ffebdd-9997-4542-99f0-82e68a4ed937",
@@ -1463,11 +1459,13 @@
                     "codeClass": null,
                     "userConfig": {
                         "layout|flex": null,
-                        "text": "Pivot Grids"
+                        "text": "Pivot Grids",
+                        "width": 150
                     },
                     "configAlternates": {
                         "layout|flex": "number",
-                        "text": "string"
+                        "text": "string",
+                        "width": "auto"
                     },
                     "name": "MyButton6",
                     "designerId": "03a99919-7a82-4a96-9464-a5ab702fd061",
@@ -1694,11 +1692,13 @@
                     "codeClass": null,
                     "userConfig": {
                         "layout|flex": null,
-                        "text": "D3"
+                        "text": "D3",
+                        "width": 150
                     },
                     "configAlternates": {
                         "layout|flex": "number",
-                        "text": "string"
+                        "text": "string",
+                        "width": "auto"
                     },
                     "name": "MyButton7",
                     "designerId": "5605ce51-bb92-496c-81e6-061cebc5e90f",
@@ -1925,11 +1925,13 @@
                     "codeClass": null,
                     "userConfig": {
                         "layout|flex": null,
-                        "text": "Templates"
+                        "text": "Templates",
+                        "width": 150
                     },
                     "configAlternates": {
                         "layout|flex": "number",
-                        "text": "string"
+                        "text": "string",
+                        "width": "auto"
                     },
                     "name": "MyButton8",
                     "designerId": "2bd4c251-809c-4d4e-b2f3-cf6f8cf7a3d1",
