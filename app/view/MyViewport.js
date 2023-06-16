@@ -22,7 +22,8 @@ Ext.define('ExtJs6ExamplesWorld.view.MyViewport', {
         'Ext.toolbar.Toolbar',
         'Ext.button.Cycle',
         'Ext.menu.Menu',
-        'Ext.menu.CheckItem'
+        'Ext.menu.CheckItem',
+        'Ext.button.Segmented'
     ],
 
     viewModel: {
@@ -67,6 +68,9 @@ Ext.define('ExtJs6ExamplesWorld.view.MyViewport', {
                             }
                         ]
                     }
+                },
+                {
+                    xtype: 'segmentedbutton'
                 }
             ]
         },

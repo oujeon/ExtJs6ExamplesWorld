@@ -24,6 +24,9 @@
                                     ]
                                 }
                             ]
+                        },
+                        {
+                            "id": "19bc7e86-9de1-4baf-bc2d-91453109f057"
                         }
                     ]
                 },
@@ -77,13 +80,13 @@
         ]
     },
     "canvasState": {
-        "topInstance": null
+        "topInstance": "1726a3b1-2c84-4b89-80e0-d5e4443340dc"
     },
     "inspectorState": {
-        "topInstance": "7cbbcea8-87e5-40f2-a934-5377151ddc2e",
-        "selectedInstance": "9e291245-e107-41d4-8267-31009f2be4b4"
+        "topInstance": "1726a3b1-2c84-4b89-80e0-d5e4443340dc",
+        "selectedInstance": "42390348-e3cd-4d4a-ab80-a8f95db35625"
     },
-    "editMode": "code",
+    "editMode": "design",
     "userSettings": {
         "no-cmd": false
     }
