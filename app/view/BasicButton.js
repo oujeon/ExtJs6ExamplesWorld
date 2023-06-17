@@ -21,7 +21,8 @@ Ext.define('ExtJs6ExamplesWorld.view.BasicButton', {
         'ExtJs6ExamplesWorld.view.aboutViewModel3',
         'Ext.menu.Menu',
         'Ext.menu.Item',
-        'Ext.button.Split'
+        'Ext.button.Split',
+        'Ext.button.Segmented'
     ],
 
     viewModel: {
@@ -120,8 +121,49 @@ Ext.define('ExtJs6ExamplesWorld.view.BasicButton', {
         },
         {
             xtype: 'button',
-            href: 'www.google.com',
+            href: 'http://www.google.com/',
             text: 'Link'
+        },
+        {
+            xtype: 'button',
+            margin: 2,
+            text: 'Link'
+        },
+        {
+            xtype: 'segmentedbutton',
+            items: [
+                {
+                    handler: function(button, e) {
+                        alert("Hello World");
+                    },
+                    text: 'MyButton'
+                },
+                {
+                    text: 'MyButton'
+                },
+                {
+                    text: 'MyButton'
+                }
+            ]
+        },
+        {
+            xtype: 'segmentedbutton',
+            margin: 2,
+            vertical: true,
+            items: [
+                {
+                    handler: function(button, e) {
+                        alert("Hello World");
+                    },
+                    text: 'MyButton'
+                },
+                {
+                    text: 'MyButton'
+                },
+                {
+                    text: 'MyButton'
+                }
+            ]
         }
     ]
 

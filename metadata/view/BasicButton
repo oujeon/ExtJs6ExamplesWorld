@@ -375,7 +375,7 @@
             },
             "codeClass": null,
             "userConfig": {
-                "href": "www.google.com",
+                "href": "http://www.google.com/",
                 "layout|flex": null,
                 "text": "Link"
             },
@@ -386,6 +386,230 @@
             },
             "name": "MyButton5",
             "designerId": "a5c94c62-75fb-4d43-aa67-f08cddf69166"
+        },
+        {
+            "type": "Ext.button.Button",
+            "reference": {
+                "name": "items",
+                "type": "array"
+            },
+            "codeClass": null,
+            "userConfig": {
+                "href": null,
+                "layout|flex": null,
+                "margin": 2,
+                "text": "Link"
+            },
+            "configAlternates": {
+                "href": "string",
+                "layout|flex": "number",
+                "text": "string",
+                "margin": "auto"
+            },
+            "name": "MyButton6",
+            "designerId": "f11c6b46-0424-429e-bbef-2d8bba0b3c6e"
+        },
+        {
+            "type": "Ext.button.Segmented",
+            "reference": {
+                "name": "items",
+                "type": "array"
+            },
+            "codeClass": null,
+            "userConfig": {
+                "allowMultiple": null,
+                "height": null,
+                "layout|flex": null,
+                "width": null
+            },
+            "configAlternates": {
+                "allowMultiple": "boolean",
+                "height": "auto",
+                "layout|flex": "number",
+                "width": "auto"
+            },
+            "name": "MySegmentedButton",
+            "designerId": "05ee52ca-c4f7-41d9-85c5-892706dda9a5",
+            "cn": [
+                {
+                    "type": "Ext.button.Button",
+                    "reference": {
+                        "name": "items",
+                        "type": "array"
+                    },
+                    "codeClass": null,
+                    "userConfig": {
+                        "text": "MyButton"
+                    },
+                    "configAlternates": {
+                        "text": "string"
+                    },
+                    "name": "MyButton7",
+                    "designerId": "91fcbaf0-349c-4745-98c2-08e70bb8f753",
+                    "cn": [
+                        {
+                            "type": "fixedfunction",
+                            "reference": {
+                                "name": "items",
+                                "type": "array"
+                            },
+                            "codeClass": null,
+                            "userConfig": {
+                                "designer|params": [
+                                    "button",
+                                    "e"
+                                ],
+                                "fn": "handler",
+                                "implHandler": [
+                                    "alert(\"Hello World\");"
+                                ]
+                            },
+                            "configAlternates": {
+                                "designer|params": "typedarray",
+                                "fn": "string",
+                                "implHandler": "code"
+                            },
+                            "name": "handler",
+                            "designerId": "e6f3f432-a0c7-482f-ba29-9920d06758fe"
+                        }
+                    ]
+                },
+                {
+                    "type": "Ext.button.Button",
+                    "reference": {
+                        "name": "items",
+                        "type": "array"
+                    },
+                    "codeClass": null,
+                    "userConfig": {
+                        "text": "MyButton"
+                    },
+                    "configAlternates": {
+                        "text": "string"
+                    },
+                    "name": "MyButton8",
+                    "designerId": "7c0bf6c0-d34a-4072-a10f-51c074e22a7f"
+                },
+                {
+                    "type": "Ext.button.Button",
+                    "reference": {
+                        "name": "items",
+                        "type": "array"
+                    },
+                    "codeClass": null,
+                    "userConfig": {
+                        "text": "MyButton"
+                    },
+                    "configAlternates": {
+                        "text": "string"
+                    },
+                    "name": "MyButton11",
+                    "designerId": "24ed4083-b938-4bb5-9716-06c738c8dd94"
+                }
+            ]
+        },
+        {
+            "type": "Ext.button.Segmented",
+            "reference": {
+                "name": "items",
+                "type": "array"
+            },
+            "codeClass": null,
+            "userConfig": {
+                "allowMultiple": null,
+                "height": null,
+                "layout|flex": null,
+                "margin": 2,
+                "vertical": true,
+                "width": null
+            },
+            "configAlternates": {
+                "allowMultiple": "boolean",
+                "height": "auto",
+                "layout|flex": "number",
+                "width": "auto",
+                "margin": "auto",
+                "vertical": "boolean"
+            },
+            "name": "MySegmentedButton1",
+            "designerId": "65241199-f2fc-4e6e-83ba-b9a9b9152f65",
+            "cn": [
+                {
+                    "type": "Ext.button.Button",
+                    "reference": {
+                        "name": "items",
+                        "type": "array"
+                    },
+                    "codeClass": null,
+                    "userConfig": {
+                        "text": "MyButton"
+                    },
+                    "configAlternates": {
+                        "text": "string"
+                    },
+                    "name": "MyButton7",
+                    "designerId": "beab4d0b-5e52-4110-b8c8-26229b8abe75",
+                    "cn": [
+                        {
+                            "type": "fixedfunction",
+                            "reference": {
+                                "name": "items",
+                                "type": "array"
+                            },
+                            "codeClass": null,
+                            "userConfig": {
+                                "designer|params": [
+                                    "button",
+                                    "e"
+                                ],
+                                "fn": "handler",
+                                "implHandler": [
+                                    "alert(\"Hello World\");"
+                                ]
+                            },
+                            "configAlternates": {
+                                "designer|params": "typedarray",
+                                "fn": "string",
+                                "implHandler": "code"
+                            },
+                            "name": "handler",
+                            "designerId": "1c20bd0d-8cd2-4d2c-90a2-0f0922a8e6f4"
+                        }
+                    ]
+                },
+                {
+                    "type": "Ext.button.Button",
+                    "reference": {
+                        "name": "items",
+                        "type": "array"
+                    },
+                    "codeClass": null,
+                    "userConfig": {
+                        "text": "MyButton"
+                    },
+                    "configAlternates": {
+                        "text": "string"
+                    },
+                    "name": "MyButton8",
+                    "designerId": "e0970978-76a3-4ffa-981d-8f42f07bbcde"
+                },
+                {
+                    "type": "Ext.button.Button",
+                    "reference": {
+                        "name": "items",
+                        "type": "array"
+                    },
+                    "codeClass": null,
+                    "userConfig": {
+                        "text": "MyButton"
+                    },
+                    "configAlternates": {
+                        "text": "string"
+                    },
+                    "name": "MyButton11",
+                    "designerId": "f7ec7ba6-a3e4-4853-beac-325007621026"
+                }
+            ]
         }
     ]
 }
