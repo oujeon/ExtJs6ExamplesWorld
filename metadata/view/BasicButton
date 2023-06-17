@@ -1,0 +1,391 @@
+{
+    "type": "Ext.container.Container",
+    "reference": {
+        "name": "items",
+        "type": "array"
+    },
+    "codeClass": null,
+    "userConfig": {
+        "container|align": "center",
+        "container|pack": "center",
+        "designer|userAlias": "BasicButton",
+        "designer|userClassName": "BasicButton",
+        "height": null,
+        "id": "BasicButton",
+        "itemId": "BasicButton",
+        "layout": "vbox",
+        "width": null
+    },
+    "configAlternates": {
+        "container|align": "string",
+        "container|pack": "string",
+        "designer|userAlias": "string",
+        "designer|userClassName": "string",
+        "height": "auto",
+        "id": "string",
+        "itemId": "string",
+        "layout": "string",
+        "width": "auto"
+    },
+    "name": "Setting1",
+    "designerId": "4c0bc0ee-265c-4847-a04d-3569bac2896f",
+    "viewControllerInstanceId": "18439818-d77e-4519-9d6d-6a9917edec51",
+    "viewModelInstanceId": "179b4856-8ef7-4236-a1db-de630b1cbd7a",
+    "cn": [
+        {
+            "type": "Ext.button.Button",
+            "reference": {
+                "name": "items",
+                "type": "array"
+            },
+            "codeClass": null,
+            "userConfig": {
+                "layout|flex": null,
+                "margin": 2,
+                "text": "NORMAL"
+            },
+            "configAlternates": {
+                "layout|flex": "number",
+                "margin": "auto",
+                "text": "string"
+            },
+            "name": "MyButton9",
+            "designerId": "ce859ff7-f911-4210-87b7-9183f6460c99"
+        },
+        {
+            "type": "Ext.button.Button",
+            "reference": {
+                "name": "items",
+                "type": "array"
+            },
+            "codeClass": null,
+            "userConfig": {
+                "disabled": true,
+                "layout|flex": null,
+                "margin": 2,
+                "text": "Disabled"
+            },
+            "configAlternates": {
+                "layout|flex": "number",
+                "text": "string",
+                "disabled": "boolean",
+                "margin": "auto"
+            },
+            "name": "MyButton10",
+            "designerId": "7938950b-3d56-463e-aa02-cc1c9c663e09"
+        },
+        {
+            "type": "Ext.button.Button",
+            "reference": {
+                "name": "items",
+                "type": "array"
+            },
+            "codeClass": null,
+            "userConfig": {
+                "disabled": null,
+                "layout|flex": null,
+                "margin": 2,
+                "text": "Handler"
+            },
+            "configAlternates": {
+                "layout|flex": "number",
+                "text": "string",
+                "disabled": "boolean",
+                "margin": "auto"
+            },
+            "name": "MyButton",
+            "designerId": "70208296-ed28-40ed-a519-c2797ff7493a",
+            "cn": [
+                {
+                    "type": "fixedfunction",
+                    "reference": {
+                        "name": "items",
+                        "type": "array"
+                    },
+                    "codeClass": null,
+                    "userConfig": {
+                        "designer|params": [
+                            "button",
+                            "e"
+                        ],
+                        "fn": "handler",
+                        "implHandler": [
+                            "alert(\"Hello World\");"
+                        ]
+                    },
+                    "configAlternates": {
+                        "designer|params": "typedarray",
+                        "fn": "string",
+                        "implHandler": "code"
+                    },
+                    "name": "handler",
+                    "designerId": "0e3b696c-dd47-4d50-bf5f-2a7bd5a17ee4"
+                }
+            ]
+        },
+        {
+            "type": "Ext.button.Button",
+            "reference": {
+                "name": "items",
+                "type": "array"
+            },
+            "codeClass": null,
+            "userConfig": {
+                "designer|createAlias": null,
+                "designer|displayName": null,
+                "id": "Action",
+                "itemId": "Action",
+                "layout|flex": null,
+                "text": "Action"
+            },
+            "configAlternates": {
+                "designer|createAlias": "string",
+                "designer|displayName": "string",
+                "id": "string",
+                "itemId": "string",
+                "layout|flex": "number",
+                "text": "string"
+            },
+            "name": "MyButton1",
+            "designerId": "c3c80346-a3d3-4a1d-b05a-d2d1754ea376"
+        },
+        {
+            "type": "Ext.button.Button",
+            "reference": {
+                "name": "items",
+                "type": "array"
+            },
+            "codeClass": null,
+            "userConfig": {
+                "iconCls": "button-home-medium",
+                "layout|flex": null,
+                "margin": 2,
+                "text": "Icon"
+            },
+            "configAlternates": {
+                "iconCls": "string",
+                "layout|flex": "number",
+                "margin": "auto",
+                "text": "string"
+            },
+            "name": "MyButton2",
+            "designerId": "9b3ab765-83e6-453a-881d-8b54ff3c51d0"
+        },
+        {
+            "type": "Ext.button.Button",
+            "reference": {
+                "name": "items",
+                "type": "array"
+            },
+            "codeClass": null,
+            "userConfig": {
+                "enableToggle": true,
+                "layout|flex": null,
+                "margin": 2,
+                "text": "Toggle Buttons"
+            },
+            "configAlternates": {
+                "enableToggle": "boolean",
+                "layout|flex": "number",
+                "margin": "auto",
+                "text": "string"
+            },
+            "name": "MyButton3",
+            "designerId": "3003fa30-4679-472a-9b81-b8cf0972bed3"
+        },
+        {
+            "type": "Ext.button.Button",
+            "reference": {
+                "name": "items",
+                "type": "array"
+            },
+            "codeClass": null,
+            "userConfig": {
+                "layout|flex": null,
+                "text": "Menu"
+            },
+            "configAlternates": {
+                "layout|flex": "number",
+                "text": "string"
+            },
+            "name": "MyButton4",
+            "designerId": "2b5da0f6-c00c-4540-888d-c6454d8564a8",
+            "cn": [
+                {
+                    "type": "Ext.menu.Menu",
+                    "reference": {
+                        "name": "menu",
+                        "type": "object"
+                    },
+                    "codeClass": null,
+                    "userConfig": {
+                        "width": 120
+                    },
+                    "configAlternates": {
+                        "width": "auto"
+                    },
+                    "name": "MyMenu",
+                    "designerId": "ace0ddab-c6b3-40f9-a902-70930a3e9795",
+                    "cn": [
+                        {
+                            "type": "Ext.menu.Item",
+                            "reference": {
+                                "name": "items",
+                                "type": "array"
+                            },
+                            "codeClass": null,
+                            "userConfig": {
+                                "text": "Menu Item"
+                            },
+                            "configAlternates": {
+                                "text": "string"
+                            },
+                            "name": "MyMenuItem",
+                            "designerId": "05e6a008-2c5a-42a5-ac4c-3eb4d5ae2676"
+                        },
+                        {
+                            "type": "Ext.menu.Item",
+                            "reference": {
+                                "name": "items",
+                                "type": "array"
+                            },
+                            "codeClass": null,
+                            "userConfig": {
+                                "text": "Menu Item"
+                            },
+                            "configAlternates": {
+                                "text": "string"
+                            },
+                            "name": "MyMenuItem1",
+                            "designerId": "799cebdc-f5e1-450b-acd2-1cbfa83a40cc"
+                        },
+                        {
+                            "type": "Ext.menu.Item",
+                            "reference": {
+                                "name": "items",
+                                "type": "array"
+                            },
+                            "codeClass": null,
+                            "userConfig": {
+                                "text": "Menu Item"
+                            },
+                            "configAlternates": {
+                                "text": "string"
+                            },
+                            "name": "MyMenuItem2",
+                            "designerId": "d06f014a-e3f1-4d7a-80f8-e7986d87fe02"
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "type": "Ext.button.Split",
+            "reference": {
+                "name": "items",
+                "type": "array"
+            },
+            "codeClass": null,
+            "userConfig": {
+                "layout|flex": null,
+                "margin": 2,
+                "text": "Split"
+            },
+            "configAlternates": {
+                "layout|flex": "number",
+                "margin": "auto",
+                "text": "string"
+            },
+            "name": "MySplitButton",
+            "designerId": "799a23ea-0600-4dc6-b2f9-c5e91f87f049",
+            "cn": [
+                {
+                    "type": "Ext.menu.Menu",
+                    "reference": {
+                        "name": "menu",
+                        "type": "object"
+                    },
+                    "codeClass": null,
+                    "userConfig": {
+                        "width": 120
+                    },
+                    "configAlternates": {
+                        "width": "auto"
+                    },
+                    "name": "MyMenu1",
+                    "designerId": "99781e9a-ef9f-46d5-839c-44fbf634f5b2",
+                    "cn": [
+                        {
+                            "type": "Ext.menu.Item",
+                            "reference": {
+                                "name": "items",
+                                "type": "array"
+                            },
+                            "codeClass": null,
+                            "userConfig": {
+                                "text": "Menu Item"
+                            },
+                            "configAlternates": {
+                                "text": "string"
+                            },
+                            "name": "MyMenuItem3",
+                            "designerId": "ff7cc8b2-621f-40c2-9bcf-8aea07882d4e"
+                        },
+                        {
+                            "type": "Ext.menu.Item",
+                            "reference": {
+                                "name": "items",
+                                "type": "array"
+                            },
+                            "codeClass": null,
+                            "userConfig": {
+                                "text": "Menu Item"
+                            },
+                            "configAlternates": {
+                                "text": "string"
+                            },
+                            "name": "MyMenuItem4",
+                            "designerId": "fff26255-d400-476d-8516-3ccfdaa2545c"
+                        },
+                        {
+                            "type": "Ext.menu.Item",
+                            "reference": {
+                                "name": "items",
+                                "type": "array"
+                            },
+                            "codeClass": null,
+                            "userConfig": {
+                                "text": "Menu Item"
+                            },
+                            "configAlternates": {
+                                "text": "string"
+                            },
+                            "name": "MyMenuItem5",
+                            "designerId": "313d49d6-85f2-4dcf-9789-23acba079db6"
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "type": "Ext.button.Button",
+            "reference": {
+                "name": "items",
+                "type": "array"
+            },
+            "codeClass": null,
+            "userConfig": {
+                "href": "www.google.com",
+                "layout|flex": null,
+                "text": "Link"
+            },
+            "configAlternates": {
+                "href": "string",
+                "layout|flex": "number",
+                "text": "string"
+            },
+            "name": "MyButton5",
+            "designerId": "a5c94c62-75fb-4d43-aa67-f08cddf69166"
+        }
+    ]
+}

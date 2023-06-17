@@ -6,17 +6,22 @@
     },
     "codeClass": null,
     "userConfig": {
+        "controllers": [
+            "action"
+        ],
         "name": "ExtJs6ExamplesWorld",
         "views": [
             "MyViewport",
             "ReadMe",
             "Setting",
-            "About"
+            "About",
+            "BasicButton"
         ]
     },
     "configAlternates": {
         "name": "string",
-        "views": "typedarray"
+        "views": "typedarray",
+        "controllers": "typedarray"
     },
     "name": "Application",
     "designerId": "application"

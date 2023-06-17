@@ -989,7 +989,9 @@ $include-ext-view-view: dynamic(true);;
 $include-ext-window-messagebox: dynamic(true);;
 $include-ext-window-toast: dynamic(true);;
 $include-ext-window-window: dynamic(true);;
+$include-extjs6examplesworld-controller-action: dynamic(true);;
 $include-extjs6examplesworld-view-about: dynamic(true);;
+$include-extjs6examplesworld-view-basicbutton: dynamic(true);;
 $include-extjs6examplesworld-view-myviewport: dynamic(true);;
 $include-extjs6examplesworld-view-myviewportviewcontroller: dynamic(true);;
 $include-extjs6examplesworld-view-myviewportviewmodel: dynamic(true);;
@@ -998,9 +1000,11 @@ $include-extjs6examplesworld-view-setting: dynamic(true);;
 $include-extjs6examplesworld-view-aboutviewcontroller: dynamic(true);;
 $include-extjs6examplesworld-view-aboutviewcontroller1: dynamic(true);;
 $include-extjs6examplesworld-view-aboutviewcontroller2: dynamic(true);;
+$include-extjs6examplesworld-view-aboutviewcontroller3: dynamic(true);;
 $include-extjs6examplesworld-view-aboutviewmodel: dynamic(true);;
 $include-extjs6examplesworld-view-aboutviewmodel1: dynamic(true);;
 $include-extjs6examplesworld-view-aboutviewmodel2: dynamic(true);;
+$include-extjs6examplesworld-view-aboutviewmodel3: dynamic(true);;
 $output-paths: ("path": "../resources");
 
 /* ======================== ETC ======================== */

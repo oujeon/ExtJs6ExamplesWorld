@@ -1,0 +1,18 @@
+{
+    "type": "Ext.app.ViewController",
+    "reference": {
+        "name": "items",
+        "type": "array"
+    },
+    "codeClass": null,
+    "userConfig": {
+        "designer|userAlias": "basicbutton",
+        "designer|userClassName": "aboutViewController3"
+    },
+    "configAlternates": {
+        "designer|userAlias": "string",
+        "designer|userClassName": "string"
+    },
+    "name": "aboutViewController3",
+    "designerId": "18439818-d77e-4519-9d6d-6a9917edec51"
+}
