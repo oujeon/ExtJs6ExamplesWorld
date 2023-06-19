@@ -104,7 +104,6 @@ Ext.define('ExtJs6ExamplesWorld.view.MyViewport', {
                 },
                 {
                     xtype: 'button',
-                    width: 150,
                     text: 'Components',
                     menu: {
                         xtype: 'menu',
@@ -121,7 +120,7 @@ Ext.define('ExtJs6ExamplesWorld.view.MyViewport', {
                                     workspace.removeAll();
                                     workspace.add(o);
                                 },
-                                text: 'Basic Button'
+                                text: 'Button'
                             }
                         ]
                     }

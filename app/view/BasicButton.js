@@ -121,12 +121,8 @@ Ext.define('ExtJs6ExamplesWorld.view.BasicButton', {
         },
         {
             xtype: 'button',
-            href: 'http://www.google.com/',
-            text: 'Link'
-        },
-        {
-            xtype: 'button',
             margin: 2,
+            href: 'http://www.google.com/',
             text: 'Link'
         },
         {

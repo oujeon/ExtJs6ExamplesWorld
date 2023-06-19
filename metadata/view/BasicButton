@@ -377,26 +377,6 @@
             "userConfig": {
                 "href": "http://www.google.com/",
                 "layout|flex": null,
-                "text": "Link"
-            },
-            "configAlternates": {
-                "href": "string",
-                "layout|flex": "number",
-                "text": "string"
-            },
-            "name": "MyButton5",
-            "designerId": "a5c94c62-75fb-4d43-aa67-f08cddf69166"
-        },
-        {
-            "type": "Ext.button.Button",
-            "reference": {
-                "name": "items",
-                "type": "array"
-            },
-            "codeClass": null,
-            "userConfig": {
-                "href": null,
-                "layout|flex": null,
                 "margin": 2,
                 "text": "Link"
             },
@@ -406,8 +386,8 @@
                 "text": "string",
                 "margin": "auto"
             },
-            "name": "MyButton6",
-            "designerId": "f11c6b46-0424-429e-bbef-2d8bba0b3c6e"
+            "name": "MyButton5",
+            "designerId": "a5c94c62-75fb-4d43-aa67-f08cddf69166"
         },
         {
             "type": "Ext.button.Segmented",

@@ -295,7 +295,7 @@
                     "userConfig": {
                         "layout|flex": null,
                         "text": "Components",
-                        "width": 150
+                        "width": null
                     },
                     "configAlternates": {
                         "layout|flex": "number",
@@ -329,7 +329,7 @@
                                     },
                                     "codeClass": null,
                                     "userConfig": {
-                                        "text": "Basic Button"
+                                        "text": "Button"
                                     },
                                     "configAlternates": {
                                         "text": "string"
