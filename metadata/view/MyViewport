@@ -369,6 +369,55 @@
                                             "designerId": "0f467173-44d5-458d-af4f-4e2d6972f037"
                                         }
                                     ]
+                                },
+                                {
+                                    "type": "Ext.menu.Item",
+                                    "reference": {
+                                        "name": "items",
+                                        "type": "array"
+                                    },
+                                    "codeClass": null,
+                                    "userConfig": {
+                                        "text": "Number Field"
+                                    },
+                                    "configAlternates": {
+                                        "text": "string"
+                                    },
+                                    "name": "MyMenuItem4",
+                                    "designerId": "b65367f9-e56e-4bde-aecc-61ded03ec756",
+                                    "cn": [
+                                        {
+                                            "type": "fixedfunction",
+                                            "reference": {
+                                                "name": "items",
+                                                "type": "array"
+                                            },
+                                            "codeClass": null,
+                                            "userConfig": {
+                                                "designer|params": [
+                                                    "item",
+                                                    "e"
+                                                ],
+                                                "fn": "handler",
+                                                "implHandler": [
+                                                    "var workspace = Ext.ComponentQuery.query('container[itemId=workspace]')[0];",
+                                                    "",
+                                                    "var o = Ext.create('ExtJs6ExamplesWorld.view.NumberField');",
+                                                    "",
+                                                    "//",
+                                                    "workspace.removeAll();",
+                                                    "workspace.add(o);"
+                                                ]
+                                            },
+                                            "configAlternates": {
+                                                "designer|params": "typedarray",
+                                                "fn": "string",
+                                                "implHandler": "code"
+                                            },
+                                            "name": "handler",
+                                            "designerId": "14fdf4e1-d556-44e3-bc62-1879309260f1"
+                                        }
+                                    ]
                                 }
                             ]
                         }

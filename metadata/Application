@@ -15,7 +15,8 @@
             "ReadMe",
             "Setting",
             "About",
-            "BasicButton"
+            "BasicButton",
+            "NumberField"
         ]
     },
     "configAlternates": {

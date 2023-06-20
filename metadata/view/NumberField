@@ -1,0 +1,144 @@
+{
+    "type": "Ext.container.Container",
+    "reference": {
+        "name": "items",
+        "type": "array"
+    },
+    "codeClass": null,
+    "userConfig": {
+        "container|align": "center",
+        "container|pack": "center",
+        "designer|userAlias": "NumberField",
+        "designer|userClassName": "NumberField",
+        "height": null,
+        "id": "NumberField",
+        "itemId": "NumberField",
+        "layout": "vbox",
+        "width": null
+    },
+    "configAlternates": {
+        "container|align": "string",
+        "container|pack": "string",
+        "designer|userAlias": "string",
+        "designer|userClassName": "string",
+        "height": "auto",
+        "id": "string",
+        "itemId": "string",
+        "layout": "string",
+        "width": "auto"
+    },
+    "name": "BasicButton1",
+    "designerId": "de3eed00-a73c-4a16-9cc2-de03dfde0e08",
+    "viewControllerInstanceId": "c8f29efd-456d-4d69-b516-6ff024bc2973",
+    "viewModelInstanceId": "dd7da69e-5860-4b6c-bcd4-f49748d89cf0",
+    "cn": [
+        {
+            "type": "Ext.form.field.Number",
+            "reference": {
+                "name": "items",
+                "type": "array"
+            },
+            "codeClass": null,
+            "userConfig": {
+                "enforceMaxLength": true,
+                "fieldLabel": "Number",
+                "growMax": 1,
+                "inputType": null,
+                "layout|flex": null,
+                "maxLength": 2,
+                "maxValue": 10,
+                "maxWidth": 200,
+                "minValue": 1,
+                "readOnly": null
+            },
+            "configAlternates": {
+                "enforceMaxLength": "boolean",
+                "fieldLabel": "string",
+                "growMax": "number",
+                "inputType": "string",
+                "layout|flex": "number",
+                "maxLength": "number",
+                "maxValue": "number",
+                "maxWidth": "number",
+                "minValue": "number",
+                "readOnly": "boolean"
+            },
+            "name": "MyNumberField",
+            "designerId": "9f0a2065-0307-43ac-b71f-4a300cceb86b"
+        },
+        {
+            "type": "Ext.form.field.Number",
+            "reference": {
+                "name": "items",
+                "type": "array"
+            },
+            "codeClass": null,
+            "userConfig": {
+                "enforceMaxLength": true,
+                "fieldLabel": "Without spinner",
+                "growMax": 1,
+                "hideTrigger": true,
+                "inputType": null,
+                "layout|flex": null,
+                "maxLength": 2,
+                "maxValue": 10,
+                "maxWidth": 200,
+                "minValue": 1,
+                "readOnly": null
+            },
+            "configAlternates": {
+                "enforceMaxLength": "boolean",
+                "fieldLabel": "string",
+                "growMax": "number",
+                "inputType": "string",
+                "layout|flex": "number",
+                "maxLength": "number",
+                "maxValue": "number",
+                "maxWidth": "number",
+                "minValue": "number",
+                "readOnly": "boolean",
+                "hideTrigger": "boolean"
+            },
+            "name": "MyNumberField1",
+            "designerId": "ce9f897a-ec43-454d-853f-27c0a40f5d90"
+        },
+        {
+            "type": "Ext.form.field.Number",
+            "reference": {
+                "name": "items",
+                "type": "array"
+            },
+            "codeClass": null,
+            "userConfig": {
+                "enforceMaxLength": true,
+                "fieldLabel": "With a step of 0.4",
+                "growMax": 1,
+                "hideTrigger": null,
+                "inputType": null,
+                "layout|flex": null,
+                "maxLength": 3,
+                "maxValue": 100,
+                "maxWidth": 200,
+                "minValue": -100,
+                "readOnly": null,
+                "step": 0.1
+            },
+            "configAlternates": {
+                "enforceMaxLength": "boolean",
+                "fieldLabel": "string",
+                "growMax": "number",
+                "inputType": "string",
+                "layout|flex": "number",
+                "maxLength": "number",
+                "maxValue": "number",
+                "maxWidth": "number",
+                "minValue": "number",
+                "readOnly": "boolean",
+                "hideTrigger": "boolean",
+                "step": "number"
+            },
+            "name": "MyNumberField2",
+            "designerId": "1e9c4ee8-ead6-4d4b-ac0f-729bd7889eed"
+        }
+    ]
+}
