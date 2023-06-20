@@ -8,11 +8,11 @@
     "userConfig": {
         "container|align": "center",
         "container|pack": "center",
-        "designer|userAlias": "BasicButton",
-        "designer|userClassName": "BasicButton",
+        "designer|userAlias": "Button",
+        "designer|userClassName": "Button",
         "height": null,
-        "id": "BasicButton",
-        "itemId": "BasicButton",
+        "id": "Button",
+        "itemId": "Button",
         "layout": "vbox",
         "width": null
     },
@@ -63,13 +63,15 @@
                 "disabled": true,
                 "layout|flex": null,
                 "margin": 2,
-                "text": "Disabled"
+                "text": "Disabled",
+                "width": null
             },
             "configAlternates": {
                 "layout|flex": "number",
                 "text": "string",
                 "disabled": "boolean",
-                "margin": "auto"
+                "margin": "auto",
+                "width": "auto"
             },
             "name": "MyButton10",
             "designerId": "7938950b-3d56-463e-aa02-cc1c9c663e09"
@@ -85,13 +87,15 @@
                 "disabled": null,
                 "layout|flex": null,
                 "margin": 2,
-                "text": "Handler"
+                "text": "Handler",
+                "width": null
             },
             "configAlternates": {
                 "layout|flex": "number",
                 "text": "string",
                 "disabled": "boolean",
-                "margin": "auto"
+                "margin": "auto",
+                "width": "auto"
             },
             "name": "MyButton",
             "designerId": "70208296-ed28-40ed-a519-c2797ff7493a",
@@ -133,6 +137,7 @@
             "userConfig": {
                 "designer|createAlias": null,
                 "designer|displayName": null,
+                "height": null,
                 "id": "Action",
                 "itemId": "Action",
                 "layout|flex": null,
@@ -144,7 +149,8 @@
                 "id": "string",
                 "itemId": "string",
                 "layout|flex": "number",
-                "text": "string"
+                "text": "string",
+                "height": "auto"
             },
             "name": "MyButton1",
             "designerId": "c3c80346-a3d3-4a1d-b05a-d2d1754ea376"
@@ -157,6 +163,7 @@
             },
             "codeClass": null,
             "userConfig": {
+                "height": null,
                 "iconCls": "button-home-medium",
                 "layout|flex": null,
                 "margin": 2,
@@ -166,7 +173,8 @@
                 "iconCls": "string",
                 "layout|flex": "number",
                 "margin": "auto",
-                "text": "string"
+                "text": "string",
+                "height": "auto"
             },
             "name": "MyButton2",
             "designerId": "9b3ab765-83e6-453a-881d-8b54ff3c51d0"
@@ -180,6 +188,7 @@
             "codeClass": null,
             "userConfig": {
                 "enableToggle": true,
+                "height": null,
                 "layout|flex": null,
                 "margin": 2,
                 "text": "Toggle Buttons"
@@ -188,7 +197,8 @@
                 "enableToggle": "boolean",
                 "layout|flex": "number",
                 "margin": "auto",
-                "text": "string"
+                "text": "string",
+                "height": "auto"
             },
             "name": "MyButton3",
             "designerId": "3003fa30-4679-472a-9b81-b8cf0972bed3"
@@ -201,12 +211,14 @@
             },
             "codeClass": null,
             "userConfig": {
+                "height": null,
                 "layout|flex": null,
                 "text": "Menu"
             },
             "configAlternates": {
                 "layout|flex": "number",
-                "text": "string"
+                "text": "string",
+                "height": "auto"
             },
             "name": "MyButton4",
             "designerId": "2b5da0f6-c00c-4540-888d-c6454d8564a8",
@@ -287,6 +299,7 @@
             },
             "codeClass": null,
             "userConfig": {
+                "height": null,
                 "layout|flex": null,
                 "margin": 2,
                 "text": "Split"
@@ -294,7 +307,8 @@
             "configAlternates": {
                 "layout|flex": "number",
                 "margin": "auto",
-                "text": "string"
+                "text": "string",
+                "height": "auto"
             },
             "name": "MySplitButton",
             "designerId": "799a23ea-0600-4dc6-b2f9-c5e91f87f049",
@@ -375,6 +389,7 @@
             },
             "codeClass": null,
             "userConfig": {
+                "height": null,
                 "href": "http://www.google.com/",
                 "layout|flex": null,
                 "margin": 2,
@@ -384,7 +399,8 @@
                 "href": "string",
                 "layout|flex": "number",
                 "text": "string",
-                "margin": "auto"
+                "margin": "auto",
+                "height": "auto"
             },
             "name": "MyButton5",
             "designerId": "a5c94c62-75fb-4d43-aa67-f08cddf69166"
@@ -399,8 +415,7 @@
             "userConfig": {
                 "allowMultiple": null,
                 "height": null,
-                "layout|flex": null,
-                "width": null
+                "layout|flex": null
             },
             "configAlternates": {
                 "allowMultiple": "boolean",
@@ -500,8 +515,7 @@
                 "height": null,
                 "layout|flex": null,
                 "margin": 2,
-                "vertical": true,
-                "width": null
+                "vertical": true
             },
             "configAlternates": {
                 "allowMultiple": "boolean",

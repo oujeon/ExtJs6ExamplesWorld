@@ -68,6 +68,19 @@ Ext.define('ExtJs6ExamplesWorld.view.MyViewport', {
                                 handler: function(item, e) {
                                     var workspace = Ext.ComponentQuery.query('container[itemId=workspace]')[0];
 
+                                    var o = Ext.create('ExtJs6ExamplesWorld.view.Sample');
+
+                                    //
+                                    workspace.removeAll();
+                                    workspace.add(o);
+                                },
+                                text: 'Sample'
+                            },
+                            {
+                                xtype: 'menuitem',
+                                handler: function(item, e) {
+                                    var workspace = Ext.ComponentQuery.query('container[itemId=workspace]')[0];
+
                                     var setting = Ext.create('ExtJs6ExamplesWorld.view.Setting');
 
                                     //
@@ -114,7 +127,7 @@ Ext.define('ExtJs6ExamplesWorld.view.MyViewport', {
                                 handler: function(item, e) {
                                     var workspace = Ext.ComponentQuery.query('container[itemId=workspace]')[0];
 
-                                    var o = Ext.create('ExtJs6ExamplesWorld.view.BasicButton');
+                                    var o = Ext.create('ExtJs6ExamplesWorld.view.Button');
 
                                     //
                                     workspace.removeAll();

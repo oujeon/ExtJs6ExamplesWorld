@@ -6,7 +6,7 @@
     },
     "codeClass": null,
     "userConfig": {
-        "designer|userAlias": "basicbutton",
+        "designer|userAlias": "button",
         "designer|userClassName": "aboutViewController3"
     },
     "configAlternates": {

@@ -25,8 +25,9 @@ Ext.application({
         'ReadMe',
         'Setting',
         'About',
-        'BasicButton',
-        'NumberField'
+        'Button',
+        'NumberField',
+        'Sample'
     ],
     controllers: [
         'action'

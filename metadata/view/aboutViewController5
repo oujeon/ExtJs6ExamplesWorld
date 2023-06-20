@@ -1,18 +1,18 @@
 {
-    "type": "Ext.app.ViewModel",
+    "type": "Ext.app.ViewController",
     "reference": {
         "name": "items",
         "type": "array"
     },
     "codeClass": null,
     "userConfig": {
-        "designer|userAlias": "button",
-        "designer|userClassName": "aboutViewModel3"
+        "designer|userAlias": "sample",
+        "designer|userClassName": "aboutViewController5"
     },
     "configAlternates": {
         "designer|userAlias": "string",
         "designer|userClassName": "string"
     },
-    "name": "aboutViewModel3",
-    "designerId": "179b4856-8ef7-4236-a1db-de630b1cbd7a"
+    "name": "aboutViewController5",
+    "designerId": "2ebc388f-0bd5-424d-bcc8-f59aa858c700"
 }

@@ -15,6 +15,6 @@
 
 Ext.define('ExtJs6ExamplesWorld.view.aboutViewModel3', {
     extend: 'Ext.app.ViewModel',
-    alias: 'viewmodel.basicbutton'
+    alias: 'viewmodel.button'
 
 });

@@ -1,0 +1,86 @@
+{
+    "type": "Ext.container.Container",
+    "reference": {
+        "name": "items",
+        "type": "array"
+    },
+    "codeClass": null,
+    "userConfig": {
+        "designer|userAlias": "sample",
+        "designer|userClassName": "Sample",
+        "height": null,
+        "id": "Sample",
+        "itemId": "Sample",
+        "layout": "border",
+        "width": null
+    },
+    "configAlternates": {
+        "container|align": "string",
+        "container|pack": "string",
+        "designer|userAlias": "string",
+        "designer|userClassName": "string",
+        "height": "auto",
+        "id": "string",
+        "itemId": "string",
+        "layout": "string",
+        "width": "auto"
+    },
+    "name": "About1",
+    "designerId": "5f1d4c4b-7c09-4f04-90a8-3e5db7dcf541",
+    "viewControllerInstanceId": "2ebc388f-0bd5-424d-bcc8-f59aa858c700",
+    "viewModelInstanceId": "8621a675-5104-4325-a21d-cc62a81d2a6f",
+    "cn": [
+        {
+            "type": "Ext.panel.Panel",
+            "reference": {
+                "name": "items",
+                "type": "array"
+            },
+            "codeClass": null,
+            "userConfig": {
+                "collapsible": null,
+                "layout|region": "center",
+                "margin": 5,
+                "title": "Components"
+            },
+            "configAlternates": {
+                "collapsible": "boolean",
+                "layout|region": "string",
+                "margin": "auto",
+                "title": "string"
+            },
+            "name": "MyPanel1",
+            "designerId": "70818876-8793-480c-8778-d924494aff6b"
+        },
+        {
+            "type": "Ext.panel.Panel",
+            "reference": {
+                "name": "items",
+                "type": "array"
+            },
+            "codeClass": null,
+            "userConfig": {
+                "collapsible": true,
+                "html": "<pre>\nExt.define('ExtJs6ExamplesWorld.view.Sample', {\n    extend: 'Ext.container.Container',\n    alias: 'widget.sample',\n\n    requires: [\n        'ExtJs6ExamplesWorld.view.aboutViewModel5',\n        'Ext.panel.Panel'\n    ],\n\n    viewModel: {\n        type: 'sample'\n    },\n    id: 'Sample',\n    itemId: 'Sample',\n    layout: 'border',\n\n    items: [\n        {\n            xtype: 'panel',\n            floatable: false,\n            region: 'east',\n            split: true,\n            margin: 5,\n            width: 300,\n            collapsible: true,\n            title: 'My Panel'\n        },\n        {\n            xtype: 'panel',\n            region: 'center',\n            margin: 5,\n            title: 'My Panel'\n        }\n    ]\n\n});\n</pre>",
+                "layout|floatable": false,
+                "layout|region": "east",
+                "layout|split": true,
+                "margin": 5,
+                "title": "Source",
+                "width": 400
+            },
+            "configAlternates": {
+                "html": "string",
+                "collapsible": "boolean",
+                "layout|floatable": "boolean",
+                "layout|region": "string",
+                "layout|split": "boolean",
+                "margin": "auto",
+                "title": "string",
+                "width": "auto"
+            },
+            "name": "MyPanel",
+            "designerId": "27646d32-d8eb-457c-9b79-939fd08f45ac"
+        }
+    ]
+}

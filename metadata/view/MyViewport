@@ -145,13 +145,62 @@
                                     },
                                     "codeClass": null,
                                     "userConfig": {
-                                        "text": "Setting"
+                                        "text": "Sample"
                                     },
                                     "configAlternates": {
                                         "text": "string"
                                     },
                                     "name": "MyMenuItem2",
                                     "designerId": "db677b10-9011-4606-a226-f2990c8bb079",
+                                    "cn": [
+                                        {
+                                            "type": "fixedfunction",
+                                            "reference": {
+                                                "name": "items",
+                                                "type": "array"
+                                            },
+                                            "codeClass": null,
+                                            "userConfig": {
+                                                "designer|params": [
+                                                    "item",
+                                                    "e"
+                                                ],
+                                                "fn": "handler",
+                                                "implHandler": [
+                                                    "var workspace = Ext.ComponentQuery.query('container[itemId=workspace]')[0];",
+                                                    "",
+                                                    "var o = Ext.create('ExtJs6ExamplesWorld.view.Sample');",
+                                                    "",
+                                                    "//",
+                                                    "workspace.removeAll();",
+                                                    "workspace.add(o);"
+                                                ]
+                                            },
+                                            "configAlternates": {
+                                                "designer|params": "typedarray",
+                                                "fn": "string",
+                                                "implHandler": "code"
+                                            },
+                                            "name": "handler",
+                                            "designerId": "51c9ba4f-40ff-4563-9bba-11c563afba43"
+                                        }
+                                    ]
+                                },
+                                {
+                                    "type": "Ext.menu.Item",
+                                    "reference": {
+                                        "name": "items",
+                                        "type": "array"
+                                    },
+                                    "codeClass": null,
+                                    "userConfig": {
+                                        "text": "Setting"
+                                    },
+                                    "configAlternates": {
+                                        "text": "string"
+                                    },
+                                    "name": "MyMenuItem6",
+                                    "designerId": "49bbb12b-7b02-4f50-813f-4ea5bb9de63d",
                                     "cn": [
                                         {
                                             "type": "fixedfunction",
@@ -182,7 +231,7 @@
                                                 "implHandler": "code"
                                             },
                                             "name": "handler",
-                                            "designerId": "51c9ba4f-40ff-4563-9bba-11c563afba43"
+                                            "designerId": "d6041048-d883-4e1c-b312-711ad97f17b7"
                                         }
                                     ]
                                 },
@@ -353,7 +402,7 @@
                                                 "implHandler": [
                                                     "var workspace = Ext.ComponentQuery.query('container[itemId=workspace]')[0];",
                                                     "",
-                                                    "var o = Ext.create('ExtJs6ExamplesWorld.view.BasicButton');",
+                                                    "var o = Ext.create('ExtJs6ExamplesWorld.view.Button');",
                                                     "",
                                                     "//",
                                                     "workspace.removeAll();",
