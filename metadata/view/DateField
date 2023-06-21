@@ -1,0 +1,74 @@
+{
+    "type": "Ext.container.Container",
+    "reference": {
+        "name": "items",
+        "type": "array"
+    },
+    "codeClass": null,
+    "userConfig": {
+        "container|align": "center",
+        "container|pack": "center",
+        "designer|userAlias": "DateField",
+        "designer|userClassName": "DateField",
+        "height": null,
+        "id": "DateField",
+        "itemId": "DateField",
+        "layout": "vbox",
+        "width": null
+    },
+    "configAlternates": {
+        "container|align": "string",
+        "container|pack": "string",
+        "designer|userAlias": "string",
+        "designer|userClassName": "string",
+        "height": "auto",
+        "id": "string",
+        "itemId": "string",
+        "layout": "string",
+        "width": "auto"
+    },
+    "name": "Sample1",
+    "designerId": "8ec41e08-e5e3-4bf5-b86a-a0e45b61520a",
+    "viewControllerInstanceId": "da2d83c1-9f89-4694-be73-31a958ba4bb9",
+    "viewModelInstanceId": "aebe2d43-dcd9-4987-a68f-5a59c9a7366d",
+    "cn": [
+        {
+            "type": "Ext.form.field.Date",
+            "reference": {
+                "name": "items",
+                "type": "array"
+            },
+            "codeClass": null,
+            "userConfig": {
+                "fieldLabel": "Date",
+                "format": "Y-m-d",
+                "width": null
+            },
+            "configAlternates": {
+                "fieldLabel": "string",
+                "format": "string",
+                "width": "auto"
+            },
+            "name": "MyDateField",
+            "designerId": "6608c576-d819-4c10-8cd0-dc4024141f11"
+        },
+        {
+            "type": "Ext.form.Label",
+            "reference": {
+                "name": "items",
+                "type": "array"
+            },
+            "codeClass": null,
+            "userConfig": {
+                "layout|flex": null,
+                "text": "Have no Month in Sencha Architect"
+            },
+            "configAlternates": {
+                "layout|flex": "number",
+                "text": "string"
+            },
+            "name": "MyLabel",
+            "designerId": "2a3331be-cba3-4655-beca-b0aadb5b185f"
+        }
+    ]
+}

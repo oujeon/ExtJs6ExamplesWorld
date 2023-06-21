@@ -10,7 +10,8 @@
         "designer|userClassName": "Library",
         "libraryRequires": [
             "font-awesome",
-            "ux"
+            "ux",
+            "calendar"
         ],
         "theme": "MyTritonTheme"
     },
