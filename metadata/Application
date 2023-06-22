@@ -9,7 +9,13 @@
         "controllers": [
             "action"
         ],
+        "models": [
+            "ComboBox"
+        ],
         "name": "ExtJs6ExamplesWorld",
+        "stores": [
+            "ComboBox"
+        ],
         "views": [
             "MyViewport",
             "ReadMe",
@@ -17,14 +23,16 @@
             "About",
             "Button",
             "NumberField",
-            "Sample",
-            "DateField"
+            "DateField",
+            "ComboBox"
         ]
     },
     "configAlternates": {
         "name": "string",
         "views": "typedarray",
-        "controllers": "typedarray"
+        "controllers": "typedarray",
+        "models": "typedarray",
+        "stores": "typedarray"
     },
     "name": "Application",
     "designerId": "application"

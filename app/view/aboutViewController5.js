@@ -15,5 +15,5 @@
 
 Ext.define('ExtJs6ExamplesWorld.view.aboutViewController5', {
     extend: 'Ext.app.ViewController',
-    alias: 'controller.sample'
+    alias: 'controller.combobox'
 });

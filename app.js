@@ -20,6 +20,12 @@ Ext.Loader.setConfig({
 
 
 Ext.application({
+    models: [
+        'ComboBox'
+    ],
+    stores: [
+        'ComboBox'
+    ],
     views: [
         'MyViewport',
         'ReadMe',
@@ -27,8 +33,8 @@ Ext.application({
         'About',
         'Button',
         'NumberField',
-        'Sample',
-        'DateField'
+        'DateField',
+        'ComboBox'
     ],
     controllers: [
         'action'

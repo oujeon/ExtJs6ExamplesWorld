@@ -1,0 +1,60 @@
+{
+    "type": "Ext.container.Container",
+    "reference": {
+        "name": "items",
+        "type": "array"
+    },
+    "codeClass": null,
+    "userConfig": {
+        "container|align": "center",
+        "container|pack": "center",
+        "designer|userAlias": "ComboBox",
+        "designer|userClassName": "ComboBox",
+        "height": null,
+        "id": "ComboBox",
+        "itemId": "ComboBox",
+        "layout": "vbox",
+        "width": null
+    },
+    "configAlternates": {
+        "container|align": "string",
+        "container|pack": "string",
+        "designer|userAlias": "string",
+        "designer|userClassName": "string",
+        "height": "auto",
+        "id": "string",
+        "itemId": "string",
+        "layout": "string",
+        "width": "auto"
+    },
+    "name": "NumberField1",
+    "designerId": "bd06b2fb-16bd-4ce5-b8bd-d1b956d13461",
+    "viewControllerInstanceId": "754a06cc-2e96-4340-9325-5b13c4c7d479",
+    "viewModelInstanceId": "14a6b3f0-6475-4143-9250-f9b0a3dc06e1",
+    "cn": [
+        {
+            "type": "Ext.form.field.ComboBox",
+            "reference": {
+                "name": "items",
+                "type": "array"
+            },
+            "codeClass": null,
+            "userConfig": {
+                "displayField": "abbr",
+                "fieldLabel": "Combobox",
+                "layout|flex": null,
+                "queryMode": "local",
+                "store": "ComboBox"
+            },
+            "configAlternates": {
+                "fieldLabel": "string",
+                "layout|flex": "number",
+                "displayField": "datafield",
+                "queryMode": "string",
+                "store": "store"
+            },
+            "name": "MyComboBox",
+            "designerId": "97d8bba8-4acd-4fac-935c-1549fd1ed836"
+        }
+    ]
+}

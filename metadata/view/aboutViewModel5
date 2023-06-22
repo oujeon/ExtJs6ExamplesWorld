@@ -6,7 +6,7 @@
     },
     "codeClass": null,
     "userConfig": {
-        "designer|userAlias": "sample",
+        "designer|userAlias": "combobox",
         "designer|userClassName": "aboutViewModel5"
     },
     "configAlternates": {
@@ -14,5 +14,5 @@
         "designer|userClassName": "string"
     },
     "name": "aboutViewModel5",
-    "designerId": "8621a675-5104-4325-a21d-cc62a81d2a6f"
+    "designerId": "14a6b3f0-6475-4143-9250-f9b0a3dc06e1"
 }
