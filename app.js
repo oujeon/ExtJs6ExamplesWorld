@@ -34,7 +34,8 @@ Ext.application({
         'Button',
         'NumberField',
         'DateField',
-        'ComboBox'
+        'ComboBox',
+        'FileField'
     ],
     controllers: [
         'action'

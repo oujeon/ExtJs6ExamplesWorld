@@ -565,6 +565,55 @@
                                             "designerId": "a8d9cf9b-9d36-4713-a76c-8d4fc66449fd"
                                         }
                                     ]
+                                },
+                                {
+                                    "type": "Ext.menu.Item",
+                                    "reference": {
+                                        "name": "items",
+                                        "type": "array"
+                                    },
+                                    "codeClass": null,
+                                    "userConfig": {
+                                        "text": "FileField"
+                                    },
+                                    "configAlternates": {
+                                        "text": "string"
+                                    },
+                                    "name": "MyMenuItem5",
+                                    "designerId": "4d827ae7-b38c-435c-a64c-86c5821c323a",
+                                    "cn": [
+                                        {
+                                            "type": "fixedfunction",
+                                            "reference": {
+                                                "name": "items",
+                                                "type": "array"
+                                            },
+                                            "codeClass": null,
+                                            "userConfig": {
+                                                "designer|params": [
+                                                    "item",
+                                                    "e"
+                                                ],
+                                                "fn": "handler",
+                                                "implHandler": [
+                                                    "var workspace = Ext.ComponentQuery.query('container[itemId=workspace]')[0];",
+                                                    "",
+                                                    "var o = Ext.create('ExtJs6ExamplesWorld.view.FileField');",
+                                                    "",
+                                                    "//",
+                                                    "workspace.removeAll();",
+                                                    "workspace.add(o);"
+                                                ]
+                                            },
+                                            "configAlternates": {
+                                                "designer|params": "typedarray",
+                                                "fn": "string",
+                                                "implHandler": "code"
+                                            },
+                                            "name": "handler",
+                                            "designerId": "be8282f1-d6a1-4872-bed9-eabef7a6cd99"
+                                        }
+                                    ]
                                 }
                             ]
                         }

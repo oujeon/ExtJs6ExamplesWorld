@@ -1,0 +1,56 @@
+{
+    "type": "Ext.container.Container",
+    "reference": {
+        "name": "items",
+        "type": "array"
+    },
+    "codeClass": null,
+    "userConfig": {
+        "container|align": "center",
+        "container|pack": "center",
+        "designer|userAlias": "FileField",
+        "designer|userClassName": "FileField",
+        "height": null,
+        "id": "FileField",
+        "itemId": "FileField",
+        "layout": "vbox",
+        "width": null
+    },
+    "configAlternates": {
+        "container|align": "string",
+        "container|pack": "string",
+        "designer|userAlias": "string",
+        "designer|userClassName": "string",
+        "height": "auto",
+        "id": "string",
+        "itemId": "string",
+        "layout": "string",
+        "width": "auto"
+    },
+    "name": "ComboBox1",
+    "designerId": "b86aaf4e-6383-426f-b240-11c5de5ae1c8",
+    "viewControllerInstanceId": "adef18f8-4776-4582-beb9-67fdb958591f",
+    "viewModelInstanceId": "819e6277-3fac-442f-8c55-3d15754b0776",
+    "cn": [
+        {
+            "type": "Ext.form.field.File",
+            "reference": {
+                "name": "items",
+                "type": "array"
+            },
+            "codeClass": null,
+            "userConfig": {
+                "fieldLabel": "filefield",
+                "layout|flex": null,
+                "width": 600
+            },
+            "configAlternates": {
+                "fieldLabel": "string",
+                "layout|flex": "number",
+                "width": "auto"
+            },
+            "name": "MyFileUpload",
+            "designerId": "383b3619-d165-4857-8ce0-904a9ae52bd0"
+        }
+    ]
+}

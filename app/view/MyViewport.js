@@ -173,6 +173,19 @@ Ext.define('ExtJs6ExamplesWorld.view.MyViewport', {
                                     workspace.add(o);
                                 },
                                 text: 'ComboBox'
+                            },
+                            {
+                                xtype: 'menuitem',
+                                handler: function(item, e) {
+                                    var workspace = Ext.ComponentQuery.query('container[itemId=workspace]')[0];
+
+                                    var o = Ext.create('ExtJs6ExamplesWorld.view.FileField');
+
+                                    //
+                                    workspace.removeAll();
+                                    workspace.add(o);
+                                },
+                                text: 'FileField'
                             }
                         ]
                     }
