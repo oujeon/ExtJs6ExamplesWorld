@@ -186,6 +186,45 @@ Ext.define('ExtJs6ExamplesWorld.view.MyViewport', {
                                     workspace.add(o);
                                 },
                                 text: 'FileField'
+                            },
+                            {
+                                xtype: 'menuitem',
+                                handler: function(item, e) {
+                                    var workspace = Ext.ComponentQuery.query('container[itemId=workspace]')[0];
+
+                                    var o = Ext.create('ExtJs6ExamplesWorld.view.TextareaField');
+
+                                    //
+                                    workspace.removeAll();
+                                    workspace.add(o);
+                                },
+                                text: 'TextareaField'
+                            },
+                            {
+                                xtype: 'menuitem',
+                                handler: function(item, e) {
+                                    var workspace = Ext.ComponentQuery.query('container[itemId=workspace]')[0];
+
+                                    var o = Ext.create('ExtJs6ExamplesWorld.view.Radio');
+
+                                    //
+                                    workspace.removeAll();
+                                    workspace.add(o);
+                                },
+                                text: 'Radio'
+                            },
+                            {
+                                xtype: 'menuitem',
+                                handler: function(item, e) {
+                                    var workspace = Ext.ComponentQuery.query('container[itemId=workspace]')[0];
+
+                                    var o = Ext.create('ExtJs6ExamplesWorld.view.Slider');
+
+                                    //
+                                    workspace.removeAll();
+                                    workspace.add(o);
+                                },
+                                text: 'Slider'
                             }
                         ]
                     }

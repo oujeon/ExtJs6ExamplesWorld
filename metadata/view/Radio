@@ -1,0 +1,134 @@
+{
+    "type": "Ext.container.Container",
+    "reference": {
+        "name": "items",
+        "type": "array"
+    },
+    "codeClass": null,
+    "userConfig": {
+        "container|align": "center",
+        "container|pack": "center",
+        "designer|userAlias": "Radio",
+        "designer|userClassName": "Radio",
+        "height": null,
+        "id": "Radio",
+        "itemId": "Radio",
+        "layout": "vbox",
+        "width": null
+    },
+    "configAlternates": {
+        "container|align": "string",
+        "container|pack": "string",
+        "designer|userAlias": "string",
+        "designer|userClassName": "string",
+        "height": "auto",
+        "id": "string",
+        "itemId": "string",
+        "layout": "string",
+        "width": "auto"
+    },
+    "name": "FileField2",
+    "designerId": "836ff0cf-effc-46b1-ba2c-21fc1e7d97da",
+    "viewControllerInstanceId": "f0f79f53-f6df-4f18-b99b-9bf60234784d",
+    "viewModelInstanceId": "de3b7ca3-2313-49c5-9812-f72c0327d0ec",
+    "cn": [
+        {
+            "type": "Ext.form.field.Radio",
+            "reference": {
+                "name": "items",
+                "type": "array"
+            },
+            "codeClass": null,
+            "userConfig": {
+                "boxLabel": "Box Label",
+                "dock": null,
+                "fieldLabel": "Radio",
+                "layout|flex": null
+            },
+            "configAlternates": {
+                "boxLabel": "string",
+                "fieldLabel": "string",
+                "layout|flex": "number",
+                "dock": "string"
+            },
+            "name": "MyRadio",
+            "designerId": "10fb0b55-a3ce-450c-ab21-5de5918b4ac4"
+        },
+        {
+            "type": "Ext.form.RadioGroup",
+            "reference": {
+                "name": "items",
+                "type": "array"
+            },
+            "codeClass": null,
+            "userConfig": {
+                "fieldLabel": "Label",
+                "layout|flex": null,
+                "width": 400
+            },
+            "configAlternates": {
+                "fieldLabel": "string",
+                "layout|flex": "number",
+                "width": "auto"
+            },
+            "name": "MyRadioGroup",
+            "designerId": "44656e09-30e1-4369-8e0b-e0f7e8e8cdb4",
+            "cn": [
+                {
+                    "type": "Ext.form.field.Radio",
+                    "reference": {
+                        "name": "items",
+                        "type": "array"
+                    },
+                    "codeClass": null,
+                    "userConfig": {
+                        "boxLabel": "Box Label",
+                        "fieldLabel": null
+                    },
+                    "configAlternates": {
+                        "boxLabel": "string",
+                        "fieldLabel": "string"
+                    },
+                    "name": "MyRadio2",
+                    "designerId": "198fc80c-135e-446b-8ee6-5de580038d9c"
+                },
+                {
+                    "type": "Ext.form.field.Radio",
+                    "reference": {
+                        "name": "items",
+                        "type": "array"
+                    },
+                    "codeClass": null,
+                    "userConfig": {
+                        "boxLabel": "Box Label",
+                        "fieldLabel": null
+                    },
+                    "configAlternates": {
+                        "boxLabel": "string",
+                        "fieldLabel": "string"
+                    },
+                    "name": "MyRadio3",
+                    "designerId": "60b8dcdf-26bb-4ce5-b298-f9338803ef68"
+                },
+                {
+                    "type": "Ext.form.field.Radio",
+                    "reference": {
+                        "name": "items",
+                        "type": "array"
+                    },
+                    "codeClass": null,
+                    "userConfig": {
+                        "boxLabel": "Box Label",
+                        "fieldLabel": null
+                    },
+                    "configAlternates": {
+                        "boxLabel": "string",
+                        "fieldLabel": "string"
+                    },
+                    "name": "MyRadio4",
+                    "designerId": "5020ddcd-5b37-417d-8923-30ab2d48fac9"
+                }
+            ]
+        }
+    ]
+}

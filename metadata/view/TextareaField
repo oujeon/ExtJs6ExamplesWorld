@@ -1,0 +1,58 @@
+{
+    "type": "Ext.container.Container",
+    "reference": {
+        "name": "items",
+        "type": "array"
+    },
+    "codeClass": null,
+    "userConfig": {
+        "container|align": "center",
+        "container|pack": "center",
+        "designer|userAlias": "TextareaField",
+        "designer|userClassName": "TextareaField",
+        "height": null,
+        "id": "TextareaField",
+        "itemId": "TextareaField",
+        "layout": "vbox",
+        "width": null
+    },
+    "configAlternates": {
+        "container|align": "string",
+        "container|pack": "string",
+        "designer|userAlias": "string",
+        "designer|userClassName": "string",
+        "height": "auto",
+        "id": "string",
+        "itemId": "string",
+        "layout": "string",
+        "width": "auto"
+    },
+    "name": "FileField1",
+    "designerId": "f2a6d1bc-74d4-4350-8a7e-23b299e6dd7b",
+    "viewControllerInstanceId": "04d59f3f-0989-4fcc-89fc-8b5940c3c261",
+    "viewModelInstanceId": "ea529efd-adde-4e54-b4ef-9f3346e20aca",
+    "cn": [
+        {
+            "type": "Ext.form.field.TextArea",
+            "reference": {
+                "name": "items",
+                "type": "array"
+            },
+            "codeClass": null,
+            "userConfig": {
+                "fieldLabel": "TextareaField",
+                "height": 180,
+                "layout|flex": null,
+                "width": 381
+            },
+            "configAlternates": {
+                "fieldLabel": "string",
+                "height": "auto",
+                "layout|flex": "number",
+                "width": "auto"
+            },
+            "name": "MyTextArea",
+            "designerId": "f48258e4-09b1-4045-af39-6e6628df69e7"
+        }
+    ]
+}

@@ -1,0 +1,98 @@
+{
+    "type": "Ext.container.Container",
+    "reference": {
+        "name": "items",
+        "type": "array"
+    },
+    "codeClass": null,
+    "userConfig": {
+        "container|align": "center",
+        "container|pack": "center",
+        "designer|userAlias": "Slider",
+        "designer|userClassName": "Slider",
+        "height": null,
+        "id": "Slider",
+        "itemId": "Slider",
+        "layout": "vbox",
+        "width": null
+    },
+    "configAlternates": {
+        "container|align": "string",
+        "container|pack": "string",
+        "designer|userAlias": "string",
+        "designer|userClassName": "string",
+        "height": "auto",
+        "id": "string",
+        "itemId": "string",
+        "layout": "string",
+        "width": "auto"
+    },
+    "name": "FileField1",
+    "designerId": "14fad49f-11b2-45d2-b837-db044514d481",
+    "viewControllerInstanceId": "12ae05bd-9e83-4a43-82d6-b0a2fd266060",
+    "viewModelInstanceId": "7eec4372-2636-453d-8997-1c1f1b4638f5",
+    "cn": [
+        {
+            "type": "Ext.slider.Multi",
+            "reference": {
+                "name": "items",
+                "type": "array"
+            },
+            "codeClass": null,
+            "userConfig": {
+                "fieldLabel": "Label",
+                "layout|flex": null,
+                "values": [
+                    "[10,40]"
+                ],
+                "width": 400
+            },
+            "configAlternates": {
+                "fieldLabel": "string",
+                "layout|flex": "number",
+                "values": "array",
+                "width": "auto"
+            },
+            "name": "MyMultiSlider",
+            "designerId": "b600fcc3-add4-4e48-8e9f-fbd5893c0ceb"
+        },
+        {
+            "type": "Ext.slider.Single",
+            "reference": {
+                "name": "items",
+                "type": "array"
+            },
+            "codeClass": null,
+            "userConfig": {
+                "fieldLabel": "Label",
+                "layout|flex": null,
+                "value": 40,
+                "width": 400
+            },
+            "configAlternates": {
+                "fieldLabel": "string",
+                "layout|flex": "number",
+                "value": "number",
+                "width": "auto"
+            },
+            "name": "MySlider",
+            "designerId": "7536c4f1-9506-4340-a799-83a5981b5615"
+        },
+        {
+            "type": "Ext.slider.Widget",
+            "reference": {
+                "name": "items",
+                "type": "array"
+            },
+            "codeClass": null,
+            "userConfig": {
+                "width": 223
+            },
+            "configAlternates": {
+                "width": "auto"
+            },
+            "name": "MySliderWidget",
+            "designerId": "d892e3ba-d267-4f50-a579-397109dbbb85"
+        }
+    ]
+}

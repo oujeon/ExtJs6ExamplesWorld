@@ -35,7 +35,10 @@ Ext.application({
         'NumberField',
         'DateField',
         'ComboBox',
-        'FileField'
+        'FileField',
+        'TextareaField',
+        'Radio',
+        'Slider'
     ],
     controllers: [
         'action'

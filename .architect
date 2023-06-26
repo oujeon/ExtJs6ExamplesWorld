@@ -103,6 +103,30 @@
                                                     "id": "be8282f1-d6a1-4872-bed9-eabef7a6cd99"
                                                 }
                                             ]
+                                        },
+                                        {
+                                            "id": "e2c302dc-cfe7-4166-889d-9cea4adea025",
+                                            "cn": [
+                                                {
+                                                    "id": "e14cab79-97a6-4ee7-8ff8-ec36f5bf0a49"
+                                                }
+                                            ]
+                                        },
+                                        {
+                                            "id": "51dc8f4d-17d7-4ec5-98e3-e35761a3a444",
+                                            "cn": [
+                                                {
+                                                    "id": "32393d72-cbf0-4934-98e5-aca1d9fb44a3"
+                                                }
+                                            ]
+                                        },
+                                        {
+                                            "id": "e93aa280-451a-4a03-a93e-00998d15a2ce",
+                                            "cn": [
+                                                {
+                                                    "id": "723f3ec1-74c1-4d0a-ac22-cc5140fe0bac"
+                                                }
+                                            ]
                                         }
                                     ]
                                 }
@@ -359,6 +383,20 @@
                 }
             ]
         },
+        "14fad49f-11b2-45d2-b837-db044514d481": {
+            "id": "14fad49f-11b2-45d2-b837-db044514d481",
+            "cn": [
+                {
+                    "id": "b600fcc3-add4-4e48-8e9f-fbd5893c0ceb"
+                },
+                {
+                    "id": "7536c4f1-9506-4340-a799-83a5981b5615"
+                },
+                {
+                    "id": "d892e3ba-d267-4f50-a579-397109dbbb85"
+                }
+            ]
+        },
         "4b98e05b-29d1-4d81-8739-2fb1e0426be5": {
             "id": "4b98e05b-29d1-4d81-8739-2fb1e0426be5"
         },
@@ -383,6 +421,9 @@
         "819e6277-3fac-442f-8c55-3d15754b0776": {
             "id": "819e6277-3fac-442f-8c55-3d15754b0776"
         },
+        "7eec4372-2636-453d-8997-1c1f1b4638f5": {
+            "id": "7eec4372-2636-453d-8997-1c1f1b4638f5"
+        },
         "0e1d7806-f302-49fc-9769-c88e1c2fcf8d": {
             "id": "0e1d7806-f302-49fc-9769-c88e1c2fcf8d"
         },
@@ -406,6 +447,9 @@
         },
         "adef18f8-4776-4582-beb9-67fdb958591f": {
             "id": "adef18f8-4776-4582-beb9-67fdb958591f"
+        },
+        "12ae05bd-9e83-4a43-82d6-b0a2fd266060": {
+            "id": "12ae05bd-9e83-4a43-82d6-b0a2fd266060"
         },
         "store": true,
         "a486b994-4269-4d7e-a3d4-045afa67101f": {
@@ -452,21 +496,18 @@
     },
     "tabState": {
         "openTabs": [
-            "bd06b2fb-16bd-4ce5-b8bd-d1b956d13461",
-            "68c60a50-47b5-466a-be80-450e021bb76a",
-            "a486b994-4269-4d7e-a3d4-045afa67101f",
-            "1726a3b1-2c84-4b89-80e0-d5e4443340dc",
-            "b86aaf4e-6383-426f-b240-11c5de5ae1c8"
+            "14fad49f-11b2-45d2-b837-db044514d481",
+            "1726a3b1-2c84-4b89-80e0-d5e4443340dc"
         ]
     },
     "canvasState": {
-        "topInstance": "b86aaf4e-6383-426f-b240-11c5de5ae1c8"
+        "topInstance": "1726a3b1-2c84-4b89-80e0-d5e4443340dc"
     },
     "inspectorState": {
-        "topInstance": "b86aaf4e-6383-426f-b240-11c5de5ae1c8",
-        "selectedInstance": "383b3619-d165-4857-8ce0-904a9ae52bd0"
+        "topInstance": "1726a3b1-2c84-4b89-80e0-d5e4443340dc",
+        "selectedInstance": "723f3ec1-74c1-4d0a-ac22-cc5140fe0bac"
     },
-    "editMode": "design",
+    "editMode": "code",
     "userSettings": {
         "no-cmd": false
     }

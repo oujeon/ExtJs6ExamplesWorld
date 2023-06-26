@@ -25,7 +25,10 @@
             "NumberField",
             "DateField",
             "ComboBox",
-            "FileField"
+            "FileField",
+            "TextareaField",
+            "Radio",
+            "Slider"
         ]
     },
     "configAlternates": {
