@@ -1,0 +1,62 @@
+{
+    "type": "Ext.container.Container",
+    "reference": {
+        "name": "items",
+        "type": "array"
+    },
+    "codeClass": null,
+    "userConfig": {
+        "container|align": "center",
+        "container|pack": "center",
+        "designer|userAlias": "DisplayField",
+        "designer|userClassName": "DisplayField",
+        "height": null,
+        "id": "DisplayField",
+        "itemId": "DisplayField",
+        "layout": "vbox",
+        "width": null
+    },
+    "configAlternates": {
+        "container|align": "string",
+        "container|pack": "string",
+        "designer|userAlias": "string",
+        "designer|userClassName": "string",
+        "height": "auto",
+        "id": "string",
+        "itemId": "string",
+        "layout": "string",
+        "width": "auto"
+    },
+    "name": "FileField1",
+    "designerId": "a3965647-2867-4f68-9a23-f388b0e320df",
+    "viewControllerInstanceId": "ce64fe10-0ee4-4098-83ac-6a3a1eb35601",
+    "viewModelInstanceId": "6ff2bbf3-2224-4c42-82d5-55c842050c70",
+    "cn": [
+        {
+            "type": "Ext.form.field.Display",
+            "reference": {
+                "name": "items",
+                "type": "array"
+            },
+            "codeClass": null,
+            "userConfig": {
+                "fieldLabel": "Display Field",
+                "id": null,
+                "itemId": null,
+                "layout|flex": null,
+                "value": "Display Field",
+                "width": 290
+            },
+            "configAlternates": {
+                "fieldLabel": "string",
+                "id": "string",
+                "itemId": "string",
+                "layout|flex": "number",
+                "value": "string",
+                "width": "auto"
+            },
+            "name": "MyDisplayField",
+            "designerId": "e02b19ee-9a68-4090-90df-cf3b3f0620cf"
+        }
+    ]
+}

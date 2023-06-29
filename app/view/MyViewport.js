@@ -225,6 +225,45 @@ Ext.define('ExtJs6ExamplesWorld.view.MyViewport', {
                                     workspace.add(o);
                                 },
                                 text: 'Slider'
+                            },
+                            {
+                                xtype: 'menuitem',
+                                handler: function(item, e) {
+                                    var workspace = Ext.ComponentQuery.query('container[itemId=workspace]')[0];
+
+                                    var o = Ext.create('ExtJs6ExamplesWorld.view.DisplayField');
+
+                                    //
+                                    workspace.removeAll();
+                                    workspace.add(o);
+                                },
+                                text: 'Display Field'
+                            },
+                            {
+                                xtype: 'menuitem',
+                                handler: function(item, e) {
+                                    var workspace = Ext.ComponentQuery.query('container[itemId=workspace]')[0];
+
+                                    var o = Ext.create('ExtJs6ExamplesWorld.view.HiddenField');
+
+                                    //
+                                    workspace.removeAll();
+                                    workspace.add(o);
+                                },
+                                text: 'Hidden Field'
+                            },
+                            {
+                                xtype: 'menuitem',
+                                handler: function(item, e) {
+                                    var workspace = Ext.ComponentQuery.query('container[itemId=workspace]')[0];
+
+                                    var o = Ext.create('ExtJs6ExamplesWorld.view.HtmlEditor');
+
+                                    //
+                                    workspace.removeAll();
+                                    workspace.add(o);
+                                },
+                                text: 'Html Editor'
                             }
                         ]
                     }

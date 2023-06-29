@@ -1,0 +1,56 @@
+{
+    "type": "Ext.container.Container",
+    "reference": {
+        "name": "items",
+        "type": "array"
+    },
+    "codeClass": null,
+    "userConfig": {
+        "container|align": "center",
+        "container|pack": "center",
+        "designer|userAlias": "HtmlEditor",
+        "designer|userClassName": "HtmlEditor",
+        "height": null,
+        "id": "HtmlEditor",
+        "itemId": "HtmlEditor",
+        "layout": "vbox",
+        "width": null
+    },
+    "configAlternates": {
+        "container|align": "string",
+        "container|pack": "string",
+        "designer|userAlias": "string",
+        "designer|userClassName": "string",
+        "height": "auto",
+        "id": "string",
+        "itemId": "string",
+        "layout": "string",
+        "width": "auto"
+    },
+    "name": "HiddenField1",
+    "designerId": "67af1e61-ed61-4c04-917d-f5b47929468c",
+    "viewControllerInstanceId": "c2a5e872-1672-4346-8b91-96c6c6ac2c6c",
+    "viewModelInstanceId": "5602691b-ca0e-40a3-9a34-5a4ba1fe3658",
+    "cn": [
+        {
+            "type": "Ext.form.field.HtmlEditor",
+            "reference": {
+                "name": "items",
+                "type": "array"
+            },
+            "codeClass": null,
+            "userConfig": {
+                "fieldLabel": "Label",
+                "height": 150,
+                "layout|flex": null
+            },
+            "configAlternates": {
+                "fieldLabel": "string",
+                "height": "auto",
+                "layout|flex": "number"
+            },
+            "name": "MyHtmlEditor",
+            "designerId": "f9dc0a52-8a26-442f-afba-e47a531037ac"
+        }
+    ]
+}

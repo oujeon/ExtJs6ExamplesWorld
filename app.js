@@ -38,7 +38,10 @@ Ext.application({
         'FileField',
         'TextareaField',
         'Radio',
-        'Slider'
+        'Slider',
+        'DisplayField',
+        'HiddenField',
+        'HtmlEditor'
     ],
     controllers: [
         'action'

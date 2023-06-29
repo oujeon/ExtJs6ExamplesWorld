@@ -1,0 +1,54 @@
+{
+    "type": "Ext.container.Container",
+    "reference": {
+        "name": "items",
+        "type": "array"
+    },
+    "codeClass": null,
+    "userConfig": {
+        "container|align": "center",
+        "container|pack": "center",
+        "designer|userAlias": "HiddenField",
+        "designer|userClassName": "HiddenField",
+        "height": null,
+        "id": "HiddenField",
+        "itemId": "HiddenField",
+        "layout": "vbox",
+        "width": null
+    },
+    "configAlternates": {
+        "container|align": "string",
+        "container|pack": "string",
+        "designer|userAlias": "string",
+        "designer|userClassName": "string",
+        "height": "auto",
+        "id": "string",
+        "itemId": "string",
+        "layout": "string",
+        "width": "auto"
+    },
+    "name": "DisplayField1",
+    "designerId": "ee258eb0-e20f-409c-934b-66fd01919359",
+    "viewControllerInstanceId": "080284db-f617-4ace-8dd5-e97e502892ba",
+    "viewModelInstanceId": "121f6eb8-6cee-4fba-8d26-cb72022165a8",
+    "cn": [
+        {
+            "type": "Ext.form.field.Hidden",
+            "reference": {
+                "name": "items",
+                "type": "array"
+            },
+            "codeClass": null,
+            "userConfig": {
+                "fieldLabel": "Label",
+                "layout|flex": 1
+            },
+            "configAlternates": {
+                "fieldLabel": "string",
+                "layout|flex": "number"
+            },
+            "name": "MyHiddenField",
+            "designerId": "56a289e8-ace7-4888-b31b-25ac65d0838f"
+        }
+    ]
+}

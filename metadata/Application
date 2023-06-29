@@ -28,7 +28,10 @@
             "FileField",
             "TextareaField",
             "Radio",
-            "Slider"
+            "Slider",
+            "DisplayField",
+            "HiddenField",
+            "HtmlEditor"
         ]
     },
     "configAlternates": {
