@@ -1,0 +1,18 @@
+{
+    "type": "Ext.app.ViewModel",
+    "reference": {
+        "name": "items",
+        "type": "array"
+    },
+    "codeClass": null,
+    "userConfig": {
+        "designer|userAlias": "triggerfield",
+        "designer|userClassName": "aboutViewModel22"
+    },
+    "configAlternates": {
+        "designer|userAlias": "string",
+        "designer|userClassName": "string"
+    },
+    "name": "aboutViewModel22",
+    "designerId": "0e1c302d-e73b-4ff6-a2f3-c419d2dfbc3b"
+}

@@ -1,0 +1,54 @@
+{
+    "type": "Ext.container.Container",
+    "reference": {
+        "name": "items",
+        "type": "array"
+    },
+    "codeClass": null,
+    "userConfig": {
+        "container|align": "center",
+        "container|pack": "center",
+        "designer|userAlias": "ProgressBarWidget",
+        "designer|userClassName": "ProgressBarWidget",
+        "height": null,
+        "id": "ProgressBarWidget",
+        "itemId": "ProgressBarWidget",
+        "layout": "vbox",
+        "width": null
+    },
+    "configAlternates": {
+        "container|align": "string",
+        "container|pack": "string",
+        "designer|userAlias": "string",
+        "designer|userClassName": "string",
+        "height": "auto",
+        "id": "string",
+        "itemId": "string",
+        "layout": "string",
+        "width": "auto"
+    },
+    "name": "Label2",
+    "designerId": "ca62cf34-00e0-4ba8-bc2d-87192fb3d5d8",
+    "viewControllerInstanceId": "5780ca5b-ba42-4a27-8f78-2a11ddac0534",
+    "viewModelInstanceId": "4c9006a2-138c-4e69-b0b0-3dbe294126b3",
+    "cn": [
+        {
+            "type": "Ext.Progress",
+            "reference": {
+                "name": "items",
+                "type": "array"
+            },
+            "codeClass": null,
+            "userConfig": {
+                "height": 257,
+                "width": 357
+            },
+            "configAlternates": {
+                "height": "auto",
+                "width": "auto"
+            },
+            "name": "MyProgress",
+            "designerId": "4cb93ca2-7574-4e2a-9eb9-3f8bca866c28"
+        }
+    ]
+}

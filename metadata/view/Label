@@ -1,0 +1,60 @@
+{
+    "type": "Ext.container.Container",
+    "reference": {
+        "name": "items",
+        "type": "array"
+    },
+    "codeClass": null,
+    "userConfig": {
+        "container|align": "center",
+        "container|pack": "center",
+        "designer|userAlias": "Label",
+        "designer|userClassName": "Label",
+        "height": null,
+        "id": "Label",
+        "itemId": "Label",
+        "layout": "vbox",
+        "width": null
+    },
+    "configAlternates": {
+        "container|align": "string",
+        "container|pack": "string",
+        "designer|userAlias": "string",
+        "designer|userClassName": "string",
+        "height": "auto",
+        "id": "string",
+        "itemId": "string",
+        "layout": "string",
+        "width": "auto"
+    },
+    "name": "HtmlEditor1",
+    "designerId": "2a5b74e4-e124-4ed3-ad46-f68c89c6007e",
+    "viewControllerInstanceId": "a33fd041-165c-49f0-a25a-774e2d8e909a",
+    "viewModelInstanceId": "846ce9c9-d866-486d-992d-d870639428e1",
+    "cn": [
+        {
+            "type": "Ext.form.Label",
+            "reference": {
+                "name": "items",
+                "type": "array"
+            },
+            "codeClass": null,
+            "userConfig": {
+                "html": "<h1>Hello World</h1>",
+                "id": null,
+                "itemId": null,
+                "layout|flex": null,
+                "text": null
+            },
+            "configAlternates": {
+                "html": "string",
+                "id": "string",
+                "itemId": "string",
+                "layout|flex": "number",
+                "text": "string"
+            },
+            "name": "MyLabel",
+            "designerId": "06a31346-4896-4c47-ab80-6efdf64edd1d"
+        }
+    ]
+}

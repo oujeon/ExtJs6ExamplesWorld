@@ -1,0 +1,58 @@
+{
+    "type": "Ext.container.Container",
+    "reference": {
+        "name": "items",
+        "type": "array"
+    },
+    "codeClass": null,
+    "userConfig": {
+        "container|align": "center",
+        "container|pack": "center",
+        "designer|userAlias": "FieldSet",
+        "designer|userClassName": "FieldSet",
+        "height": null,
+        "id": "FieldSet",
+        "itemId": "FieldSet",
+        "layout": "vbox",
+        "width": null
+    },
+    "configAlternates": {
+        "container|align": "string",
+        "container|pack": "string",
+        "designer|userAlias": "string",
+        "designer|userClassName": "string",
+        "height": "auto",
+        "id": "string",
+        "itemId": "string",
+        "layout": "string",
+        "width": "auto"
+    },
+    "name": "Label2",
+    "designerId": "7cdafd1e-b372-4c03-bc15-0b64f15e5f68",
+    "viewControllerInstanceId": "4d6712f9-974e-4667-b56b-14106a514165",
+    "viewModelInstanceId": "14b35003-8eea-4d7a-9cb1-bc1c5f13b855",
+    "cn": [
+        {
+            "type": "Ext.form.FieldSet",
+            "reference": {
+                "name": "items",
+                "type": "array"
+            },
+            "codeClass": null,
+            "userConfig": {
+                "height": 294,
+                "layout|flex": null,
+                "title": "FieldSet",
+                "width": 311
+            },
+            "configAlternates": {
+                "height": "auto",
+                "layout|flex": "number",
+                "title": "string",
+                "width": "auto"
+            },
+            "name": "MyFieldSet",
+            "designerId": "526e9ff2-eb48-453d-be2d-0c991d95e064"
+        }
+    ]
+}

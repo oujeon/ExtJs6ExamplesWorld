@@ -1,0 +1,54 @@
+{
+    "type": "Ext.container.Container",
+    "reference": {
+        "name": "items",
+        "type": "array"
+    },
+    "codeClass": null,
+    "userConfig": {
+        "container|align": "center",
+        "container|pack": "center",
+        "designer|userAlias": "Toolbar",
+        "designer|userClassName": "Toolbar",
+        "height": null,
+        "id": "Toolbar",
+        "itemId": "Toolbar",
+        "layout": "vbox",
+        "width": null
+    },
+    "configAlternates": {
+        "container|align": "string",
+        "container|pack": "string",
+        "designer|userAlias": "string",
+        "designer|userClassName": "string",
+        "height": "auto",
+        "id": "string",
+        "itemId": "string",
+        "layout": "string",
+        "width": "auto"
+    },
+    "name": "Label5",
+    "designerId": "c4a7caa9-6c39-4ca2-89fc-86d458c92891",
+    "viewControllerInstanceId": "89c729d6-4272-458b-93fb-b4d0f48de732",
+    "viewModelInstanceId": "624feab5-a4d7-4b79-a854-4811ea57eb97",
+    "cn": [
+        {
+            "type": "Ext.toolbar.Toolbar",
+            "reference": {
+                "name": "items",
+                "type": "array"
+            },
+            "codeClass": null,
+            "userConfig": {
+                "layout|flex": null,
+                "width": 561
+            },
+            "configAlternates": {
+                "layout|flex": "number",
+                "width": "auto"
+            },
+            "name": "MyToolbar1",
+            "designerId": "04d17ab8-423d-42be-87d5-93d053e46ddb"
+        }
+    ]
+}

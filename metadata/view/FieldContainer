@@ -1,0 +1,58 @@
+{
+    "type": "Ext.container.Container",
+    "reference": {
+        "name": "items",
+        "type": "array"
+    },
+    "codeClass": null,
+    "userConfig": {
+        "container|align": "center",
+        "container|pack": "center",
+        "designer|userAlias": "FieldContainer",
+        "designer|userClassName": "FieldContainer",
+        "height": null,
+        "id": "FieldContainer",
+        "itemId": "FieldContainer",
+        "layout": "vbox",
+        "width": null
+    },
+    "configAlternates": {
+        "container|align": "string",
+        "container|pack": "string",
+        "designer|userAlias": "string",
+        "designer|userClassName": "string",
+        "height": "auto",
+        "id": "string",
+        "itemId": "string",
+        "layout": "string",
+        "width": "auto"
+    },
+    "name": "Label1",
+    "designerId": "c08a372b-dc4c-43a4-93f2-9d3b4bd55e0f",
+    "viewControllerInstanceId": "4c256137-807b-47d0-b05a-f330f627dfaf",
+    "viewModelInstanceId": "93bb9870-1e9f-41be-ab44-42325fa85cc1",
+    "cn": [
+        {
+            "type": "Ext.form.FieldContainer",
+            "reference": {
+                "name": "items",
+                "type": "array"
+            },
+            "codeClass": null,
+            "userConfig": {
+                "fieldLabel": "FieldContainer",
+                "height": 120,
+                "layout|flex": null,
+                "width": 400
+            },
+            "configAlternates": {
+                "fieldLabel": "string",
+                "height": "auto",
+                "layout|flex": "number",
+                "width": "auto"
+            },
+            "name": "MyFieldContainer",
+            "designerId": "61913a1c-4cbf-450e-bca9-011b05a816df"
+        }
+    ]
+}

@@ -1,0 +1,56 @@
+{
+    "type": "Ext.container.Container",
+    "reference": {
+        "name": "items",
+        "type": "array"
+    },
+    "codeClass": null,
+    "userConfig": {
+        "container|align": "center",
+        "container|pack": "center",
+        "designer|userAlias": "PagingToolbar",
+        "designer|userClassName": "PagingToolbar",
+        "height": null,
+        "id": "PagingToolbar",
+        "itemId": "PagingToolbar",
+        "layout": "vbox",
+        "width": null
+    },
+    "configAlternates": {
+        "container|align": "string",
+        "container|pack": "string",
+        "designer|userAlias": "string",
+        "designer|userClassName": "string",
+        "height": "auto",
+        "id": "string",
+        "itemId": "string",
+        "layout": "string",
+        "width": "auto"
+    },
+    "name": "Label4",
+    "designerId": "a945204f-404b-4d2f-aa8e-76a0bda5c1a9",
+    "viewControllerInstanceId": "b0a4c19d-2bfc-49ba-8d5d-ab6bcfa0fa81",
+    "viewModelInstanceId": "60e039d0-6ef9-48f4-b896-9d56ce1df055",
+    "cn": [
+        {
+            "type": "Ext.toolbar.Paging",
+            "reference": {
+                "name": "items",
+                "type": "array"
+            },
+            "codeClass": null,
+            "userConfig": {
+                "displayInfo": true,
+                "layout|flex": null,
+                "width": 360
+            },
+            "configAlternates": {
+                "displayInfo": "boolean",
+                "layout|flex": "number",
+                "width": "auto"
+            },
+            "name": "MyPagingToolbar",
+            "designerId": "d873caa6-d2a3-4a87-8a9c-9f4d2c3f0bd2"
+        }
+    ]
+}

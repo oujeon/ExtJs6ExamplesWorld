@@ -41,7 +41,20 @@ Ext.application({
         'Slider',
         'DisplayField',
         'HiddenField',
-        'HtmlEditor'
+        'HtmlEditor',
+        'Label',
+        'FieldContainer',
+        'FieldSet',
+        'FormPanel',
+        'SpinnerField',
+        'TagField',
+        'TextField',
+        'TimeField',
+        'TriggerField',
+        'ProgressBarWidget',
+        'ProgressBar',
+        'PagingToolbar',
+        'Toolbar'
     ],
     controllers: [
         'action'

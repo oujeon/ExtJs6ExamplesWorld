@@ -1,0 +1,54 @@
+{
+    "type": "Ext.container.Container",
+    "reference": {
+        "name": "items",
+        "type": "array"
+    },
+    "codeClass": null,
+    "userConfig": {
+        "container|align": "center",
+        "container|pack": "center",
+        "designer|userAlias": "TextField",
+        "designer|userClassName": "TextField",
+        "height": null,
+        "id": "TextField",
+        "itemId": "TextField",
+        "layout": "vbox",
+        "width": null
+    },
+    "configAlternates": {
+        "container|align": "string",
+        "container|pack": "string",
+        "designer|userAlias": "string",
+        "designer|userClassName": "string",
+        "height": "auto",
+        "id": "string",
+        "itemId": "string",
+        "layout": "string",
+        "width": "auto"
+    },
+    "name": "Label2",
+    "designerId": "9fe90905-0f12-4e0c-9f55-2082f96d54cb",
+    "viewControllerInstanceId": "ef8a5f8e-ca80-4aec-8a47-82ee9ae42b34",
+    "viewModelInstanceId": "bef912d7-6996-43f8-bcca-cce8707e18cd",
+    "cn": [
+        {
+            "type": "Ext.form.field.Text",
+            "reference": {
+                "name": "items",
+                "type": "array"
+            },
+            "codeClass": null,
+            "userConfig": {
+                "fieldLabel": "Text Field",
+                "layout|flex": null
+            },
+            "configAlternates": {
+                "fieldLabel": "string",
+                "layout|flex": "number"
+            },
+            "name": "MyTextField",
+            "designerId": "8d0cd318-fdf1-4fc1-837e-ce7f2a83b361"
+        }
+    ]
+}

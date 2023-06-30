@@ -1,0 +1,18 @@
+{
+    "type": "Ext.app.ViewModel",
+    "reference": {
+        "name": "items",
+        "type": "array"
+    },
+    "codeClass": null,
+    "userConfig": {
+        "designer|userAlias": "progressbarwidget",
+        "designer|userClassName": "aboutViewModel23"
+    },
+    "configAlternates": {
+        "designer|userAlias": "string",
+        "designer|userClassName": "string"
+    },
+    "name": "aboutViewModel23",
+    "designerId": "4c9006a2-138c-4e69-b0b0-3dbe294126b3"
+}

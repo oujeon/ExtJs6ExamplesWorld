@@ -1,0 +1,60 @@
+{
+    "type": "Ext.container.Container",
+    "reference": {
+        "name": "items",
+        "type": "array"
+    },
+    "codeClass": null,
+    "userConfig": {
+        "container|align": "center",
+        "container|pack": "center",
+        "designer|userAlias": "FormPanel",
+        "designer|userClassName": "FormPanel",
+        "height": null,
+        "id": "FormPanel",
+        "itemId": "FormPanel",
+        "layout": "vbox",
+        "width": null
+    },
+    "configAlternates": {
+        "container|align": "string",
+        "container|pack": "string",
+        "designer|userAlias": "string",
+        "designer|userClassName": "string",
+        "height": "auto",
+        "id": "string",
+        "itemId": "string",
+        "layout": "string",
+        "width": "auto"
+    },
+    "name": "Label3",
+    "designerId": "eb00fd91-4541-4b83-a4f4-1a9d299dab4c",
+    "viewControllerInstanceId": "72ed3a26-7050-4534-8422-30f0d6aaa1f8",
+    "viewModelInstanceId": "fd847f12-ab76-4a6d-bec9-3219c92cc356",
+    "cn": [
+        {
+            "type": "Ext.form.Panel",
+            "reference": {
+                "name": "items",
+                "type": "array"
+            },
+            "codeClass": null,
+            "userConfig": {
+                "bodyPadding": 10,
+                "height": 386,
+                "layout|flex": null,
+                "title": "Form Panel",
+                "width": 406
+            },
+            "configAlternates": {
+                "bodyPadding": "auto",
+                "height": "auto",
+                "layout|flex": "number",
+                "title": "string",
+                "width": "auto"
+            },
+            "name": "MyForm",
+            "designerId": "a45e36fa-0fe6-455a-a25d-1d371f4475d6"
+        }
+    ]
+}

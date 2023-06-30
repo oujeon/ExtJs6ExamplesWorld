@@ -1,0 +1,75 @@
+{
+    "type": "Ext.container.Container",
+    "reference": {
+        "name": "items",
+        "type": "array"
+    },
+    "codeClass": null,
+    "userConfig": {
+        "container|align": "center",
+        "container|pack": "center",
+        "designer|userAlias": "TriggerField",
+        "designer|userClassName": "TriggerField",
+        "height": null,
+        "id": "TriggerField",
+        "itemId": "TriggerField",
+        "layout": "vbox",
+        "width": null
+    },
+    "configAlternates": {
+        "container|align": "string",
+        "container|pack": "string",
+        "designer|userAlias": "string",
+        "designer|userClassName": "string",
+        "height": "auto",
+        "id": "string",
+        "itemId": "string",
+        "layout": "string",
+        "width": "auto"
+    },
+    "name": "Label1",
+    "designerId": "1606d086-86a3-4480-a38f-283521ddde14",
+    "viewControllerInstanceId": "8b1936c8-4dea-4f26-9161-eae5618ac898",
+    "viewModelInstanceId": "0e1c302d-e73b-4ff6-a2f3-c419d2dfbc3b",
+    "cn": [
+        {
+            "type": "Ext.form.field.Text",
+            "reference": {
+                "name": "items",
+                "type": "array"
+            },
+            "codeClass": null,
+            "userConfig": {
+                "fieldLabel": "TriggerField",
+                "layout|flex": null
+            },
+            "configAlternates": {
+                "fieldLabel": "string",
+                "layout|flex": "number"
+            },
+            "name": "MyTriggerField",
+            "designerId": "3feb0fe6-7e6b-49c6-8625-a87a5f4a4bb7",
+            "isBuiltIn": true,
+            "iconCls": "icon-trigger-field",
+            "autoName": "TriggerField",
+            "cn": [
+                {
+                    "type": "Ext.form.trigger.Trigger",
+                    "reference": {
+                        "name": "triggers",
+                        "type": "array"
+                    },
+                    "codeClass": null,
+                    "userConfig": {
+                        "name": "mytrigger"
+                    },
+                    "configAlternates": {
+                        "name": "string"
+                    },
+                    "name": "MyTrigger",
+                    "designerId": "27cfe0f3-82ba-4f81-8628-bbd74fdad4ba"
+                }
+            ]
+        }
+    ]
+}

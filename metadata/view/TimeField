@@ -1,0 +1,54 @@
+{
+    "type": "Ext.container.Container",
+    "reference": {
+        "name": "items",
+        "type": "array"
+    },
+    "codeClass": null,
+    "userConfig": {
+        "container|align": "center",
+        "container|pack": "center",
+        "designer|userAlias": "TimeField",
+        "designer|userClassName": "TimeField",
+        "height": null,
+        "id": "TimeField",
+        "itemId": "TimeField",
+        "layout": "vbox",
+        "width": null
+    },
+    "configAlternates": {
+        "container|align": "string",
+        "container|pack": "string",
+        "designer|userAlias": "string",
+        "designer|userClassName": "string",
+        "height": "auto",
+        "id": "string",
+        "itemId": "string",
+        "layout": "string",
+        "width": "auto"
+    },
+    "name": "Label3",
+    "designerId": "da557a66-af56-49ce-838a-9868e5e2f7d1",
+    "viewControllerInstanceId": "80f310e1-c3ab-4c28-b331-22450a7064f3",
+    "viewModelInstanceId": "4bf53249-6456-4a5c-8943-fcc77bbcc31c",
+    "cn": [
+        {
+            "type": "Ext.form.field.Time",
+            "reference": {
+                "name": "items",
+                "type": "array"
+            },
+            "codeClass": null,
+            "userConfig": {
+                "fieldLabel": "Time Field",
+                "layout|flex": null
+            },
+            "configAlternates": {
+                "fieldLabel": "string",
+                "layout|flex": "number"
+            },
+            "name": "MyTimeField",
+            "designerId": "6c60ccb5-4197-4c7f-a61a-ce05d8ef82ec"
+        }
+    ]
+}

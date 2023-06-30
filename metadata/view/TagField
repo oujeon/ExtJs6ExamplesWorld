@@ -1,0 +1,54 @@
+{
+    "type": "Ext.container.Container",
+    "reference": {
+        "name": "items",
+        "type": "array"
+    },
+    "codeClass": null,
+    "userConfig": {
+        "container|align": "center",
+        "container|pack": "center",
+        "designer|userAlias": "TagField",
+        "designer|userClassName": "TagField",
+        "height": null,
+        "id": "TagField",
+        "itemId": "TagField",
+        "layout": "vbox",
+        "width": null
+    },
+    "configAlternates": {
+        "container|align": "string",
+        "container|pack": "string",
+        "designer|userAlias": "string",
+        "designer|userClassName": "string",
+        "height": "auto",
+        "id": "string",
+        "itemId": "string",
+        "layout": "string",
+        "width": "auto"
+    },
+    "name": "Label1",
+    "designerId": "f0c73773-f83e-4732-bc7b-bd7828f7bd97",
+    "viewControllerInstanceId": "1e5f7882-e705-4b6e-bd83-4b41af973201",
+    "viewModelInstanceId": "47b3350a-7258-4fee-9be3-96fb3836632e",
+    "cn": [
+        {
+            "type": "Ext.form.field.Tag",
+            "reference": {
+                "name": "items",
+                "type": "array"
+            },
+            "codeClass": null,
+            "userConfig": {
+                "fieldLabel": "Tag Field",
+                "layout|flex": null
+            },
+            "configAlternates": {
+                "fieldLabel": "string",
+                "layout|flex": "number"
+            },
+            "name": "MyTagField",
+            "designerId": "a184a16b-30ab-456e-94b3-b984e3f51552"
+        }
+    ]
+}

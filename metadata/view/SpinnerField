@@ -1,0 +1,54 @@
+{
+    "type": "Ext.container.Container",
+    "reference": {
+        "name": "items",
+        "type": "array"
+    },
+    "codeClass": null,
+    "userConfig": {
+        "container|align": "center",
+        "container|pack": "center",
+        "designer|userAlias": "SpinnerField",
+        "designer|userClassName": "SpinnerField",
+        "height": null,
+        "id": "SpinnerField",
+        "itemId": "SpinnerField",
+        "layout": "vbox",
+        "width": null
+    },
+    "configAlternates": {
+        "container|align": "string",
+        "container|pack": "string",
+        "designer|userAlias": "string",
+        "designer|userClassName": "string",
+        "height": "auto",
+        "id": "string",
+        "itemId": "string",
+        "layout": "string",
+        "width": "auto"
+    },
+    "name": "Label1",
+    "designerId": "59c9d0d1-bc4b-4b11-ac23-6783c035deb3",
+    "viewControllerInstanceId": "1f3149f0-aad9-448b-83f8-3a7b14b51626",
+    "viewModelInstanceId": "6c47c6a4-8973-4cdd-a05a-3bb04a54d625",
+    "cn": [
+        {
+            "type": "Ext.form.field.Spinner",
+            "reference": {
+                "name": "items",
+                "type": "array"
+            },
+            "codeClass": null,
+            "userConfig": {
+                "fieldLabel": "Spinner Field",
+                "layout|flex": null
+            },
+            "configAlternates": {
+                "fieldLabel": "string",
+                "layout|flex": "number"
+            },
+            "name": "MySpinnerField",
+            "designerId": "2795f641-329b-498d-83a4-26277de7d881"
+        }
+    ]
+}

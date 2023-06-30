@@ -1,0 +1,56 @@
+{
+    "type": "Ext.container.Container",
+    "reference": {
+        "name": "items",
+        "type": "array"
+    },
+    "codeClass": null,
+    "userConfig": {
+        "container|align": "center",
+        "container|pack": "center",
+        "designer|userAlias": "ProgressBar",
+        "designer|userClassName": "ProgressBar",
+        "height": null,
+        "id": "ProgressBar",
+        "itemId": "ProgressBar",
+        "layout": "vbox",
+        "width": null
+    },
+    "configAlternates": {
+        "container|align": "string",
+        "container|pack": "string",
+        "designer|userAlias": "string",
+        "designer|userClassName": "string",
+        "height": "auto",
+        "id": "string",
+        "itemId": "string",
+        "layout": "string",
+        "width": "auto"
+    },
+    "name": "Label3",
+    "designerId": "b618affe-ab66-47c4-b45a-255e2404827b",
+    "viewControllerInstanceId": "0a9aeaa4-10c8-4958-a782-efcad774f707",
+    "viewModelInstanceId": "4e57bf52-c809-4f7e-ba45-d9736488ea92",
+    "cn": [
+        {
+            "type": "Ext.ProgressBar",
+            "reference": {
+                "name": "items",
+                "type": "array"
+            },
+            "codeClass": null,
+            "userConfig": {
+                "layout|flex": null,
+                "value": 0.4,
+                "width": 322
+            },
+            "configAlternates": {
+                "layout|flex": "number",
+                "value": "number",
+                "width": "auto"
+            },
+            "name": "MyProgressBar",
+            "designerId": "9b4e766b-3815-46b6-9298-08109dca4ef1"
+        }
+    ]
+}
