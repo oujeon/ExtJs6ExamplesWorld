@@ -1,0 +1,56 @@
+{
+    "type": "Ext.container.Container",
+    "reference": {
+        "name": "items",
+        "type": "array"
+    },
+    "codeClass": null,
+    "userConfig": {
+        "container|align": "center",
+        "container|pack": "center",
+        "designer|userAlias": "Container",
+        "designer|userClassName": "Container",
+        "height": null,
+        "id": "Container",
+        "itemId": "Container",
+        "layout": "vbox",
+        "width": null
+    },
+    "configAlternates": {
+        "container|align": "string",
+        "container|pack": "string",
+        "designer|userAlias": "string",
+        "designer|userClassName": "string",
+        "height": "auto",
+        "id": "string",
+        "itemId": "string",
+        "layout": "string",
+        "width": "auto"
+    },
+    "name": "Label1",
+    "designerId": "db6b35c8-d655-48f3-ac5a-d6d2b5bd1507",
+    "viewControllerInstanceId": "1a1d0d79-455e-4fb5-8256-651620d3a04b",
+    "viewModelInstanceId": "bfd40b24-800f-40f9-8e0e-9bb04a2b0e6e",
+    "cn": [
+        {
+            "type": "Ext.container.Container",
+            "reference": {
+                "name": "items",
+                "type": "array"
+            },
+            "codeClass": null,
+            "userConfig": {
+                "height": 500,
+                "layout|flex": null,
+                "width": 400
+            },
+            "configAlternates": {
+                "height": "auto",
+                "layout|flex": "number",
+                "width": "auto"
+            },
+            "name": "MyContainer1",
+            "designerId": "1b96c3bf-3e7c-4e3f-9a76-579b024c389a"
+        }
+    ]
+}

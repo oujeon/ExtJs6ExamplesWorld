@@ -1,0 +1,58 @@
+{
+    "type": "Ext.container.Container",
+    "reference": {
+        "name": "items",
+        "type": "array"
+    },
+    "codeClass": null,
+    "userConfig": {
+        "container|align": "center",
+        "container|pack": "center",
+        "designer|userAlias": "Panel",
+        "designer|userClassName": "Panel",
+        "height": null,
+        "id": "Panel",
+        "itemId": "Panel",
+        "layout": "vbox",
+        "width": null
+    },
+    "configAlternates": {
+        "container|align": "string",
+        "container|pack": "string",
+        "designer|userAlias": "string",
+        "designer|userClassName": "string",
+        "height": "auto",
+        "id": "string",
+        "itemId": "string",
+        "layout": "string",
+        "width": "auto"
+    },
+    "name": "Label2",
+    "designerId": "27bd7cc9-3c92-4dfc-bf52-ba088e867ffe",
+    "viewControllerInstanceId": "515160e8-bf07-4ffb-83e6-f8fd1ad4f9ec",
+    "viewModelInstanceId": "ee906418-cb54-476a-a8d8-5914ed2f5638",
+    "cn": [
+        {
+            "type": "Ext.panel.Panel",
+            "reference": {
+                "name": "items",
+                "type": "array"
+            },
+            "codeClass": null,
+            "userConfig": {
+                "height": 379,
+                "layout|flex": null,
+                "title": "My Panel",
+                "width": 326
+            },
+            "configAlternates": {
+                "height": "auto",
+                "layout|flex": "number",
+                "title": "string",
+                "width": "auto"
+            },
+            "name": "MyPanel",
+            "designerId": "1e0ebc51-5781-420e-ad9d-37c2dbe66c89"
+        }
+    ]
+}

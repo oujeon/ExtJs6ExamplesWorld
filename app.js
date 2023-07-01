@@ -54,7 +54,12 @@ Ext.application({
         'ProgressBarWidget',
         'ProgressBar',
         'PagingToolbar',
-        'Toolbar'
+        'Toolbar',
+        'Container',
+        'Panel',
+        'TabPanel',
+        'Window',
+        'MyWindow'
     ],
     controllers: [
         'action'

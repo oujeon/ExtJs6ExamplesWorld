@@ -7,7 +7,7 @@
             "frameworkVersion": "6.2.1.167"
         },
         "urlPrefixTemplate": "http://localhost:{port}/{path}",
-        "urlPrefix": "http://localhost:61650/",
+        "urlPrefix": "http://localhost:61668/",
         "canvasControls": {
             "viewportSize": {
                 "name": "Auto Expand",
@@ -52,6 +52,10 @@
             "ee258eb0-e20f-409c-934b-66fd01919359",
             "67af1e61-ed61-4c04-917d-f5b47929468c",
             "2a5b74e4-e124-4ed3-ad46-f68c89c6007e",
+            "86026747-4172-4dc2-bc02-6555c2d245d6",
+            "42b2c6d2-a8fb-4aba-bb20-a29149fab8aa",
+            "27bd7cc9-3c92-4dfc-bf52-ba088e867ffe",
+            "db6b35c8-d655-48f3-ac5a-d6d2b5bd1507",
             "c4a7caa9-6c39-4ca2-89fc-86d458c92891",
             "a945204f-404b-4d2f-aa8e-76a0bda5c1a9",
             "b618affe-ab66-47c4-b45a-255e2404827b",
@@ -79,6 +83,10 @@
             "121f6eb8-6cee-4fba-8d26-cb72022165a8",
             "5602691b-ca0e-40a3-9a34-5a4ba1fe3658",
             "846ce9c9-d866-486d-992d-d870639428e1",
+            "d18d6071-ca96-4525-a81b-4f6357e385e1",
+            "a6799761-305e-44ce-96d0-805601c2dcc8",
+            "ee906418-cb54-476a-a8d8-5914ed2f5638",
+            "bfd40b24-800f-40f9-8e0e-9bb04a2b0e6e",
             "624feab5-a4d7-4b79-a854-4811ea57eb97",
             "60e039d0-6ef9-48f4-b896-9d56ce1df055",
             "4e57bf52-c809-4f7e-ba45-d9736488ea92",
@@ -106,6 +114,10 @@
             "080284db-f617-4ace-8dd5-e97e502892ba",
             "c2a5e872-1672-4346-8b91-96c6c6ac2c6c",
             "a33fd041-165c-49f0-a25a-774e2d8e909a",
+            "8146ac14-fa66-4c8c-87dc-54b33f964014",
+            "8828990b-1c8e-4cec-87c0-851c3edde572",
+            "515160e8-bf07-4ffb-83e6-f8fd1ad4f9ec",
+            "1a1d0d79-455e-4fb5-8256-651620d3a04b",
             "89c729d6-4272-458b-93fb-b4d0f48de732",
             "b0a4c19d-2bfc-49ba-8d5d-ab6bcfa0fa81",
             "0a9aeaa4-10c8-4958-a782-efcad774f707",
@@ -120,7 +132,10 @@
             "4c256137-807b-47d0-b05a-f330f627dfaf",
             "12ae05bd-9e83-4a43-82d6-b0a2fd266060",
             "f0f79f53-f6df-4f18-b99b-9bf60234784d",
-            "04d59f3f-0989-4fcc-89fc-8b5940c3c261"
+            "04d59f3f-0989-4fcc-89fc-8b5940c3c261",
+            "e12ff932-58b8-4caf-b062-e483dbe06220",
+            "b30f227f-6522-4e92-9ba7-ec71dc5ee4ad",
+            "c8f8186f-57bd-4ea9-ae8c-7498d0a2ff9a"
         ],
         "store": [
             "a486b994-4269-4d7e-a3d4-045afa67101f"

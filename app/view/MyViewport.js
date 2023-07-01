@@ -440,61 +440,70 @@ Ext.define('ExtJs6ExamplesWorld.view.MyViewport', {
                 {
                     xtype: 'button',
                     width: 150,
-                    text: 'Grids',
+                    text: 'Containers',
                     menu: {
                         xtype: 'menu',
-                        width: 120
+                        width: 120,
+                        items: [
+                            {
+                                xtype: 'menuitem',
+                                handler: function(item, e) {
+                                    var workspace = Ext.ComponentQuery.query('container[itemId=workspace]')[0];
+
+                                    var o = Ext.create('ExtJs6ExamplesWorld.view.Container');
+
+                                    //
+                                    workspace.removeAll();
+                                    workspace.add(o);
+                                },
+                                text: 'Container'
+                            },
+                            {
+                                xtype: 'menuitem',
+                                handler: function(item, e) {
+                                    var workspace = Ext.ComponentQuery.query('container[itemId=workspace]')[0];
+
+                                    var o = Ext.create('ExtJs6ExamplesWorld.view.Panel');
+
+                                    //
+                                    workspace.removeAll();
+                                    workspace.add(o);
+                                },
+                                text: 'Panel'
+                            },
+                            {
+                                xtype: 'menuitem',
+                                handler: function(item, e) {
+                                    var workspace = Ext.ComponentQuery.query('container[itemId=workspace]')[0];
+
+                                    var o = Ext.create('ExtJs6ExamplesWorld.view.TabPanel');
+
+                                    //
+                                    workspace.removeAll();
+                                    workspace.add(o);
+                                },
+                                text: 'TabPanel'
+                            },
+                            {
+                                xtype: 'menuitem',
+                                handler: function(item, e) {
+                                    var workspace = Ext.ComponentQuery.query('container[itemId=workspace]')[0];
+
+                                    var o = Ext.create('ExtJs6ExamplesWorld.view.Window');
+
+                                    //
+                                    workspace.removeAll();
+                                    workspace.add(o);
+                                },
+                                text: 'Window'
+                            }
+                        ]
                     }
                 },
                 {
                     xtype: 'button',
                     width: 150,
-                    text: 'Trees',
-                    menu: {
-                        xtype: 'menu',
-                        width: 120
-                    }
-                },
-                {
-                    xtype: 'button',
-                    width: 150,
-                    text: 'Charts',
-                    menu: {
-                        xtype: 'menu',
-                        width: 120
-                    }
-                },
-                {
-                    xtype: 'button',
-                    width: 150,
-                    text: 'Calendar',
-                    menu: {
-                        xtype: 'menu',
-                        width: 120
-                    }
-                },
-                {
-                    xtype: 'button',
-                    width: 150,
-                    text: 'Pivot Grids',
-                    menu: {
-                        xtype: 'menu',
-                        width: 120
-                    }
-                },
-                {
-                    xtype: 'button',
-                    width: 150,
-                    text: 'D3',
-                    menu: {
-                        xtype: 'menu',
-                        width: 120
-                    }
-                },
-                {
-                    xtype: 'button',
-                    width: 150,
-                    text: 'Templates',
+                    text: 'Messages',
                     menu: {
                         xtype: 'menu',
                         width: 120

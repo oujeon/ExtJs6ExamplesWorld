@@ -1,0 +1,32 @@
+{
+    "type": "Ext.window.Window",
+    "reference": {
+        "name": "items",
+        "type": "array"
+    },
+    "codeClass": null,
+    "userConfig": {
+        "constrain": true,
+        "designer|userAlias": "mywindow",
+        "designer|userClassName": "MyWindow",
+        "height": 250,
+        "id": "idWindow",
+        "itemId": "itemIdWindow",
+        "title": "My Window",
+        "width": 400
+    },
+    "configAlternates": {
+        "constrain": "boolean",
+        "designer|userAlias": "string",
+        "designer|userClassName": "string",
+        "height": "auto",
+        "id": "string",
+        "itemId": "string",
+        "title": "string",
+        "width": "auto"
+    },
+    "name": "MyWindow",
+    "designerId": "e12ff932-58b8-4caf-b062-e483dbe06220",
+    "viewControllerInstanceId": "c8f8186f-57bd-4ea9-ae8c-7498d0a2ff9a",
+    "viewModelInstanceId": "b30f227f-6522-4e92-9ba7-ec71dc5ee4ad"
+}
