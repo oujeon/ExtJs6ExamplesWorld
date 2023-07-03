@@ -1,0 +1,56 @@
+{
+    "type": "Ext.container.Container",
+    "reference": {
+        "name": "items",
+        "type": "array"
+    },
+    "codeClass": null,
+    "userConfig": {
+        "container|align": "center",
+        "container|pack": "center",
+        "designer|userAlias": "MessageBox",
+        "designer|userClassName": "MessageBox",
+        "height": null,
+        "id": "MessageBox",
+        "itemId": "MessageBox",
+        "layout": "vbox",
+        "width": null
+    },
+    "configAlternates": {
+        "container|align": "string",
+        "container|pack": "string",
+        "designer|userAlias": "string",
+        "designer|userClassName": "string",
+        "height": "auto",
+        "id": "string",
+        "itemId": "string",
+        "layout": "string",
+        "width": "auto"
+    },
+    "name": "Label1",
+    "designerId": "adc911c1-ddfe-4d2f-bf08-faab238ffe7c",
+    "viewControllerInstanceId": "5c40b76f-513c-4839-818a-cfdf085f66a3",
+    "viewModelInstanceId": "a6436461-2a5a-499f-8fec-9b8c8882d751",
+    "cn": [
+        {
+            "type": "Ext.button.Button",
+            "reference": {
+                "name": "items",
+                "type": "array"
+            },
+            "codeClass": null,
+            "userConfig": {
+                "itemId": "mybutton4",
+                "layout|flex": null,
+                "text": "Confirm Dialog"
+            },
+            "configAlternates": {
+                "itemId": "string",
+                "layout|flex": "number",
+                "text": "string"
+            },
+            "name": "MyButton4",
+            "designerId": "12c8cf99-1a12-40b3-9b82-7a0be4f888ed"
+        }
+    ]
+}

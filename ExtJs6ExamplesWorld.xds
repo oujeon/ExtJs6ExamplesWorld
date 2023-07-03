@@ -7,7 +7,7 @@
             "frameworkVersion": "6.2.1.167"
         },
         "urlPrefixTemplate": "http://localhost:{port}/{path}",
-        "urlPrefix": "http://localhost:61668/",
+        "urlPrefix": "http://localhost:51156/",
         "canvasControls": {
             "viewportSize": {
                 "name": "Auto Expand",
@@ -52,6 +52,8 @@
             "ee258eb0-e20f-409c-934b-66fd01919359",
             "67af1e61-ed61-4c04-917d-f5b47929468c",
             "2a5b74e4-e124-4ed3-ad46-f68c89c6007e",
+            "adc911c1-ddfe-4d2f-bf08-faab238ffe7c",
+            "b99115d6-669c-45cb-88f5-80a587591546",
             "86026747-4172-4dc2-bc02-6555c2d245d6",
             "42b2c6d2-a8fb-4aba-bb20-a29149fab8aa",
             "27bd7cc9-3c92-4dfc-bf52-ba088e867ffe",
@@ -83,6 +85,8 @@
             "121f6eb8-6cee-4fba-8d26-cb72022165a8",
             "5602691b-ca0e-40a3-9a34-5a4ba1fe3658",
             "846ce9c9-d866-486d-992d-d870639428e1",
+            "a6436461-2a5a-499f-8fec-9b8c8882d751",
+            "c984c2f2-a5cc-421d-bb15-478c9de7476f",
             "d18d6071-ca96-4525-a81b-4f6357e385e1",
             "a6799761-305e-44ce-96d0-805601c2dcc8",
             "ee906418-cb54-476a-a8d8-5914ed2f5638",
@@ -114,6 +118,8 @@
             "080284db-f617-4ace-8dd5-e97e502892ba",
             "c2a5e872-1672-4346-8b91-96c6c6ac2c6c",
             "a33fd041-165c-49f0-a25a-774e2d8e909a",
+            "5c40b76f-513c-4839-818a-cfdf085f66a3",
+            "8c819b81-eba8-461a-bca3-802780df2abe",
             "8146ac14-fa66-4c8c-87dc-54b33f964014",
             "8828990b-1c8e-4cec-87c0-851c3edde572",
             "515160e8-bf07-4ffb-83e6-f8fd1ad4f9ec",
@@ -141,7 +147,9 @@
             "a486b994-4269-4d7e-a3d4-045afa67101f"
         ],
         "controller": [
-            "9be08f26-a358-4688-82e4-8d3665abee2e"
+            "9be08f26-a358-4688-82e4-8d3665abee2e",
+            "ba2ce6e3-ef3a-4681-9f04-87159ba685b4",
+            "c228663a-8c2c-47f8-8daf-9551cc1597d3"
         ],
         "model": [
             "68c60a50-47b5-466a-be80-450e021bb76a"

@@ -1820,7 +1820,183 @@
                                 "width": "auto"
                             },
                             "name": "MyMenu",
-                            "designerId": "5725ff5a-0fb9-4145-aeb2-86069a74a05c"
+                            "designerId": "5725ff5a-0fb9-4145-aeb2-86069a74a05c",
+                            "cn": [
+                                {
+                                    "type": "Ext.menu.Item",
+                                    "reference": {
+                                        "name": "items",
+                                        "type": "array"
+                                    },
+                                    "codeClass": null,
+                                    "userConfig": {
+                                        "text": "Message Box"
+                                    },
+                                    "configAlternates": {
+                                        "text": "string"
+                                    },
+                                    "name": "MyMenuItem32",
+                                    "designerId": "afae56fc-13bc-403e-8dba-ba4b8f719c76",
+                                    "cn": [
+                                        {
+                                            "type": "fixedfunction",
+                                            "reference": {
+                                                "name": "items",
+                                                "type": "array"
+                                            },
+                                            "codeClass": null,
+                                            "userConfig": {
+                                                "designer|params": [
+                                                    "item",
+                                                    "e"
+                                                ],
+                                                "fn": "handler",
+                                                "implHandler": [
+                                                    "var workspace = Ext.ComponentQuery.query('container[itemId=workspace]')[0];",
+                                                    "",
+                                                    "var o = Ext.create('ExtJs6ExamplesWorld.view.MessageBox');",
+                                                    "",
+                                                    "//",
+                                                    "workspace.removeAll();",
+                                                    "workspace.add(o);"
+                                                ]
+                                            },
+                                            "configAlternates": {
+                                                "designer|params": "typedarray",
+                                                "fn": "string",
+                                                "implHandler": "code"
+                                            },
+                                            "name": "handler",
+                                            "designerId": "5c25c5dd-901e-4d13-aa41-c27d0fe77795"
+                                        }
+                                    ]
+                                },
+                                {
+                                    "type": "Ext.menu.Item",
+                                    "reference": {
+                                        "name": "items",
+                                        "type": "array"
+                                    },
+                                    "codeClass": null,
+                                    "userConfig": {
+                                        "text": "Toast"
+                                    },
+                                    "configAlternates": {
+                                        "text": "string"
+                                    },
+                                    "name": "MyMenuItem33",
+                                    "designerId": "d26a3e26-288c-47c0-b748-a59924d03d7a",
+                                    "cn": [
+                                        {
+                                            "type": "fixedfunction",
+                                            "reference": {
+                                                "name": "items",
+                                                "type": "array"
+                                            },
+                                            "codeClass": null,
+                                            "userConfig": {
+                                                "designer|params": [
+                                                    "item",
+                                                    "e"
+                                                ],
+                                                "fn": "handler",
+                                                "implHandler": [
+                                                    "var workspace = Ext.ComponentQuery.query('container[itemId=workspace]')[0];",
+                                                    "",
+                                                    "var o = Ext.create('ExtJs6ExamplesWorld.view.Toast');",
+                                                    "",
+                                                    "//",
+                                                    "workspace.removeAll();",
+                                                    "workspace.add(o);"
+                                                ]
+                                            },
+                                            "configAlternates": {
+                                                "designer|params": "typedarray",
+                                                "fn": "string",
+                                                "implHandler": "code"
+                                            },
+                                            "name": "handler",
+                                            "designerId": "ade9c8e1-3586-498d-8955-78d818b95ca1"
+                                        }
+                                    ]
+                                }
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "type": "Ext.button.Button",
+                    "reference": {
+                        "name": "items",
+                        "type": "array"
+                    },
+                    "codeClass": null,
+                    "userConfig": {
+                        "layout|flex": null,
+                        "text": "Layouts",
+                        "width": 150
+                    },
+                    "configAlternates": {
+                        "layout|flex": "number",
+                        "text": "string",
+                        "width": "auto"
+                    },
+                    "name": "MyButton5",
+                    "designerId": "a419792a-a525-4009-96c9-9facd4a7cd59",
+                    "cn": [
+                        {
+                            "type": "Ext.menu.Menu",
+                            "reference": {
+                                "name": "menu",
+                                "type": "object"
+                            },
+                            "codeClass": null,
+                            "userConfig": {
+                                "width": 120
+                            },
+                            "configAlternates": {
+                                "width": "auto"
+                            },
+                            "name": "MyMenu",
+                            "designerId": "7b12ed8c-24dd-49ae-b865-b48d2716310e"
+                        }
+                    ]
+                },
+                {
+                    "type": "Ext.button.Button",
+                    "reference": {
+                        "name": "items",
+                        "type": "array"
+                    },
+                    "codeClass": null,
+                    "userConfig": {
+                        "layout|flex": null,
+                        "text": "Grid",
+                        "width": 150
+                    },
+                    "configAlternates": {
+                        "layout|flex": "number",
+                        "text": "string",
+                        "width": "auto"
+                    },
+                    "name": "MyButton6",
+                    "designerId": "c98a94ac-322e-40be-b838-68e0c2e2e5f2",
+                    "cn": [
+                        {
+                            "type": "Ext.menu.Menu",
+                            "reference": {
+                                "name": "menu",
+                                "type": "object"
+                            },
+                            "codeClass": null,
+                            "userConfig": {
+                                "width": 120
+                            },
+                            "configAlternates": {
+                                "width": "auto"
+                            },
+                            "name": "MyMenu",
+                            "designerId": "4ba3430f-c354-4580-a42e-39a6f681d63d"
                         }
                     ]
                 }

@@ -59,10 +59,14 @@ Ext.application({
         'Panel',
         'TabPanel',
         'Window',
-        'MyWindow'
+        'MyWindow',
+        'MessageBox',
+        'Toast'
     ],
     controllers: [
-        'action'
+        'action',
+        'controller_MessageBox',
+        'controller_toast'
     ],
     name: 'ExtJs6ExamplesWorld',
 

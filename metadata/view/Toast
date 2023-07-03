@@ -1,0 +1,56 @@
+{
+    "type": "Ext.container.Container",
+    "reference": {
+        "name": "items",
+        "type": "array"
+    },
+    "codeClass": null,
+    "userConfig": {
+        "container|align": "center",
+        "container|pack": "center",
+        "designer|userAlias": "Toast",
+        "designer|userClassName": "Toast",
+        "height": null,
+        "id": "Toast",
+        "itemId": "Toast",
+        "layout": "vbox",
+        "width": null
+    },
+    "configAlternates": {
+        "container|align": "string",
+        "container|pack": "string",
+        "designer|userAlias": "string",
+        "designer|userClassName": "string",
+        "height": "auto",
+        "id": "string",
+        "itemId": "string",
+        "layout": "string",
+        "width": "auto"
+    },
+    "name": "MessageBox1",
+    "designerId": "b99115d6-669c-45cb-88f5-80a587591546",
+    "viewControllerInstanceId": "8c819b81-eba8-461a-bca3-802780df2abe",
+    "viewModelInstanceId": "c984c2f2-a5cc-421d-bb15-478c9de7476f",
+    "cn": [
+        {
+            "type": "Ext.button.Button",
+            "reference": {
+                "name": "items",
+                "type": "array"
+            },
+            "codeClass": null,
+            "userConfig": {
+                "itemId": "mybutton5",
+                "layout|flex": null,
+                "text": "Toast"
+            },
+            "configAlternates": {
+                "itemId": "string",
+                "layout|flex": "number",
+                "text": "string"
+            },
+            "name": "MyButton4",
+            "designerId": "201b5729-89e9-4732-a12e-5632cd5853b5"
+        }
+    ]
+}

@@ -506,6 +506,52 @@ Ext.define('ExtJs6ExamplesWorld.view.MyViewport', {
                     text: 'Messages',
                     menu: {
                         xtype: 'menu',
+                        width: 120,
+                        items: [
+                            {
+                                xtype: 'menuitem',
+                                handler: function(item, e) {
+                                    var workspace = Ext.ComponentQuery.query('container[itemId=workspace]')[0];
+
+                                    var o = Ext.create('ExtJs6ExamplesWorld.view.MessageBox');
+
+                                    //
+                                    workspace.removeAll();
+                                    workspace.add(o);
+                                },
+                                text: 'Message Box'
+                            },
+                            {
+                                xtype: 'menuitem',
+                                handler: function(item, e) {
+                                    var workspace = Ext.ComponentQuery.query('container[itemId=workspace]')[0];
+
+                                    var o = Ext.create('ExtJs6ExamplesWorld.view.Toast');
+
+                                    //
+                                    workspace.removeAll();
+                                    workspace.add(o);
+                                },
+                                text: 'Toast'
+                            }
+                        ]
+                    }
+                },
+                {
+                    xtype: 'button',
+                    width: 150,
+                    text: 'Layouts',
+                    menu: {
+                        xtype: 'menu',
+                        width: 120
+                    }
+                },
+                {
+                    xtype: 'button',
+                    width: 150,
+                    text: 'Grid',
+                    menu: {
+                        xtype: 'menu',
                         width: 120
                     }
                 }
