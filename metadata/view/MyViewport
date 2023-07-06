@@ -1996,7 +1996,58 @@
                                 "width": "auto"
                             },
                             "name": "MyMenu",
-                            "designerId": "4ba3430f-c354-4580-a42e-39a6f681d63d"
+                            "designerId": "4ba3430f-c354-4580-a42e-39a6f681d63d",
+                            "cn": [
+                                {
+                                    "type": "Ext.menu.Item",
+                                    "reference": {
+                                        "name": "items",
+                                        "type": "array"
+                                    },
+                                    "codeClass": null,
+                                    "userConfig": {
+                                        "text": "Grid"
+                                    },
+                                    "configAlternates": {
+                                        "text": "string"
+                                    },
+                                    "name": "MyMenuItem34",
+                                    "designerId": "bb574ebe-3007-4833-a4d1-4fcb1d123ee5",
+                                    "cn": [
+                                        {
+                                            "type": "fixedfunction",
+                                            "reference": {
+                                                "name": "items",
+                                                "type": "array"
+                                            },
+                                            "codeClass": null,
+                                            "userConfig": {
+                                                "designer|params": [
+                                                    "item",
+                                                    "e"
+                                                ],
+                                                "fn": "handler",
+                                                "implHandler": [
+                                                    "var workspace = Ext.ComponentQuery.query('container[itemId=workspace]')[0];",
+                                                    "",
+                                                    "var o = Ext.create('ExtJs6ExamplesWorld.view.Grid');",
+                                                    "",
+                                                    "//",
+                                                    "workspace.removeAll();",
+                                                    "workspace.add(o);"
+                                                ]
+                                            },
+                                            "configAlternates": {
+                                                "designer|params": "typedarray",
+                                                "fn": "string",
+                                                "implHandler": "code"
+                                            },
+                                            "name": "handler",
+                                            "designerId": "d3023846-a8c4-4d9b-aad4-d3763daec1e4"
+                                        }
+                                    ]
+                                }
+                            ]
                         }
                     ]
                 }

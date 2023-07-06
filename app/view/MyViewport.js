@@ -552,7 +552,22 @@ Ext.define('ExtJs6ExamplesWorld.view.MyViewport', {
                     text: 'Grid',
                     menu: {
                         xtype: 'menu',
-                        width: 120
+                        width: 120,
+                        items: [
+                            {
+                                xtype: 'menuitem',
+                                handler: function(item, e) {
+                                    var workspace = Ext.ComponentQuery.query('container[itemId=workspace]')[0];
+
+                                    var o = Ext.create('ExtJs6ExamplesWorld.view.Grid');
+
+                                    //
+                                    workspace.removeAll();
+                                    workspace.add(o);
+                                },
+                                text: 'Grid'
+                            }
+                        ]
                     }
                 }
             ]

@@ -24,7 +24,8 @@ Ext.application({
         'ComboBox'
     ],
     stores: [
-        'ComboBox'
+        'ComboBox',
+        'MyArrayStore'
     ],
     views: [
         'MyViewport',
@@ -61,7 +62,8 @@ Ext.application({
         'Window',
         'MyWindow',
         'MessageBox',
-        'Toast'
+        'Toast',
+        'Grid'
     ],
     controllers: [
         'action',

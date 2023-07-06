@@ -16,7 +16,8 @@
         ],
         "name": "ExtJs6ExamplesWorld",
         "stores": [
-            "ComboBox"
+            "ComboBox",
+            "MyArrayStore"
         ],
         "views": [
             "MyViewport",
@@ -53,7 +54,8 @@
             "Window",
             "MyWindow",
             "MessageBox",
-            "Toast"
+            "Toast",
+            "Grid"
         ]
     },
     "configAlternates": {
